@@ -1,10 +1,10 @@
 {
   "generation": 0,
+  "version": "baseline-0.9",
   "weights": {
-    "mom5": 0.35,
-    "mom20": 0.4,
-    "vol_ratio": 0.15,
-    "volatility": -0.1
+    "mom5": 0.55,
+    "flow5": 0.45
   },
-  "fitness": null
+  "min_verified_for_tuning": 20,
+  "last_tuned_at": null
 }
