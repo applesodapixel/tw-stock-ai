@@ -1,0 +1,1 @@
+const C='tw-stock-ai-v02';self.addEventListener('install',e=>e.waitUntil(caches.open(C).then(c=>c.addAll(['./','./index.html','./manifest.webmanifest']))));self.addEventListener('fetch',e=>{if(e.request.url.includes('/data/latest.json')){e.respondWith(fetch(e.request).catch(()=>caches.match(e.request)));return;}e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)))})

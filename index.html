@@ -1,0 +1,60 @@
+<!doctype html><html lang="zh-Hant"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f3f6f4"><link rel="manifest" href="manifest.webmanifest"><title>台股 AI 盤後情報</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3f6f4;color:#1d2824;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",sans-serif}
+.app{max-width:720px;margin:auto;padding:calc(14px + env(safe-area-inset-top)) 14px calc(92px + env(safe-area-inset-bottom))}
+h1,h2,h3,p{margin-top:0}.topline{font-size:14px;color:#65716d;margin-bottom:15px}.card{background:#fff;border:1px solid #dfe7e3;border-radius:20px;padding:17px;margin:12px 0}
+.hero{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.hero h1{font-size:25px;margin-bottom:4px}.tag{font-size:12px;padding:5px 9px;border-radius:999px;background:#edf3ef}
+.big{font-size:34px;font-weight:800}.label{font-size:12px;color:#77827e}.row{display:flex;justify-content:space-between;gap:10px;align-items:center}.meter{height:12px;border-radius:20px;background:linear-gradient(90deg,#52c88a,#e7c42e,#ff765c);position:relative;margin:13px 0}.dot{position:absolute;top:50%;width:22px;height:22px;border-radius:50%;background:#1d2824;border:3px solid white;transform:translate(-50%,-50%);box-shadow:0 1px 4px #0005}
+.tabs{display:flex;gap:7px;overflow:auto;padding-bottom:4px}.tab{white-space:nowrap;border:1px solid #d8e1dd;background:#f7faf8;border-radius:999px;padding:8px 12px;font-size:13px}.tab.on{background:#dfece6;font-weight:700}
+.sector{padding:13px 0;border-bottom:1px solid #edf0ee}.sector:last-child{border:0}.sector b{font-size:16px}.amt{font-weight:750}.mini{font-size:12px;color:#73807b;margin-top:5px}
+.pred{display:grid;grid-template-columns:1fr 1fr;gap:9px}.box{background:#f6f8f7;border-radius:14px;padding:12px}.box b{display:block;font-size:20px;margin-top:4px}
+.ok{color:#168b66}.bad{color:#d95b37}.warn{color:#b98200}.muted{color:#74807c}.ai{line-height:1.65;font-size:14px}
+.stock{display:grid;grid-template-columns:1fr auto;gap:8px;padding:12px 0;border-bottom:1px solid #edf0ee}.stock:last-child{border:0}.score{font-size:21px;font-weight:800;text-align:right}
+.bottom{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid #dce4e0;padding:8px max(10px,env(safe-area-inset-right)) calc(8px + env(safe-area-inset-bottom));z-index:5}.nav{max-width:720px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);text-align:center;font-size:12px}.nav button{border:0;background:none;padding:7px;color:#64706c}.nav button.on{color:#087f5b;font-weight:800}
+.sheet{display:none;position:fixed;inset:0;background:#0008;z-index:20;align-items:flex-end}.sheet.on{display:flex}.panel{background:white;width:100%;max-width:720px;margin:auto;border-radius:25px 25px 0 0;padding:19px 17px calc(24px + env(safe-area-inset-bottom));max-height:88vh;overflow:auto}.close{float:right;border:0;background:#eef2f0;border-radius:50%;width:35px;height:35px;font-size:20px}
+table{width:100%;border-collapse:collapse;font-size:13px}td,th{padding:10px 4px;border-bottom:1px solid #eee;text-align:right}td:first-child,th:first-child{text-align:left}
+.hidden{display:none}.empty{text-align:center;padding:28px;color:#77827e}@media(min-width:650px){.pred{grid-template-columns:repeat(4,1fr)}}
+</style></head><body><main class="app">
+<div class="topline" id="dateLine">等待資料更新</div>
+<section id="todayPage">
+<div class="card"><div class="hero"><div><h1>今日重點</h1><span class="label">市場情緒</span></div><span class="tag" id="marketRet">大盤 —</span></div><div><span class="big" id="sentiment">—</span> <b id="sentimentText">資料累積中</b></div><div class="meter"><i class="dot" id="sentDot" style="left:50%"></i></div><div class="row label"><span>樂觀</span><span>恐慌</span></div></div>
+<div class="card"><h2>明日 AI 預測</h2><div class="pred"><div class="box"><span class="label">方向</span><b id="direction">—</b></div><div class="box"><span class="label">信心</span><b id="confidence">—</b></div><div class="box"><span class="label">預估區間</span><b id="range">—</b></div><div class="box"><span class="label">模型世代</span><b id="generation">—</b></div></div><p class="ai muted" id="forecastWhy" style="margin-top:12px">累積足夠資料後產生預測。</p></div>
+<div class="card"><div class="row"><h2>近 5 日市場</h2><span class="label">億元</span></div><div id="market5"></div></div>
+<div class="card"><h2>昨日預測驗證</h2><div id="verify" class="ai muted">尚無可驗證的前一交易日預測。</div></div>
+<div class="card"><div class="row"><h2>法人資金熱門板塊</h2><span class="label">點擊查看成分股</span></div><div class="tabs"><button class="tab on">買超</button><button class="tab">賣超</button><button class="tab">5 日</button></div><div id="sectors"></div></div>
+<div class="card"><h2>AI 盤後總結</h2><div class="ai" id="summary">資料累積中。系統不會在樣本不足時虛構盤後結論。</div></div>
+</section>
+<section id="rankPage" class="hidden"><div class="card"><h1>明日個股排行</h1><div id="stocks"></div></div></section>
+<section id="historyPage" class="hidden"><div class="card"><h1>預測戰績</h1><div id="history" class="ai muted">累積預測後，這裡會顯示方向命中率、族群命中率、錯誤原因與模型世代變化。</div></div></section>
+<section id="watchPage" class="hidden"><div class="card"><h1>自選</h1><div class="empty">個股詳細頁可加入自選；v0.3 先保留介面。</div></div></section>
+</main>
+<div class="bottom"><div class="nav"><button class="on" onclick="page('today',this)">今日</button><button onclick="page('rank',this)">排行</button><button onclick="page('history',this)">驗證</button><button onclick="page('watch',this)">自選</button></div></div>
+<div class="sheet" id="sheet"><div class="panel"><button class="close" onclick="sheet.classList.remove('on')">×</button><div id="detail"></div></div></div>
+<script>
+const $=s=>document.querySelector(s), fmt=x=>x==null||isNaN(+x)?'—':(+x).toFixed(2);let latest={}, sectorData=[], market5=[];
+function page(n,b){['today','rank','history','watch'].forEach(x=>$('#'+x+'Page').classList.toggle('hidden',x!==n));document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('on'));b.classList.add('on')}
+function sectorOpen(i){let s=sectorData[i]||{};$('#detail').innerHTML=`<h2>${s.name||'板塊'}</h2><span class="tag">${s.state||'觀察'}</span><div class="pred" style="margin-top:14px"><div class="box"><span class="label">當日法人</span><b>${s.net_buy_text||'—'}</b></div><div class="box"><span class="label">近5日</span><b>${s.net5_text||'—'}</b></div><div class="box"><span class="label">近20日</span><b>${s.net20_text||'—'}</b></div><div class="box"><span class="label">5日漲跌</span><b>${s.ret5_text||'—'}</b></div></div><h3 style="margin-top:18px">同概念類股</h3><table><thead><tr><th>股票</th><th>收盤</th><th>當日%</th><th>AI</th></tr></thead><tbody>${(s.stocks||[]).map(x=>`<tr><td><b>${x.code}</b> ${x.name}</td><td>${fmt(x.close)}</td><td>${fmt(x.ret1)}</td><td>${fmt(x.score)}</td></tr>`).join('')||'<tr><td colspan=4>等待板塊成分資料</td></tr>'}</tbody></table><h3 style="margin-top:18px">相關概念</h3><p class="ai">${(s.related||[]).join(' · ')||'等待資料建立關聯'}</p>`;$('#sheet').classList.add('on')}
+function market5Render(){let e=$('#market5');if(!e)return;e.innerHTML=market5.slice(-5).map(x=>`<div class="sector"><div class="row"><b>${x.date.slice(5).replace('-','/')}　${fmt(x.close)}</b><span class="${x.return>=0?'ok':'bad'}">${x.return>=0?'+':''}${fmt(x.return)}%</span></div><div class="mini">外資 ${x.foreign>=0?'+':''}${fmt(x.foreign)}　投信 ${x.trust>=0?'+':''}${fmt(x.trust)}　自營 ${x.dealer>=0?'+':''}${fmt(x.dealer)}　合計 ${x.total>=0?'+':''}${fmt(x.total)}</div></div>`).join('')}
+function render(){
+ let stocks=latest.stocks||[], model=latest.model||{};
+ $('#dateLine').textContent=`資料日期 ${latest.market_date||latest.updated_at||'—'} ｜ 約 18:30 前更新`;
+ $('#generation').textContent=model.generation??'—';
+ let usable=stocks.filter(x=>x.score!=null), avg=usable.length?usable.reduce((a,b)=>a+b.score,0)/usable.length:50;
+ let fear=Math.max(0,Math.min(100,Math.round(100-avg)));$('#sentiment').textContent=fear;$('#sentDot').style.left=fear+'%';
+ $('#sentimentText').textContent=fear>=70?'恐慌':fear>=55?'偏謹慎':fear<=30?'樂觀':'中性';
+ let bulls=usable.filter(x=>x.signal==='偏多').length, bears=usable.filter(x=>x.signal==='偏弱').length;
+ let dir=bulls>bears*1.2?'偏多':bears>bulls*1.2?'偏空':'震盪';$('#direction').textContent=dir;
+ let conf=usable.length?Math.min(78,50+Math.abs(bulls-bears)/usable.length*100):null;$('#confidence').textContent=conf?Math.round(conf)+'%':'—';
+ $('#range').textContent=latest.forecast?.range||'待模型累積';$('#forecastWhy').textContent=latest.forecast?.reason||`目前偏多 ${bulls} 檔、偏弱 ${bears} 檔；正式明日預測需累積足夠交易日並通過回測。`;
+ $('#marketRet').textContent='大盤 '+(latest.market_return==null?'—':fmt(latest.market_return)+'%');
+ $('#verify').innerHTML=latest.verification?.html||'尚無可驗證的前一交易日預測。第一筆預測保存後，下一交易日會自動核對。';
+ market5Render();$('#summary').textContent=latest.summary||'系統正在累積市場、法人、板塊與價格資料。正式總結只使用當日收盤前已知資訊。';
+ sectorData=(latest.sectors&&latest.sectors.length?latest.sectors:sectorData);
+ $('#sectors').innerHTML=sectorData.length?sectorData.map((s,i)=>`<div class="sector" onclick="sectorOpen(${i})"><div class="row"><b>${i+1}. ${s.name}</b><span class="amt">${s.net_buy_text||'—'}</span></div><div class="mini">${s.note||'點擊查看同概念類股與資金資訊'}</div></div>`).join(''):'<div class="empty">等待法人與板塊資料</div>';
+ $('#stocks').innerHTML=usable.slice(0,30).map(x=>`<div class="stock"><div><b>${x.code} ${x.name}</b><div class="mini">${x.market} · ${x.signal} · 5日 ${fmt(x.mom5)}%</div></div><div><div class="score">${Math.round(x.score)}</div><div class="label">AI分數</div></div></div>`).join('')||'<div class="empty">資料不足</div>';
+}
+async function boot(){try{latest=await (await fetch('data/latest.json?'+Date.now())).json();try{market5=(await(await fetch('data/market_60d.json?'+Date.now())).json()).days||[]}catch{}try{let s=await(await fetch('data/sectors.json?'+Date.now())).json();sectorData=s.sectors||[]}catch{}render()}catch{$('#summary').textContent='尚未取得市場資料。部署後等待第一次盤後更新。'}}
+$('#sheet').addEventListener('click',e=>{if(e.target.id==='sheet')e.currentTarget.classList.remove('on')});if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');boot();
+</script></body></html>

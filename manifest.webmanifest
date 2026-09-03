@@ -1,0 +1,9 @@
+{
+  "name": "台股 AI 自動進化雷達",
+  "short_name": "台股AI雷達",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f6f8",
+  "theme_color": "#f5f6f8",
+  "lang": "zh-Hant"
+}
