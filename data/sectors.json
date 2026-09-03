@@ -81,7 +81,62 @@
       "net20_text": "資料建立中",
       "ret5_text": "資料建立中",
       "note": "9/3 外資買超榜有多檔金融股。",
-      "stocks": [],
+      "stocks": [
+        {
+          "code": "2881",
+          "name": "富邦金",
+          "market": "TWSE",
+          "close": null,
+          "ret1": null,
+          "score": null,
+          "signal": "待資料"
+        },
+        {
+          "code": "2882",
+          "name": "國泰金",
+          "market": "TWSE",
+          "close": null,
+          "ret1": null,
+          "score": null,
+          "signal": "待資料"
+        },
+        {
+          "code": "2884",
+          "name": "玉山金",
+          "market": "TWSE",
+          "close": null,
+          "ret1": null,
+          "score": null,
+          "signal": "待資料"
+        },
+        {
+          "code": "2886",
+          "name": "兆豐金",
+          "market": "TWSE",
+          "close": null,
+          "ret1": null,
+          "score": null,
+          "signal": "待資料"
+        },
+        {
+          "code": "2891",
+          "name": "中信金",
+          "market": "TWSE",
+          "close": null,
+          "ret1": null,
+          "score": null,
+          "signal": "待資料"
+        },
+        {
+          "code": "5880",
+          "name": "合庫金",
+          "market": "TWSE",
+          "close": null,
+          "ret1": null,
+          "score": null,
+          "signal": "待資料"
+        }
+      ],
       "related": [
         "金控",
         "銀行",
@@ -97,7 +152,44 @@
       "net20_text": "資料建立中",
       "ret5_text": "資料建立中",
       "note": "9/3 南亞科、華邦電等遭外資賣超。",
-      "stocks": [],
+      "stocks": [
+        {
+          "code": "2408",
+          "name": "南亞科",
+          "market": "TWSE",
+          "close": null,
+          "ret1": null,
+          "score": null,
+          "signal": "待資料"
+        },
+        {
+          "code": "2344",
+          "name": "華邦電",
+          "market": "TWSE",
+          "close": null,
+          "ret1": null,
+          "score": null,
+          "signal": "待資料"
+        },
+        {
+          "code": "2337",
+          "name": "旺宏",
+          "market": "TWSE",
+          "close": null,
+          "ret1": null,
+          "score": null,
+          "signal": "待資料"
+        },
+        {
+          "code": "8299",
+          "name": "群聯",
+          "market": "TPEx",
+          "close": null,
+          "ret1": null,
+          "score": null,
+          "signal": "待資料"
+        }
+      ],
       "related": [
         "DRAM",
         "NAND Flash",
