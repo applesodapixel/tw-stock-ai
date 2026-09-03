@@ -1,0 +1,180 @@
+{
+  "updated_at": "2026-09-03 18:30:00",
+  "market_date": "2026-09-03",
+  "history_days": 5,
+  "market_return": -0.67,
+  "model": {
+    "generation": 0
+  },
+  "forecast": {
+    "range": "資料仍不足",
+    "reason": "已補入最近 5 個交易日真實大盤與法人資料；目前只足以顯示短期脈絡，尚不足以做可信的正式模型預測。"
+  },
+  "summary": "近 5 個交易日大盤先漲後回落。9/2 三大法人賣超約 1,152 億元，9/3 賣超縮至約 637 億元；9/3 投信轉為小幅買超，但外資與自營商仍偏空。系統目前先展示真實歷史資料，累積更多交易日後再啟用正式明日預測。",
+  "verification": {
+    "html": "<b>尚未開始正式驗證。</b><br>這 5 天是回補歷史資料，不會假裝成系統當時真的做過的預測。從首次正式預測開始，隔日才會公平核對。"
+  },
+  "stocks": [
+    {
+      "code": "2317",
+      "name": "鴻海",
+      "market": "TWSE",
+      "close": 247.5,
+      "ret1": -1.39,
+      "score": 55,
+      "signal": "觀望"
+    },
+    {
+      "code": "2354",
+      "name": "鴻準",
+      "market": "TWSE",
+      "close": 63.7,
+      "ret1": -3.92,
+      "score": 43,
+      "signal": "觀望"
+    },
+    {
+      "code": "2382",
+      "name": "廣達",
+      "market": "TWSE",
+      "close": 335.0,
+      "ret1": -0.59,
+      "score": 57,
+      "signal": "觀望"
+    },
+    {
+      "code": "4938",
+      "name": "和碩",
+      "market": "TWSE",
+      "close": 90.4,
+      "ret1": -1.42,
+      "score": 51,
+      "signal": "觀望"
+    },
+    {
+      "code": "3231",
+      "name": "緯創",
+      "market": "TWSE",
+      "close": 188.5,
+      "ret1": 1.62,
+      "score": 68,
+      "signal": "偏多"
+    },
+    {
+      "code": "2356",
+      "name": "英業達",
+      "market": "TWSE",
+      "close": 65.0,
+      "ret1": -2.4,
+      "score": 45,
+      "signal": "觀望"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "EMS 電子代工",
+      "state": "資金分歧",
+      "net_buy_text": "部分個股獲買盤",
+      "net5_text": "資料建立中",
+      "net20_text": "資料建立中",
+      "ret5_text": "資料建立中",
+      "note": "9/3 個股資金分歧；緯創相對突出。點擊查看成分股。",
+      "stocks": [
+        {
+          "code": "2317",
+          "name": "鴻海",
+          "market": "TWSE",
+          "close": 247.5,
+          "ret1": -1.39,
+          "score": 55,
+          "signal": "觀望"
+        },
+        {
+          "code": "2354",
+          "name": "鴻準",
+          "market": "TWSE",
+          "close": 63.7,
+          "ret1": -3.92,
+          "score": 43,
+          "signal": "觀望"
+        },
+        {
+          "code": "2382",
+          "name": "廣達",
+          "market": "TWSE",
+          "close": 335.0,
+          "ret1": -0.59,
+          "score": 57,
+          "signal": "觀望"
+        },
+        {
+          "code": "4938",
+          "name": "和碩",
+          "market": "TWSE",
+          "close": 90.4,
+          "ret1": -1.42,
+          "score": 51,
+          "signal": "觀望"
+        },
+        {
+          "code": "3231",
+          "name": "緯創",
+          "market": "TWSE",
+          "close": 188.5,
+          "ret1": 1.62,
+          "score": 68,
+          "signal": "偏多"
+        },
+        {
+          "code": "2356",
+          "name": "英業達",
+          "market": "TWSE",
+          "close": 65.0,
+          "ret1": -2.4,
+          "score": 45,
+          "signal": "觀望"
+        }
+      ],
+      "related": [
+        "AI 伺服器",
+        "伺服器 ODM",
+        "PCB",
+        "散熱",
+        "電源供應",
+        "網通"
+      ]
+    },
+    {
+      "name": "銀行金融",
+      "state": "外資偏多",
+      "net_buy_text": "多檔獲買超",
+      "net5_text": "資料建立中",
+      "net20_text": "資料建立中",
+      "ret5_text": "資料建立中",
+      "note": "9/3 外資買超榜有多檔金融股。",
+      "stocks": [],
+      "related": [
+        "金控",
+        "銀行",
+        "證券",
+        "壽險"
+      ]
+    },
+    {
+      "name": "記憶體",
+      "state": "法人偏空",
+      "net_buy_text": "外資明顯賣超",
+      "net5_text": "資料建立中",
+      "net20_text": "資料建立中",
+      "ret5_text": "資料建立中",
+      "note": "9/3 南亞科、華邦電等遭外資賣超。",
+      "stocks": [],
+      "related": [
+        "DRAM",
+        "NAND Flash",
+        "HBM",
+        "記憶體模組"
+      ]
+    }
+  ]
+}

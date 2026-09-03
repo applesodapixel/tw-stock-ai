@@ -1,0 +1,10 @@
+{
+  "generation": 0,
+  "weights": {
+    "mom5": 0.35,
+    "mom20": 0.4,
+    "vol_ratio": 0.15,
+    "volatility": -0.1
+  },
+  "fitness": null
+}

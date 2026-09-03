@@ -1,0 +1,6 @@
+{
+  "market_days": 5,
+  "stock_detail_days": 0,
+  "status": "waiting_for_first_backfill_action",
+  "historical_backfill_is_not_live_prediction": true
+}
