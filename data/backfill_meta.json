@@ -1,6 +1,8 @@
 {
-  "updated_at": "2026-09-04T02:29:13+08:00",
+  "updated_at": "2026-09-04T02:41:07+08:00",
   "market_days": 60,
   "target_market_days": 60,
-  "engine": "v0.7"
+  "stock_detail_count": 16,
+  "sector_count": 3,
+  "engine": "v0.8.1"
 }
