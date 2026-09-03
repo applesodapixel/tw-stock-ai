@@ -7,332 +7,70 @@
 <link rel="manifest" href="manifest.webmanifest">
 <title>台股 AI 盤後情報</title>
 <style>
-*{box-sizing:border-box}
-body{margin:0;background:#f3f6f4;color:#1d2824;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",sans-serif}
-button{font:inherit}
-.app{max-width:720px;margin:auto;padding:calc(12px + env(safe-area-inset-top)) 14px calc(92px + env(safe-area-inset-bottom))}
-h1,h2,h3,p{margin-top:0}
-h1{font-size:25px}h2{font-size:19px;margin-bottom:13px}h3{font-size:16px}
-.topline{font-size:12px;color:#65716d;margin:2px 0 14px;display:flex;justify-content:space-between;gap:10px;align-items:center}
-.topline b{font-size:16px;color:#1d2824}
-.refresh{border:0;background:#eaf1ed;border-radius:999px;padding:7px 10px;color:#35524a}
-.card{background:#fff;border:1px solid #dfe7e3;border-radius:20px;padding:17px;margin:12px 0;box-shadow:0 2px 8px rgba(24,48,40,.025)}
-.hero{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
-.hero h1{margin-bottom:4px}
-.tag,.pill{font-size:12px;padding:5px 9px;border-radius:999px;background:#edf3ef;display:inline-block}
-.big{font-size:34px;font-weight:800}
-.label{font-size:12px;color:#77827e}
-.row{display:flex;justify-content:space-between;gap:10px;align-items:center}
-.meter{height:12px;border-radius:20px;background:linear-gradient(90deg,#51bd82,#e6c83f,#eb6b55);position:relative;margin:13px 0}
-.dot{position:absolute;top:50%;width:22px;height:22px;border-radius:50%;background:#1d2824;border:3px solid white;transform:translate(-50%,-50%);box-shadow:0 1px 4px #0005}
-.tabs{display:flex;gap:7px;overflow:auto;padding-bottom:4px}
-.tab{white-space:nowrap;border:1px solid #d8e1dd;background:#f7faf8;border-radius:999px;padding:8px 12px;font-size:13px}
-.tab.on{background:#dfece6;font-weight:700;border-color:#b9d2c7}
-.sector{padding:14px 0;border-bottom:1px solid #edf0ee;cursor:pointer}
-.sector:last-child{border:0}
-.sector b{font-size:16px}
-.amt{font-weight:750}
-.mini{font-size:12px;color:#73807b;margin-top:5px;line-height:1.5}
-.pred{display:grid;grid-template-columns:1fr 1fr;gap:9px}
-.box{background:#f6f8f7;border-radius:14px;padding:12px;min-height:72px}
-.box b{display:block;font-size:18px;margin-top:5px}
-.up{color:#d94f4f}.down{color:#168b66}.neutral{color:#7d8582}
-.ai{line-height:1.65;font-size:14px}
-.status{border-radius:14px;padding:11px 12px;background:#f6f8f7;margin-top:12px;font-size:13px;line-height:1.55}
-.status strong{display:block;margin-bottom:2px}
-.stock{display:grid;grid-template-columns:1fr auto;gap:8px;padding:13px 0;border-bottom:1px solid #edf0ee;cursor:pointer}
-.stock:last-child{border:0}.score{font-size:21px;font-weight:800;text-align:right}
-.bottom{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid #dce4e0;padding:7px max(10px,env(safe-area-inset-right)) calc(7px + env(safe-area-inset-bottom));z-index:5}
-.nav{max-width:720px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);text-align:center}
-.nav button{border:0;background:none;padding:8px 4px;color:#64706c;font-size:12px}
-.nav button.on{color:#087f5b;font-weight:800}
-.sheet{display:none;position:fixed;inset:0;background:#0008;z-index:20;align-items:flex-end}
-.sheet.on{display:flex}
-.panel{background:white;width:100%;max-width:720px;margin:auto;border-radius:25px 25px 0 0;padding:19px 17px calc(24px + env(safe-area-inset-bottom));max-height:88vh;overflow:auto}
-.close{float:right;border:0;background:#eef2f0;border-radius:50%;width:35px;height:35px;font-size:20px}
-table{width:100%;border-collapse:collapse;font-size:13px}
-td,th{padding:12px 4px;border-bottom:1px solid #eee;text-align:right}
-td:first-child,th:first-child{text-align:left}
-tbody tr{cursor:pointer}
-.hidden{display:none}.empty{text-align:center;padding:28px;color:#77827e}
-.kpi{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
-.kpi span{font-size:12px;padding:6px 9px;background:#f2f5f3;border-radius:999px}
-.note{font-size:12px;color:#7b8581;line-height:1.5}
-.summary-toggle{width:100%;border:0;background:none;text-align:left;padding:0;color:inherit}
-@media(min-width:650px){.pred{grid-template-columns:repeat(4,1fr)}}
+*{box-sizing:border-box}body{margin:0;background:#f3f6f4;color:#1d2824;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",sans-serif}button{font:inherit}.app{max-width:760px;margin:auto;padding:calc(12px + env(safe-area-inset-top)) 14px calc(92px + env(safe-area-inset-bottom))}.top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px}.brand{font-size:19px;font-weight:850}.sub{font-size:12px;color:#75817d}.refresh{border:0;background:#dfece6;color:#17664f;border-radius:999px;padding:9px 12px;font-weight:750}.refresh.busy{opacity:.55}.card{background:#fff;border:1px solid #dfe7e3;border-radius:20px;padding:16px;margin:12px 0;box-shadow:0 2px 8px rgba(24,48,40,.025)}h1,h2,h3,p{margin-top:0}h1{font-size:25px}h2{font-size:18px;margin-bottom:12px}.row{display:flex;justify-content:space-between;gap:10px;align-items:center}.tag{font-size:12px;padding:5px 9px;border-radius:999px;background:#eef4f1}.big{font-size:32px;font-weight:850}.label,.note{font-size:12px;color:#75817d}.note{line-height:1.55}.up{color:#d94f4f}.down{color:#168b66}.neutral{color:#727c78}.grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}.box{background:#f6f8f7;border-radius:14px;padding:12px;min-height:72px}.box b{display:block;font-size:18px;margin-top:5px}.live{background:#f7fbf9;border:1px solid #dbece4;border-radius:16px;padding:12px;margin-top:10px}.headline{padding:11px 0;border-bottom:1px solid #edf1ef;font-size:14px;line-height:1.45}.headline:last-child{border:0}.headline a{color:inherit;text-decoration:none}.source{font-size:11px;color:#7b8581;margin-top:4px}.tabs{display:flex;gap:7px;overflow:auto;padding-bottom:4px}.tab{white-space:nowrap;border:1px solid #d8e1dd;background:#f7faf8;border-radius:999px;padding:8px 11px;font-size:13px}.tab.on{background:#dfece6;font-weight:750}.sector{padding:14px 0;border-bottom:1px solid #edf0ee;cursor:pointer}.sector:last-child{border:0}.sector b{font-size:16px}.mini{font-size:12px;color:#73807b;margin-top:5px;line-height:1.5}.stock{display:grid;grid-template-columns:1fr auto;gap:8px;padding:12px 0;border-bottom:1px solid #edf0ee}.stock:last-child{border:0}.score{font-size:20px;font-weight:850;text-align:right}.bottom{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid #dce4e0;padding:7px max(10px,env(safe-area-inset-right)) calc(7px + env(safe-area-inset-bottom));z-index:10}.nav{max-width:760px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);text-align:center}.nav button{border:0;background:none;padding:8px 4px;color:#64706c;font-size:12px}.nav button.on{color:#087f5b;font-weight:850}.page.hidden{display:none}.sheet{display:none;position:fixed;inset:0;background:#0008;z-index:20;align-items:flex-end}.sheet.on{display:flex}.panel{background:#fff;width:100%;max-width:760px;margin:auto;border-radius:25px 25px 0 0;padding:18px 16px calc(24px + env(safe-area-inset-bottom));max-height:88vh;overflow:auto}.close{float:right;border:0;background:#eef2f0;border-radius:50%;width:35px;height:35px;font-size:20px}.status{font-size:12px;background:#f5f8f6;border-radius:12px;padding:9px 10px;line-height:1.5;margin-top:10px}.empty{text-align:center;color:#77827e;padding:24px}.search{width:100%;border:1px solid #dbe3df;border-radius:13px;padding:10px 12px;background:#fafcfb;font-size:14px}.marketchips{display:flex;gap:7px;overflow:auto;margin-top:9px}.chip{white-space:nowrap;background:#f3f6f4;border-radius:12px;padding:8px 10px;font-size:12px}@media(min-width:650px){.grid{grid-template-columns:repeat(4,1fr)}}
 </style>
 </head>
 <body>
 <main class="app">
-  <div class="topline">
-    <b>台股 AI 盤後情報</b>
-    <div><span id="dateLine">等待資料</span> <button class="refresh" onclick="boot(true)">更新</button></div>
-  </div>
+  <div class="top"><div><div class="brand">台股 AI 盤後情報</div><div class="sub" id="timeText">讀取中</div></div><button id="refreshBtn" class="refresh" onclick="boot(true)">更新資料</button></div>
 
-  <section id="todayPage">
+  <section id="today" class="page">
     <div class="card">
-      <div class="hero"><div><h1>今日重點</h1><span class="label">短期市場情緒（試算）</span></div><span class="tag" id="marketRet">大盤 —</span></div>
-      <div><span class="big" id="sentiment">—</span> <b id="sentimentText">資料累積中</b></div>
-      <div class="meter"><i class="dot" id="sentDot" style="left:50%"></i></div>
-      <div class="row label"><span>樂觀</span><span>恐慌</span></div>
-      <div class="status" id="dataStatus"><strong>資料狀態</strong>讀取中</div>
+      <div class="row"><div><h1>今日市場</h1><span class="label">收盤正式資料</span></div><span id="marketRet" class="tag">—</span></div>
+      <div class="status" id="dataStatus">正在讀取最新資料。</div>
     </div>
 
     <div class="card">
-      <h2>明日 AI 預測</h2>
-      <div class="pred">
+      <div class="row"><h2>明日正式預測</h2><span class="label">事前登記，不會被夜間新聞覆寫</span></div>
+      <div class="grid">
         <div class="box"><span class="label">方向</span><b id="direction">—</b></div>
         <div class="box"><span class="label">信心</span><b id="confidence">—</b></div>
         <div class="box"><span class="label">預估區間</span><b id="range">—</b></div>
         <div class="box"><span class="label">模型世代</span><b id="generation">—</b></div>
       </div>
-      <p class="ai note" id="forecastWhy" style="margin-top:12px">累積足夠資料後產生預測。</p>
+      <p id="forecastWhy" class="note" style="margin-top:11px">資料累積中。</p>
     </div>
 
     <div class="card">
-      <div class="row"><h2>近 5 日市場</h2><span class="label">法人：億元</span></div>
-      <div id="market5"></div>
+      <div class="row"><h2>美國夜間即時修正</h2><span id="nightBias" class="tag">—</span></div>
+      <p class="note">晚上美股、Fed、NVIDIA、台積電 ADR、關稅等新消息會另外更新；不回頭改寫正式預測。</p>
+      <div class="marketchips" id="usMarkets"></div>
+      <div class="live"><div class="row"><b>最新夜間消息</b><span class="label" id="nightTime">—</span></div><div id="headlines"><div class="empty">等待夜間資料</div></div></div>
     </div>
 
     <div class="card">
-      <h2>昨日預測驗證</h2>
-      <div id="verify" class="ai note">尚無可驗證的前一交易日預測。</div>
-    </div>
-
-    <div class="card">
-      <div class="row"><h2>法人資金熱門板塊</h2><span class="label">點擊查看成分股</span></div>
-      <div class="tabs" id="sectorTabs">
-        <button class="tab on" data-mode="buy" onclick="setSectorMode('buy',this)">買超</button>
-        <button class="tab" data-mode="sell" onclick="setSectorMode('sell',this)">賣超</button>
-        <button class="tab" data-mode="five" onclick="setSectorMode('five',this)">5 日</button>
-      </div>
+      <div class="row"><h2>全市場板塊</h2><span class="label" id="sectorCount">—</span></div>
+      <input id="sectorSearch" class="search" placeholder="搜尋中文板塊，例如：半導體、航運、金融" oninput="renderSectors()">
+      <div class="tabs" style="margin-top:10px"><button class="tab on" data-mode="buy" onclick="setMode('buy',this)">法人買超</button><button class="tab" data-mode="sell" onclick="setMode('sell',this)">法人賣超</button><button class="tab" data-mode="five" onclick="setMode('five',this)">5 日</button><button class="tab" data-mode="name" onclick="setMode('name',this)">中文排序</button></div>
       <div id="sectors"></div>
     </div>
 
-    <div class="card">
-      <button class="summary-toggle" onclick="toggleSummary()">
-        <div class="row"><h2 style="margin-bottom:0">AI 盤後總結</h2><span id="summaryArrow">收合 ▲</span></div>
-      </button>
-      <div class="ai" id="summary" style="margin-top:12px">資料累積中。</div>
-    </div>
+    <div class="card"><h2>昨日預測驗證</h2><div id="verify" class="note">尚無可驗證資料。</div></div>
+    <div class="card"><h2>AI 盤後總結</h2><div id="summary" class="note">資料累積中。</div></div>
   </section>
 
-  <section id="rankPage" class="hidden">
-    <div class="card">
-      <h1>明日個股排行</h1>
-      <p class="note">樣本不足時不產生正式排名；有 AI 分數的股票才會列入。</p>
-      <div id="stocks"></div>
-    </div>
-  </section>
-
-  <section id="historyPage" class="hidden">
-    <div class="card">
-      <h1>預測戰績</h1>
-      <div id="history" class="ai note">尚未累積正式事前預測。回補的歷史資料不計入真實命中率。</div>
-    </div>
-  </section>
-
-  <section id="watchPage" class="hidden">
-    <div class="card">
-      <h1>自選</h1>
-      <div id="watchList"></div>
-    </div>
-  </section>
+  <section id="rank" class="page hidden"><div class="card"><h1>個股排行</h1><p class="note">此頁顯示目前 AI 分數較高的股票；完整成分股請從板塊點入。</p><div id="stocks"></div></div></section>
+  <section id="history" class="page hidden"><div class="card"><h1>預測戰績</h1><div id="historyBody" class="note">讀取中。</div></div></section>
 </main>
-
-<div class="bottom"><div class="nav">
-<button class="on" onclick="page('today',this)">今日</button>
-<button onclick="page('rank',this)">排行</button>
-<button onclick="page('history',this)">驗證</button>
-<button onclick="page('watch',this)">自選</button>
-</div></div>
-
-<div class="sheet" id="sheet"><div class="panel"><div id="detail"></div></div></div>
-
+<div class="bottom"><div class="nav"><button class="on" onclick="go('today',this)">今日</button><button onclick="go('rank',this)">排行</button><button onclick="go('history',this)">驗證</button></div></div>
+<div class="sheet" id="sheet"><div class="panel"><button class="close" onclick="sheet.classList.remove('on')">×</button><div id="detail"></div></div></div>
 <script>
-const $=s=>document.querySelector(s);
-const fmt=x=>x==null||isNaN(+x)?'—':(+x).toFixed(2);
-let latest={}, sectorData=[], market5=[], sectorMode='buy', summaryOpen=true;
-let watch=JSON.parse(localStorage.getItem('tw-watch')||'[]');
-
-function clsRet(x){return x>0?'up':x<0?'down':'neutral'}
-function sign(x){return x==null||isNaN(+x)?'—':`${+x>0?'+':''}${(+x).toFixed(2)}`}
-
-function page(n,b){
-  ['today','rank','history','watch'].forEach(x=>$('#'+x+'Page').classList.toggle('hidden',x!==n));
-  document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('on'));b.classList.add('on');
-  if(n==='watch')renderWatch();
-}
-
-function calcFear(){
-  const last=market5[market5.length-1];
-  if(!last)return null;
-  const ret=Number(last.return||0);
-  const total=Number(last.total||0);
-  // 僅為透明的短期情緒試算，不當成模型預測。
-  let bullish=50 + Math.max(-18,Math.min(18,ret*8)) + Math.max(-15,Math.min(15,total/45));
-  bullish=Math.max(0,Math.min(100,bullish));
-  return Math.round(100-bullish);
-}
-
-function setSectorMode(mode,b){
-  sectorMode=mode;
-  document.querySelectorAll('#sectorTabs .tab').forEach(x=>x.classList.remove('on'));b.classList.add('on');
-  renderSectors();
-}
-
-function sectorValue(s){
-  if(sectorMode==='five'){
-    const m=String(s.net5_text||'').match(/[-+]?\d+(\.\d+)?/); return m?Number(m[0]):0;
-  }
-  const m=String(s.net_buy_text||'').match(/[-+]?\d+(\.\d+)?/); const v=m?Number(m[0]):0;
-  return sectorMode==='sell'?-v:v;
-}
-
-function renderSectors(){
-  let arr=[...sectorData];
-  if(sectorMode==='buy')arr.sort((a,b)=>sectorValue(b)-sectorValue(a));
-  else if(sectorMode==='sell')arr.sort((a,b)=>sectorValue(b)-sectorValue(a));
-  $('#sectors').innerHTML=arr.length?arr.map(s=>{
-    const i=sectorData.indexOf(s);
-    let right=sectorMode==='five'?(s.net5_text||'待資料'):(s.net_buy_text||'待資料');
-    return `<div class="sector" onclick="sectorOpen(${i})"><div class="row"><b>${s.name}</b><span class="amt">${right}</span></div><div class="mini">${s.note||'點擊查看同概念類股與資金資訊'}</div></div>`;
-  }).join(''):'<div class="empty">等待板塊資料</div>';
-}
-
-function isWatched(code){return watch.includes(code)}
-function toggleWatch(code){
-  watch=isWatched(code)?watch.filter(x=>x!==code):[...watch,code];
-  localStorage.setItem('tw-watch',JSON.stringify(watch));
-  const btn=$('#watchBtn'); if(btn)btn.textContent=isWatched(code)?'★ 已加入自選':'☆ 加入自選';
-}
-
-function findStock(code){
-  for(const s of sectorData)for(const x of (s.stocks||[]))if(x.code===code)return x;
-  return (latest.stocks||[]).find(x=>x.code===code);
-}
-
-function stockOpen(x){
-  const ret=x.ret1==null?'待回補':`${x.ret1>0?'+':''}${fmt(x.ret1)}%`;
-  const sc=x.score==null?'待回補':Math.round(x.score);
-  $('#detail').innerHTML=`
-  <button class="close" onclick="sheet.classList.remove('on')">×</button>
-  <h2>${x.code} ${x.name}</h2>
-  <div class="row"><span class="tag">${x.market||'—'} · ${x.signal||'待資料'}</span>
-  <button id="watchBtn" class="refresh" onclick="toggleWatch('${x.code}')">${isWatched(x.code)?'★ 已加入自選':'☆ 加入自選'}</button></div>
-  <div class="pred" style="margin-top:14px">
-    <div class="box"><span class="label">收盤</span><b>${x.close==null?'待回補':fmt(x.close)}</b></div>
-    <div class="box"><span class="label">當日漲跌</span><b class="${clsRet(x.ret1)}">${ret}</b></div>
-    <div class="box"><span class="label">AI 分數</span><b>${sc}</b></div>
-    <div class="box"><span class="label">狀態</span><b>${x.signal||'待資料'}</b></div>
-  </div>
-  <div class="status"><strong>資料說明</strong>5 日/20 日法人、量價異常與正式明日預測，需要歷史回補完成後才會顯示。現在沒有的數值會標示「待回補」，不以 0 代替。</div>`;
-  $('#sheet').classList.add('on');
-}
-
-function sectorOpen(i){
-  let s=sectorData[i]||{};
-  $('#detail').innerHTML=`
-  <button class="close" onclick="sheet.classList.remove('on')">×</button>
-  <h2>${s.name||'板塊'}</h2><span class="tag">${s.state||'觀察'}</span>
-  <div class="pred" style="margin-top:14px">
-    <div class="box"><span class="label">當日法人</span><b>${s.net_buy_text||'待回補'}</b></div>
-    <div class="box"><span class="label">近 5 日</span><b>${s.net5_text||'待回補'}</b></div>
-    <div class="box"><span class="label">近 20 日</span><b>${s.net20_text||'待回補'}</b></div>
-    <div class="box"><span class="label">5 日漲跌</span><b>${s.ret5_text||'待回補'}</b></div>
-  </div>
-  <h3 style="margin-top:18px">同概念類股</h3>
-  <table><thead><tr><th>股票</th><th>收盤</th><th>當日%</th><th>AI</th></tr></thead>
-  <tbody>${(s.stocks||[]).map(x=>`<tr onclick='stockOpen(${JSON.stringify(x).replace(/'/g,"&#39;")})'>
-  <td><b>${x.code}</b> ${x.name}<br><span class="mini">${x.signal||''}</span></td>
-  <td>${x.close==null?'待回補':fmt(x.close)}</td>
-  <td class="${clsRet(x.ret1)}">${x.ret1==null?'待回補':sign(x.ret1)}</td>
-  <td>${x.score==null?'待回補':Math.round(x.score)}</td></tr>`).join('')||'<tr><td colspan="4">等待板塊成分資料</td></tr>'}</tbody></table>
-  <h3 style="margin-top:18px">相關概念</h3>
-  <p class="ai">${(s.related||[]).map(x=>`<span class="pill">${x}</span>`).join(' ')||'等待資料建立關聯'}</p>`;
-  $('#sheet').classList.add('on');
-}
-
-function market5Render(){
-  let e=$('#market5');if(!e)return;
-  e.innerHTML=market5.slice(-5).map(x=>`<div class="sector">
-  <div class="row"><b>${x.date.slice(5).replace('-','/')}　${fmt(x.close)}</b>
-  <span class="${clsRet(x.return)}">${x.return>=0?'+':''}${fmt(x.return)}%</span></div>
-  <div class="mini">外資 ${sign(x.foreign)}　投信 ${sign(x.trust)}　自營 ${sign(x.dealer)}　合計 ${sign(x.total)}</div>
-  </div>`).join('');
-}
-
-function renderWatch(){
-  const rows=watch.map(findStock).filter(Boolean);
-  $('#watchList').innerHTML=rows.length?rows.map(x=>`<div class="stock" onclick='stockOpen(${JSON.stringify(x).replace(/'/g,"&#39;")})'>
-  <div><b>${x.code} ${x.name}</b><div class="mini">${x.market||''} · ${x.signal||'待資料'}</div></div>
-  <div><div class="score">${x.score==null?'—':Math.round(x.score)}</div><div class="label">AI</div></div></div>`).join(''):'<div class="empty">還沒有自選股票。從板塊內點股票即可加入。</div>';
-}
-
-function toggleSummary(){
-  summaryOpen=!summaryOpen;$('#summary').classList.toggle('hidden',!summaryOpen);
-  $('#summaryArrow').textContent=summaryOpen?'收合 ▲':'展開 ▼';
-}
-
-function render(){
-  let stocks=latest.stocks||[], model=latest.model||{};
-  const hist=Number(latest.history_days||market5.length||0);
-  $('#dateLine').textContent=`${latest.market_date||latest.updated_at||'—'} ｜ 約18:30更新`;
-  $('#generation').textContent=model.generation??0;
-  $('#marketRet').textContent='大盤 '+(latest.market_return==null?'—':`${latest.market_return>0?'+':''}${fmt(latest.market_return)}%`);
-  $('#marketRet').className='tag '+clsRet(latest.market_return);
-
-  const fear=calcFear();
-  if(fear==null){$('#sentiment').textContent='—';$('#sentimentText').textContent='資料不足'}
-  else{
-    $('#sentiment').textContent=fear;$('#sentDot').style.left=fear+'%';
-    $('#sentimentText').textContent=fear>=70?'恐慌':fear>=55?'偏謹慎':fear<=30?'樂觀':'中性';
-  }
-
-  $('#dataStatus').innerHTML=`<strong>資料狀態：${hist>=20?'可計算 20 日因子':`目前 ${hist} 個交易日`}</strong>${hist<20?'正式 AI 預測尚未啟用；目前畫面只顯示已知行情與透明試算。':'已具備基礎模型所需歷史長度。'}`;
-
-  let usable=stocks.filter(x=>x.score!=null);
-  if(hist<20){
-    $('#direction').textContent='等待資料';
-    $('#confidence').textContent='—';
-    $('#range').textContent='—';
-    $('#forecastWhy').textContent=`目前只有 ${hist} 個交易日資料。至少累積 20 日後才啟用正式明日預測，避免拿少量資料製造假精準。`;
-  }else{
-    let bulls=usable.filter(x=>x.signal==='偏多').length,bears=usable.filter(x=>x.signal==='偏弱').length;
-    let dir=bulls>bears*1.2?'偏多':bears>bulls*1.2?'偏空':'震盪';
-    $('#direction').textContent=latest.forecast?.direction||dir;
-    $('#confidence').textContent=latest.forecast?.confidence!=null?Math.round(latest.forecast.confidence)+'%':'—';
-    $('#range').textContent=latest.forecast?.range||'待模型計算';
-    $('#forecastWhy').textContent=latest.forecast?.reason||'模型已具備足夠歷史資料，等待正式輸出。';
-  }
-
-  $('#verify').innerHTML=latest.verification?.html||'尚無可驗證的前一交易日預測。第一筆正式預測保存後，下一交易日會自動核對。';
-  market5Render();
-  $('#summary').textContent=latest.summary||'系統正在累積市場、法人、板塊與價格資料。';
-  sectorData=(latest.sectors&&latest.sectors.length?latest.sectors:sectorData);
-  renderSectors();
-
-  $('#stocks').innerHTML=(hist>=20&&usable.length)?usable.sort((a,b)=>b.score-a.score).slice(0,30).map(x=>`<div class="stock" onclick='stockOpen(${JSON.stringify(x).replace(/'/g,"&#39;")})'>
-  <div><b>${x.code} ${x.name}</b><div class="mini">${x.market||''} · ${x.signal||''} · 5日 ${fmt(x.mom5)}%</div></div>
-  <div><div class="score">${Math.round(x.score)}</div><div class="label">AI分數</div></div></div>`).join(''):'<div class="empty">歷史資料還不足，暫不顯示正式 AI 排行。</div>';
-
-  renderWatch();
-}
-
-async function boot(force=false){
-  const q='?v='+(force?Date.now():'6');
-  try{
-    latest=await (await fetch('data/latest.json'+q,{cache:'no-store'})).json();
-    try{market5=(await(await fetch('data/market_60d.json'+q,{cache:'no-store'})).json()).days||[]}catch{}
-    try{let s=await(await fetch('data/sectors.json'+q,{cache:'no-store'})).json();sectorData=s.sectors||[]}catch{}
-    render();
-  }catch(e){
-    $('#dataStatus').innerHTML='<strong>資料讀取失敗</strong>請按右上「更新」重試。';
-    $('#summary').textContent='目前無法讀取資料檔。';
-  }
-}
-$('#sheet').addEventListener('click',e=>{if(e.target.id==='sheet')e.currentTarget.classList.remove('on')});
-if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
+const $=q=>document.querySelector(q);let latest={},sectors=[],predictions=[],mode='buy';
+const num=x=>x==null||isNaN(+x)?null:+x;const fmt=x=>num(x)==null?'—':(+x).toFixed(2);const cls=x=>num(x)>0?'up':num(x)<0?'down':'neutral';
+function go(id,b){document.querySelectorAll('.page').forEach(x=>x.classList.add('hidden'));$('#'+id).classList.remove('hidden');document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('on'));b.classList.add('on')}
+async function jget(path){const r=await fetch(path+'?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error(path+' '+r.status);return r.json()}
+function ageText(s){if(!s)return '—';const d=new Date(s);if(isNaN(d))return s;const m=Math.max(0,Math.round((Date.now()-d.getTime())/60000));if(m<2)return '剛剛';if(m<60)return `${m} 分鐘前`;return `${Math.floor(m/60)} 小時前`}
+async function boot(manual=false){const b=$('#refreshBtn');b.classList.add('busy');b.textContent='更新中…';try{const [l,ss,pp,oo]=await Promise.all([jget('data/latest.json'),jget('data/sectors.json'),jget('data/predictions.json'),jget('data/overnight.json').catch(()=>({}))]);latest=l||{};sectors=(ss&&ss.sectors)||[];predictions=(pp&&pp.predictions)||[];render(oo||{});if(manual)$('#dataStatus').innerHTML='已重新向伺服器抓取最新資料。夜間來源由排程每小時更新，這裡不使用瀏覽器快取。';}catch(e){$('#dataStatus').textContent='更新失敗：'+e.message;}finally{b.classList.remove('busy');b.textContent='更新資料'}}
+function render(o){$('#timeText').textContent=`台股資料 ${latest.market_date||'—'}｜伺服器更新 ${ageText(latest.updated_at)}`;const r=num(latest.market_return);$('#marketRet').textContent=r==null?'大盤 —':`大盤 ${r>0?'+':''}${r.toFixed(2)}%`;$('#marketRet').className='tag '+cls(r);const f=latest.forecast||{};$('#direction').textContent=f.direction||'—';$('#confidence').textContent=f.confidence==null?'—':f.confidence+'%';$('#range').textContent=f.range||'—';$('#generation').textContent=f.model_generation==null?'—':'G'+f.model_generation;$('#forecastWhy').textContent=f.reason||'資料累積中。';$('#summary').textContent=latest.summary||'—';$('#verify').innerHTML=(latest.verification&&latest.verification.html)||'尚無可驗證資料。';$('#sectorCount').textContent=`${sectors.length} 個中文板塊`;renderSectors();renderStocks();renderHistory();renderOvernight(o)}
+function setMode(m,b){mode=m;document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));b.classList.add('on');renderSectors()}
+function val(s){if(mode==='five')return num(s.net5_value)||0;return num(s.net_buy_value)||0}
+function renderSectors(){const q=($('#sectorSearch').value||'').trim();let a=sectors.filter(s=>!q||String(s.name).includes(q));if(mode==='buy')a.sort((x,y)=>val(y)-val(x));else if(mode==='sell')a.sort((x,y)=>val(x)-val(y));else if(mode==='five')a.sort((x,y)=>val(y)-val(x));else a.sort((x,y)=>String(x.name).localeCompare(String(y.name),'zh-Hant'));$('#sectors').innerHTML=a.length?a.map((s,i)=>`<div class="sector" onclick="openSector('${encodeURIComponent(s.name)}')"><div class="row"><b>${s.name}</b><span class="${cls(mode==='five'?s.net5_value:s.net_buy_value)}">${mode==='five'?(s.net5_text||'—'):(s.net_buy_text||'—')}</span></div><div class="mini">${s.note||''}</div></div>`).join(''):'<div class="empty">找不到板塊</div>'}
+function openSector(enc){const name=decodeURIComponent(enc);const s=sectors.find(x=>x.name===name);if(!s)return;const arr=s.stocks||[];$('#detail').innerHTML=`<h2>${s.name}</h2><p class="note">${s.note||''}<br>當日法人 ${s.net_buy_text||'—'}｜5 日 ${s.net5_text||'—'}｜20 日 ${s.net20_text||'—'}</p>${arr.map(x=>stockRow(x)).join('')||'<div class="empty">暫無成分股</div>'}`;$('#sheet').classList.add('on')}
+function stockRow(x){return `<div class="stock"><div><b>${x.code} ${x.name}</b><div class="mini">${x.market||''}｜${x.industry||''}｜法人 ${x.insti_yi==null?'—':(x.insti_yi>0?'+':'')+fmt(x.insti_yi)+' 億'}</div></div><div><div class="score">${x.score==null?'—':x.score}</div><div class="${cls(x.ret1)}">${x.ret1==null?'—':(x.ret1>0?'+':'')+fmt(x.ret1)+'%'}</div></div></div>`}
+function renderStocks(){const a=(latest.stocks||[]).slice(0,80);$('#stocks').innerHTML=a.length?a.map(stockRow).join(''):'<div class="empty">等待個股資料</div>'}
+function renderHistory(){const v=predictions.filter(x=>x.verified).slice(-30).reverse();$('#historyBody').innerHTML=v.length?v.map(x=>`<div class="headline"><b>${x.prediction_for}｜${x.correct?'✅ 命中':'❌ 未命中'}</b><div class="mini">預測 ${x.direction}｜實際 ${x.actual_direction} ${x.actual_return>0?'+':''}${fmt(x.actual_return)}%<br>${x.error_reason||''}</div></div>`).join(''):'尚未累積可驗證的正式事前預測。'}
+function renderOvernight(o){$('#nightBias').textContent=o.bias?`${o.bias} ${o.confidence||''}${o.confidence?'%':''}`:'尚未更新';$('#nightBias').className='tag '+(o.bias==='偏多'?'up':o.bias==='偏空'?'down':'neutral');$('#nightTime').textContent=o.updated_at?ageText(o.updated_at):'—';const ms=o.markets||[];$('#usMarkets').innerHTML=ms.map(x=>`<div class="chip">${x.label} <span class="${cls(x.change_pct)}">${x.change_pct==null?'—':(x.change_pct>0?'+':'')+fmt(x.change_pct)+'%'}</span></div>`).join('');const hs=o.headlines||[];$('#headlines').innerHTML=hs.length?hs.slice(0,8).map(x=>`<div class="headline"><a href="${x.link||'#'}" target="_blank" rel="noopener">${x.title}</a><div class="source">${x.source||'公開新聞'} ${x.published||''}</div></div>`).join(''):'<div class="empty">目前沒有新的夜間消息</div>'}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js').catch(()=>{})}
 boot();
 </script>
 </body></html>

@@ -1,4 +1,6 @@
-import json, urllib.request, urllib.parse, urllib.error, time, math
+import json, urllib.request, urllib.parse, urllib.error, time, math, os, csv, io, re
+import xml.etree.ElementTree as ET
+from html import unescape
 from pathlib import Path
 from datetime import datetime, timedelta, timezone
 
@@ -8,10 +10,34 @@ DATA.mkdir(exist_ok=True)
 TZ = timezone(timedelta(hours=8))
 NOW = datetime.now(TZ)
 TODAY = NOW.date()
-ENGINE = "v0.9"
+ENGINE = "v1.0"
+INDUSTRY_MAP = {
+    "01":"水泥工業","02":"食品工業","03":"塑膠工業","04":"紡織纖維","05":"電機機械",
+    "06":"電器電纜","08":"玻璃陶瓷","09":"造紙工業","10":"鋼鐵工業","11":"橡膠工業",
+    "12":"汽車工業","14":"建材營造","15":"航運業","16":"觀光餐旅","17":"金融保險",
+    "18":"貿易百貨","19":"綜合","20":"其他","21":"化學工業","22":"生技醫療業",
+    "23":"油電燃氣業","24":"半導體業","25":"電腦及週邊設備業","26":"光電業",
+    "27":"通信網路業","28":"電子零組件業","29":"電子通路業","30":"資訊服務業",
+    "31":"其他電子業","32":"文化創意業","33":"農業科技業","35":"綠能環保",
+    "36":"數位雲端","37":"運動休閒","38":"居家生活","80":"管理股票"
+}
+
+def industry_zh(v):
+    s=str(v or "").strip()
+    if not s:return "其他"
+    # 官方 API 有時回傳 01、1、01 水泥工業；全部正規化為中文。
+    m=re.match(r"^(\d{1,2})(?:\D.*)?$",s)
+    if m:
+        key=m.group(1).zfill(2)
+        return INDUSTRY_MAP.get(key, s)
+    return INDUSTRY_MAP.get(s.zfill(2) if s.isdigit() else s, s)
+
+def is_common_stock_code(code):
+    return len(code)==4 and code.isdigit() and not code.startswith("0")
+
 
 def get_json(url, timeout=40):
-    headers={"User-Agent":"Mozilla/5.0 tw-stock-ai/0.9","Accept":"application/json,text/plain,*/*","Referer":"https://www.twse.com.tw/"}
+    headers={"User-Agent":"Mozilla/5.0 tw-stock-ai/1.0","Accept":"application/json,text/plain,*/*","Referer":"https://www.twse.com.tw/"}
     current=url
     for _ in range(4):
         req=urllib.request.Request(current,headers=headers,method="GET")
@@ -112,10 +138,9 @@ def normalize_profile(rows, market):
     out={}
     for d in rows if isinstance(rows,list) else []:
         code=str(pick(d,["公司代號","SecuritiesCompanyCode","SecuritiesCode","證券代號","股票代號","Code"]) or "").strip()
-        if not code or not code[:1].isdigit():continue
+        if not is_common_stock_code(code):continue
         name=str(pick(d,["公司簡稱","公司名稱","CompanyName","SecuritiesCompanyName","證券名稱","Name"]) or "").strip()
-        industry=str(pick(d,["產業別","產業類別","Industry","IndustryName"]) or "").strip()
-        if not industry:industry="其他"
+        industry=industry_zh(pick(d,["產業別","產業類別","Industry","IndustryName"]))
         out[code]={"code":code,"name":name or code,"market":market,"industry":industry}
     return out
 
@@ -148,7 +173,7 @@ def normalize_quotes(rows,market):
     out={}
     for d in rows if isinstance(rows,list) else []:
         code=str(pick(d,["Code","SecuritiesCompanyCode","SecuritiesCode","證券代號","股票代號"]) or "").strip()
-        if not code:continue
+        if not is_common_stock_code(code):continue
         close=num(pick(d,["ClosingPrice","Close","收盤價","收盤"]))
         pct=num(pick(d,["ChangePercent","漲跌幅","漲跌幅%"]))
         if pct is None:
@@ -185,7 +210,7 @@ def parse_twse_t86(d):
     for r in rows:
         try:
             code=str(r[ic if ic is not None else 0]).strip();sh=num(r[it]) if it is not None else None
-            if code and sh is not None:out[code]=sh
+            if is_common_stock_code(code) and sh is not None:out[code]=sh
         except:pass
     return out
 
@@ -196,7 +221,7 @@ def parse_tpex_insti():
             for d in rows if isinstance(rows,list) else []:
                 code=str(pick(d,["SecuritiesCompanyCode","SecuritiesCode","證券代號","股票代號","Code"]) or "").strip()
                 total=num(pick(d,["TotalNetBuySell","ThreeInstitutionalInvestorsNetBuySell","三大法人買賣超股數","合計買賣超股數","NetBuySell"]))
-                if code and total is not None:out[code]=total
+                if is_common_stock_code(code) and total is not None:out[code]=total
             if out:return out
         except Exception as e:print("TPEx insti",e)
     return {}
@@ -243,6 +268,9 @@ def build_full_market(market_days):
     for code in otq:universe.setdefault(code,{"code":code,"name":code,"market":"TPEx","industry":"其他"})
 
     snaps=load_snapshots()
+    # 清除舊版曾誤收 ETF/權證/非普通股代碼，減少手機載入量。
+    for d in snaps:
+        if isinstance(d.get("stocks"),dict):d["stocks"]={k:v for k,v in d["stocks"].items() if is_common_stock_code(str(k))}
     current_map={}
     for code,p in universe.items():
         q=(twq if p["market"]=="TWSE" else otq).get(code,{})
@@ -309,9 +337,81 @@ def build_full_market(market_days):
     save("sectors.json",{"as_of":market_date,"classification":"官方產業別","sector_count":len(sectors),"sectors":sectors})
     return stocks,sectors
 
+# ---------- 美國夜間消息 / 盤前修正 ----------
+def get_text(url,timeout=30):
+    req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 tw-stock-ai/1.0","Accept":"text/html,application/rss+xml,text/plain,*/*"})
+    with urllib.request.urlopen(req,timeout=timeout) as r:
+        return r.read().decode("utf-8",errors="replace")
+
+def clean_title(s):
+    s=unescape(re.sub(r"<[^>]+>","",str(s or ""))).strip()
+    return re.sub(r"\s+"," ",s)
+
+def headline_impact(title):
+    t=title.lower()
+    positive=["降息","寬鬆","上漲","大漲","創高","超預期","利多","強勁","反彈","growth","rally","rate cut","beats"]
+    negative=["升息","關稅","制裁","戰爭","衝突","暴跌","大跌","衰退","通膨升溫","利空","下修","selloff","tariff","war","recession","misses"]
+    score=sum(1 for k in positive if k in t)-sum(1 for k in negative if k in t)
+    return max(-2,min(2,score))
+
+def fetch_google_news():
+    q='美股 OR 那斯達克 OR 費城半導體 OR 聯準會 OR Fed OR NVIDIA OR 台積電 ADR OR 關稅 OR AI 伺服器'
+    url='https://news.google.com/rss/search?q='+urllib.parse.quote(q)+'&hl=zh-TW&gl=TW&ceid=TW:zh-Hant'
+    xml=get_text(url)
+    root=ET.fromstring(xml)
+    items=[]
+    for it in root.findall('.//item')[:18]:
+        title=clean_title(it.findtext('title'))
+        link=(it.findtext('link') or '').strip()
+        pub=(it.findtext('pubDate') or '').strip()
+        source=''
+        se=it.find('source')
+        if se is not None and se.text:source=clean_title(se.text)
+        if title:items.append({"title":title,"link":link,"published":pub,"source":source,"impact":headline_impact(title)})
+    return items
+
+def fetch_stooq(symbol,label):
+    # 免費公開 CSV；抓最近幾日以估算美股/期貨方向。失敗時保留 null，不捏造。
+    end=NOW.strftime('%Y%m%d'); start=(NOW-timedelta(days=10)).strftime('%Y%m%d')
+    url=f'https://stooq.com/q/d/l/?s={urllib.parse.quote(symbol)}&d1={start}&d2={end}&i=d'
+    rows=list(csv.DictReader(io.StringIO(get_text(url))))
+    vals=[]
+    for r in rows:
+        c=num(r.get('Close'))
+        if c is not None:vals.append((r.get('Date'),c))
+    if not vals:return {"label":label,"symbol":symbol,"close":None,"change_pct":None}
+    last=vals[-1]; prev=vals[-2][1] if len(vals)>=2 else None
+    pct=None if prev in (None,0) else round((last[1]/prev-1)*100,2)
+    return {"label":label,"symbol":symbol,"date":last[0],"close":last[1],"change_pct":pct}
+
+def update_overnight():
+    old=load('overnight.json',{})
+    try:headlines=fetch_google_news()
+    except Exception as e:
+        print('overnight news',e);headlines=old.get('headlines',[])
+    markets=[]
+    for sym,label in [('^spx','S&P 500'),('^ndq','NASDAQ'),('^dji','道瓊')]:
+        try:markets.append(fetch_stooq(sym,label))
+        except Exception as e:
+            print('overnight market',sym,e);markets.append({"label":label,"symbol":sym,"close":None,"change_pct":None})
+    news_score=sum(x.get('impact',0) for x in headlines[:10])
+    mvals=[x.get('change_pct') for x in markets if x.get('change_pct') is not None]
+    market_score=0 if not mvals else sum(mvals)/len(mvals)
+    raw=market_score*1.5 + news_score*0.35
+    bias='偏多' if raw>0.8 else '偏空' if raw<-0.8 else '中性'
+    confidence=round(min(75,max(50,50+abs(raw)*6)))
+    obj={
+      "updated_at":NOW.isoformat(timespec='seconds'),
+      "bias":bias,"confidence":confidence,"score":round(raw,2),
+      "markets":markets,"headlines":headlines[:12],
+      "note":"這是盤後正式預測之外的夜間即時修正，只使用公開美股行情與最新新聞；不會覆寫已事前登記的正式預測。"
+    }
+    save('overnight.json',obj)
+    return obj
+
 # ---------- 預測 / 驗證 ----------
 def default_model():
-    return {"generation":0,"version":"baseline-0.9","weights":{"mom5":0.55,"flow5":0.45},"min_verified_for_tuning":20,"last_tuned_at":None}
+    return {"generation":0,"version":"baseline-1.0","weights":{"mom5":0.55,"flow5":0.45},"min_verified_for_tuning":20,"last_tuned_at":None}
 
 def model_score(f,w):
     return float(w.get("mom5",.55))*float(f.get("mom5",0) or 0)+float(w.get("flow5",.45))*(float(f.get("flow5",0) or 0)/300)
@@ -330,7 +430,7 @@ def tune(preds,model):
         if a>best[0]:best=(a,w)
     if best[0]>old+.03 and best[1]!=cur:
         model["generation"]=int(model.get("generation",0))+1;model["weights"]=best[1]
-        model["version"]=f"adaptive-0.9-g{model['generation']}";model["last_tuned_at"]=NOW.isoformat(timespec="seconds")
+        model["version"]=f"adaptive-1.0-g{model['generation']}";model["last_tuned_at"]=NOW.isoformat(timespec="seconds")
     return model
 
 def make_forecast(days,model):
@@ -345,7 +445,7 @@ def make_forecast(days,model):
     return {"prediction_for":next_weekday(datetime.fromisoformat(last["date"]).date()).isoformat(),
       "made_at":NOW.isoformat(timespec="seconds"),"direction":d,"confidence":round(min(80,max(52,52+abs(sc)*6))),
       "range":f"約 ±{vol:.2f}%","reason":f"近5日指數動能 {f['mom5']:+.2f}%，三大法人合計 {f['flow5']:+.2f} 億。",
-      "model_version":model.get("version","baseline-0.9"),"model_generation":model.get("generation",0),"inputs_snapshot":f}
+      "model_version":model.get("version","baseline-1.0"),"model_generation":model.get("generation",0),"inputs_snapshot":f}
 
 def verify(days,preds):
     by={x["date"]:x for x in days}
@@ -364,7 +464,8 @@ def verify(days,preds):
             p["error_reason"]="；".join(why)+"。"
     return preds
 
-def main():
+def full_update():
+    overnight=update_overnight()
     days=market_backfill()
     stocks,sectors=build_full_market(days)
     pobj=load("predictions.json",{"predictions":[]})
@@ -372,6 +473,7 @@ def main():
     preds=verify(days,pobj.get("predictions",[]))
     model=load("model.json",default_model())
     if "weights" not in model or "flow5" not in model.get("weights",{}):model=default_model()
+    if str(model.get("version","")).startswith("baseline-0."):model["version"]="baseline-1.0"
     model=tune(preds,model)
     fc=make_forecast(days,model)
     if fc and not any(p.get("prediction_for")==fc["prediction_for"] for p in preds):preds.append(fc)
@@ -380,15 +482,30 @@ def main():
     latest=load("latest.json",{})
     if days:
         latest["market_date"]=days[-1]["date"];latest["market_return"]=days[-1].get("return");latest["history_days"]=len(days)
+    # latest 只放排行前 120 檔，完整成分股放 sectors.json，避免手機每次載入超大 JSON。
+    sector_summary=[{k:v for k,v in x.items() if k!="stocks"} for x in sectors]
     latest.update({"updated_at":NOW.isoformat(timespec="seconds"),"engine":ENGINE,"forecast":fc,"model":model,
-                   "stocks":stocks,"sectors":sectors,
-                   "summary":f"全市場官方產業板塊已自動建立，共 {len(sectors)} 類、{len(stocks)} 檔股票。板塊法人資料會隨每日執行累積 5 日與 20 日歷史。"})
+                   "stocks":stocks[:120],"sectors":sector_summary,"overnight":{k:v for k,v in overnight.items() if k!="headlines"},
+                   "summary":f"全市場官方產業板塊已自動建立，共 {len(sectors)} 類、{len(stocks)} 檔普通股。夜間美股與新聞另外每小時更新，不改寫正式事前預測。"})
     verified=[p for p in preds if p.get("verified")]
     latest["verification"]={"html":("<b>尚無可驗證的正式預測。</b><br>事前預測已保存，交易日收盤後會自動核對。" if not verified else
         f"<b>{'命中' if verified[-1]['correct'] else '未命中'}</b><br>預測 {verified[-1]['direction']}，實際 {verified[-1]['actual_direction']}（{verified[-1]['actual_return']:+.2f}%）。{verified[-1]['error_reason']}")}
     save("latest.json",latest)
     save("backfill_meta.json",{"updated_at":NOW.isoformat(timespec="seconds"),"market_days":len(days),"target_market_days":60,
-      "stock_detail_count":len(stocks),"sector_count":len(sectors),"classification":"TWSE/TPEx 官方產業別","engine":ENGINE})
-    print(ENGINE,"market",len(days),"stocks",len(stocks),"sectors",len(sectors))
+      "stock_detail_count":len(stocks),"sector_count":len(sectors),"classification":"TWSE/TPEx 官方產業別（中文）","engine":ENGINE})
+    print(ENGINE,"FULL market",len(days),"stocks",len(stocks),"sectors",len(sectors))
+
+def live_update():
+    obj=update_overnight()
+    print(ENGINE,"LIVE overnight",obj.get('bias'),obj.get('confidence'))
+
+def main():
+    # 手動 Run workflow 永遠做完整更新；排程 18 點台灣時間做收盤完整更新，其他夜間排程只更新美股/新聞。
+    event=os.getenv('GITHUB_EVENT_NAME','')
+    mode=os.getenv('TW_STOCK_MODE','').lower()
+    if mode=='full' or event=='workflow_dispatch' or NOW.hour==18:
+        full_update()
+    else:
+        live_update()
 
 if __name__=="__main__":main()
