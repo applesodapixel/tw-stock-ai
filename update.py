@@ -2,7 +2,7 @@ import json, urllib.request, urllib.parse, time
 from pathlib import Path
 from datetime import datetime, timedelta, timezone
 
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parent
 DATA=ROOT/"data"; DATA.mkdir(exist_ok=True)
 TZ=timezone(timedelta(hours=8))
 TODAY=datetime.now(TZ).date()
