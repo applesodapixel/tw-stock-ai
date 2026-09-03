@@ -1,0 +1,113 @@
+{
+  "updated_at": "2026-09-04T03:07:09+08:00",
+  "bias": "中性",
+  "confidence": 54,
+  "score": 0.7,
+  "markets": [
+    {
+      "label": "S&P 500",
+      "symbol": "^spx",
+      "close": null,
+      "change_pct": null
+    },
+    {
+      "label": "NASDAQ",
+      "symbol": "^ndq",
+      "close": null,
+      "change_pct": null
+    },
+    {
+      "label": "道瓊",
+      "symbol": "^dji",
+      "close": null,
+      "change_pct": null
+    }
+  ],
+  "headlines": [
+    {
+      "title": "【美股快訊】Dell股價續飆7%，市場持續消化AI伺服器訂單利多 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MQ29paVUzNmJQcU1vUkFEUnlkZEZKNDI3RG5sMGZLOE9nbHBJZS0wN01xRTJKS0V0SmtON1hhSXdnc1V6R3BaNkpWdGNWY00?oc=5",
+      "published": "Thu, 03 Sep 2026 16:32:06 GMT",
+      "source": "news.cnyes.com",
+      "impact": 1
+    },
+    {
+      "title": "【美股財報前瞻】戴爾營收叩關450億？AI 伺服器毛利戰，台廠這4家最關鍵！博通財報如何牽動台積電、日月光CoWoS供應鏈？｜豐雲學堂2026 年 09 月 - sinotrade.com.tw",
+      "link": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxNMDZ1ZEJBcnViQVVya0FwVHIyb3drUGFQLXQxQTFMZ1VFWnJwRmVWU2FxVEtrVHlXcmw5ODFCd043UWoxTUI1WXdfZWM4QTBELTNNMHprWklUcUJxelhDOW5SbEt1S1NTSkR0WWVKcHQwSHV5WlNtbXBTR1NvcU1XRXgyQnF1QnNmMTRSWjNiT013aXZ5a0lGYl9FR2FwRkIzTmt2dHlNbUl6T3FjdzQtQnhHejNNWXBRQzRiZHMzTUg0ZFNLQkNNdUp2UFVFbzI5WVlaTTZaSld4aHQ2QkJYN2dSdjBnUHUtdlFZb3ZaaVFiTHkzckFBcDFpaFZMb2ZVaExsaUdyN1RyTHk2OThmcFZydDJhdkNjbWdfYlpmanZaT28wUHJtUTBJMnB5MHNYTktOd1haN25Kbk1VVi1PRUVZNDA2T1VPNUxldDRrVTMzVFN0UGliMG1MWlpVclJLeXpFYjd0YmppWlE1SkwwWl9TNGd6dG1qOTJZ?oc=5",
+      "published": "Thu, 03 Sep 2026 03:26:07 GMT",
+      "source": "sinotrade.com.tw",
+      "impact": 0
+    },
+    {
+      "title": "AI伺服器拉貨動能強勁！巨頭齊推新模型，博通AI營收看增186%帶旺台積電-財經焦點情報站 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVldLNjVYYWxwemJiaUxRSlBOVGFmTER0RkdYUXRRODU0bHZLWDk1MWxSQTA5U0owRVliY2RTODFwX0MzeGVnZElxei16c1V1WFVWSGFYa0NkeUFiY0lCOWtPUzBHZDhPWWRsM3Q2ckVSUnZQWkN5UGpkT1R4aEJYRmFn?oc=5",
+      "published": "Thu, 03 Sep 2026 17:33:46 GMT",
+      "source": "CMoney投資網誌",
+      "impact": 1
+    },
+    {
+      "title": "從「1折耳機」到「萬美元AI伺服器」：港台兩地電腦展揭示的產業鴻溝 - peopo.org",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE83U0tWY2QzaVpkVWhDa1I3NExXOUlDSGtjSmR5bG9DdVlRRUVwbjJEZ2t1dmpPZDVaUXI3V0ZqMDdHSEMwWUdxVQ?oc=5",
+      "published": "Thu, 03 Sep 2026 10:00:00 GMT",
+      "source": "peopo.org",
+      "impact": 0
+    },
+    {
+      "title": "SEMICON 展助攻光通訊買氣，大盤高檔震盪緊盯台達電與外資動向 - TechNews 科技新報",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOeTB3aDJmYXRMNFBCak5sQ2x5d3RRai1rQlc4Y1BZakZkWU9lZEhpMGMyVDVDdlRSUVAtV2VBUzNQeEI5dFYtS0JnVW1sTWRfSmZOTHgtT3pxRkt0ZkhKU3k3YlB2SXhGbUpibWVSNFVkVUJzX2xNeEg3S0p5dGh4UUZXOThpQTNseU9YWUthUVpuaDlrbWsyTXVVcVAzUmZOM1lwMVZiZnU3X0JzZ2NDOFZGSUpXbnAwaHdMa2syOXBRbUJIcllRZDBoWVRSTjE5RXJ2RnhiUHl6VENOS0t4TlY3VGFMWHlPUkE?oc=5",
+      "published": "Thu, 03 Sep 2026 02:06:19 GMT",
+      "source": "TechNews 科技新報",
+      "impact": 0
+    },
+    {
+      "title": "美國擬擴大半導體關稅！伺服器、筆電恐全中 科技業警告：恐成AI發展絆腳石 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMiywNBVV95cUxPT1JhM2dRR2Y0TEtOZXFSaU54eGtxV0p2ZnJkZ01ydWNVcHRCRkRQS2pQN19yZU1YRE16RTdQN2k1SDhjMTRRX3VTZ1JCNzRJOGtUOFFsQ1pheWt3Tm5wcFZGVlA3aDlHckt0QjVFa3F6bEZYVExoMDdldjNDanR2eXJIMFJRbmlJVDl2dUFxaV9OYjF2Um9kYUNiT1Z3RTc1SEZWNEFaZ3doTVYwNVJ3MWpSSl9wRzNsQWlmcTFuRkVUNGlRNlItMXVSVnhtWW1hRjhOSkY3U3kydUctUTh4X2MyVDdnR0MtQ240aDJ6Ung3XzB3TkRQTU0xN01RTlpHT0owRGdTSGxaazNpbEpmVXVYSjdvUGE5Wko1QjZTM09GQTlMX3JDRmN4NWtiU2JJTVFfRXl1M042enpvdDdhSHZxYzA1Y1RDYkJjWDJ5RmIybThwZlFmei1iZ0NQb21yM3VXeHI3TkpmY2ZEX2IzTXFjRXhzU3hzWmVYa0lROHJMQUFvR3lXeWhRREFiYlA3WTdfVkRNYUlMTHVqZmdWMlhHWkJsZEwzZEs1OUd4VmlvOEZqVzd4ZTVOUHFSM0UzZmppaS1EVHVIVWc?oc=5",
+      "published": "Fri, 28 Aug 2026 15:15:00 GMT",
+      "source": "Yahoo股市",
+      "impact": -1
+    },
+    {
+      "title": "戴爾財報／AI伺服器需求超旺 全年營收大幅上調250億美元 盤後狂飆8% - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1mb3R5X21KMzF3TUh0VHFwZGU3Y1Y4OVAyLTdab2NpeUU0QXdVSU5RT3JjY09WNUVUa0RWYmhNcEl0dTdESXJWbUNaTkZuTFNqOTR5clRlZkZKbHg0cHI5Q1dERy14ajVQRHFhNldKQUxHTFVFSkh30gFiQVVfeXFMUExlbk1CTkxLSGEyalRZRHA0QTJnVlNhOGUzSG1CWXZ4VnY3VnV5c1JiMVhxWmtsMTQzM195SEVkd09Eb3JuY2YycXBCUnd6NHlTNjhHUE43RGw3WGRYX2UzY0E?oc=5",
+      "published": "Wed, 02 Sep 2026 00:22:51 GMT",
+      "source": "經濟日報",
+      "impact": 0
+    },
+    {
+      "title": "AI伺服器供應鏈添動能！美廠最新獲利飆增近一倍，牽動台積電等台廠版圖-財經焦點情報站 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdXphMjZSZlZqeWFBSG5YeXZ5VnI2Mm5CUVN3TzBVZ29WNHpPRHZLbWdINTNqUmZpMF9ZdkpQRHJaclJJNzgyVG9ZR3F2aS1vcEtScVp3akVPM3RwNl9MS2xoY2lGSVhIUWp3TWxXTXl2aUh5YmtSd05wT3BqcnAzZjJn?oc=5",
+      "published": "Thu, 03 Sep 2026 18:03:58 GMT",
+      "source": "CMoney投資網誌",
+      "impact": 0
+    },
+    {
+      "title": "快訊／美股開盤道瓊上漲逾217點 台指期夜盤守住46K - 三立新聞",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93aEpycFhyMGNBamtVSnlCUl9YYnJ1TnNlLUpmMElCQ2l4UUVXejF1WlpRT2ZNc19mYXZtaDZweG5IcHlRZWVJS1ZORQ?oc=5",
+      "published": "Wed, 02 Sep 2026 13:49:05 GMT",
+      "source": "三立新聞",
+      "impact": 1
+    },
+    {
+      "title": "戴爾財報速讀｜AI伺服器訂單逾1,300億美元 全年營收財測較前次大增250億美元 | 優分析 - LINE TODAY",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TTUUzYWk1bEdTemozMU9qMGYzTVd4cXgtQ3ZGWnl4VHVaTmlSVTJHOThqX21QVVpEb0d6cndmQ0pYelBRaHNBTi1CU3B1TmxIbDYzMG9B?oc=5",
+      "published": "Wed, 02 Sep 2026 09:22:10 GMT",
+      "source": "LINE TODAY",
+      "impact": 0
+    },
+    {
+      "title": "AI伺服器狂潮點燃全球債市警報：科技融資潮推高利率紅線，美股風險急劇升溫 - forecastock.tw",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUkxrbVgxR1FaQ3FoaGdlMDRPc0hWdU5INkFNc1dCQWZLWmpEMThGYnRtNmFhTzN1UXJBam1MMkNrVy03NUZ4S0wxclpYMjFiTGMzVHVVQ1hHLWFfam9vZEVDTHdoNVV6bW16OHd3WkMxczRpdFJFSHRXWmhUbU1pM2hKbENNRGxlWkNtb1RjSUZZNWMw?oc=5",
+      "published": "Wed, 02 Sep 2026 04:00:30 GMT",
+      "source": "forecastock.tw",
+      "impact": 0
+    },
+    {
+      "title": "DRAM、NAND「缺到爆」！戴爾AI伺服器需求炸裂、訂單衝950億美元 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91N0FCTHAxYUhVeVIycDBuYTRPQVBVWEVyODlMajhlMUtrcnJ6b1pXRDFZTUVvR1F3U0R3LThLVm5fRk5GU1Y4NXY5TWtBMUE?oc=5",
+      "published": "Wed, 02 Sep 2026 03:10:05 GMT",
+      "source": "news.cnyes.com",
+      "impact": 0
+    }
+  ],
+  "note": "這是盤後正式預測之外的夜間即時修正，只使用公開美股行情與最新新聞；不會覆寫已事前登記的正式預測。"
+}

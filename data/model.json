@@ -1,6 +1,6 @@
 {
   "generation": 0,
-  "version": "baseline-0.9",
+  "version": "baseline-1.0",
   "weights": {
     "mom5": 0.55,
     "flow5": 0.45
