@@ -1,3 +1,13 @@
 {
-  "records": []
+  "predictions": [
+    {
+      "prediction_for": "2026-09-04",
+      "made_at": "2026-09-04T02:29:13+08:00",
+      "direction": "偏空",
+      "confidence": 62,
+      "range": "待累積波動模型",
+      "reason": "近5日指數動能 -0.23%，三大法人合計 -1023.18 億；v0.7 先以透明權重產生基準預測。",
+      "model_version": "baseline-0.7"
+    }
+  ]
 }

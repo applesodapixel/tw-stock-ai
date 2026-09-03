@@ -1,51 +1,544 @@
 {
-  "market": "TAIEX",
   "days": [
+    {
+      "date": "2026-06-10",
+      "close": 43225.54,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": null
+    },
+    {
+      "date": "2026-06-11",
+      "close": 43149.46,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -0.18
+    },
+    {
+      "date": "2026-06-12",
+      "close": 44169.04,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 2.36
+    },
+    {
+      "date": "2026-06-15",
+      "close": 45396.99,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 2.78
+    },
+    {
+      "date": "2026-06-16",
+      "close": 45809.19,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 0.91
+    },
+    {
+      "date": "2026-06-17",
+      "close": 45877.39,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 0.15
+    },
+    {
+      "date": "2026-06-18",
+      "close": 46465.2,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 1.28
+    },
+    {
+      "date": "2026-06-22",
+      "close": 47741.51,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 2.75
+    },
+    {
+      "date": "2026-06-23",
+      "close": 47100.65,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -1.34
+    },
+    {
+      "date": "2026-06-24",
+      "close": 46043.6,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -2.24
+    },
+    {
+      "date": "2026-06-25",
+      "close": 46255.26,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 0.46
+    },
+    {
+      "date": "2026-06-26",
+      "close": 44571.76,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -3.64
+    },
+    {
+      "date": "2026-06-29",
+      "close": 44999.9,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 0.96
+    },
+    {
+      "date": "2026-06-30",
+      "close": 46125.91,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 2.5
+    },
+    {
+      "date": "2026-07-01",
+      "close": 47018.99,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 1.94
+    },
+    {
+      "date": "2026-07-02",
+      "close": 46744.16,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -0.58
+    },
+    {
+      "date": "2026-07-03",
+      "close": 46780.62,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 0.08
+    },
+    {
+      "date": "2026-07-06",
+      "close": 46556.39,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -0.48
+    },
+    {
+      "date": "2026-07-07",
+      "close": 45479.11,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -2.31
+    },
+    {
+      "date": "2026-07-08",
+      "close": 45734.41,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 0.56
+    },
+    {
+      "date": "2026-07-09",
+      "close": 45354.61,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -0.83
+    },
+    {
+      "date": "2026-07-13",
+      "close": 45380.52,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 0.06
+    },
+    {
+      "date": "2026-07-14",
+      "close": 44737.95,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -1.42
+    },
+    {
+      "date": "2026-07-15",
+      "close": 45631.59,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 2.0
+    },
+    {
+      "date": "2026-07-16",
+      "close": 45624.98,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -0.01
+    },
+    {
+      "date": "2026-07-17",
+      "close": 42671.27,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -6.47
+    },
+    {
+      "date": "2026-07-20",
+      "close": 42449.7,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -0.52
+    },
+    {
+      "date": "2026-07-21",
+      "close": 44232.87,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 4.2
+    },
+    {
+      "date": "2026-07-22",
+      "close": 44825.78,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 1.34
+    },
+    {
+      "date": "2026-07-23",
+      "close": 44850.81,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 0.06
+    },
+    {
+      "date": "2026-07-24",
+      "close": 43654.84,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -2.67
+    },
+    {
+      "date": "2026-07-27",
+      "close": 43634.19,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -0.05
+    },
+    {
+      "date": "2026-07-28",
+      "close": 41603.36,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -4.65
+    },
+    {
+      "date": "2026-07-29",
+      "close": 40039.18,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -3.76
+    },
+    {
+      "date": "2026-07-30",
+      "close": 39933.3,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -0.26
+    },
+    {
+      "date": "2026-07-31",
+      "close": 43119.75,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 7.98
+    },
+    {
+      "date": "2026-08-03",
+      "close": 43386.41,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 0.62
+    },
+    {
+      "date": "2026-08-04",
+      "close": 43360.66,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -0.06
+    },
+    {
+      "date": "2026-08-05",
+      "close": 44611.6,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": 2.88
+    },
+    {
+      "date": "2026-08-06",
+      "close": 44396.7,
+      "foreign": null,
+      "trust": null,
+      "dealer": null,
+      "total": null,
+      "return": -0.48
+    },
+    {
+      "date": "2026-08-07",
+      "close": 44225.91,
+      "foreign": -481.46,
+      "trust": 6.94,
+      "dealer": -167.08,
+      "total": -641.6,
+      "return": -0.38
+    },
+    {
+      "date": "2026-08-10",
+      "close": 44928.76,
+      "foreign": -481.46,
+      "trust": 6.94,
+      "dealer": -167.08,
+      "total": -641.6,
+      "return": 1.59
+    },
+    {
+      "date": "2026-08-11",
+      "close": 45120.72,
+      "foreign": -481.46,
+      "trust": 6.94,
+      "dealer": -167.08,
+      "total": -641.6,
+      "return": 0.43
+    },
+    {
+      "date": "2026-08-12",
+      "close": 45518.07,
+      "foreign": -481.46,
+      "trust": 6.94,
+      "dealer": -167.08,
+      "total": -641.6,
+      "return": 0.88
+    },
+    {
+      "date": "2026-08-13",
+      "close": 46021.48,
+      "foreign": -481.46,
+      "trust": 6.94,
+      "dealer": -167.08,
+      "total": -641.6,
+      "return": 1.11
+    },
+    {
+      "date": "2026-08-14",
+      "close": 45811.01,
+      "foreign": -481.46,
+      "trust": 6.94,
+      "dealer": -167.08,
+      "total": -641.6,
+      "return": -0.46
+    },
+    {
+      "date": "2026-08-17",
+      "close": 45857.27,
+      "foreign": -481.46,
+      "trust": 6.94,
+      "dealer": -167.08,
+      "total": -641.6,
+      "return": 0.1
+    },
+    {
+      "date": "2026-08-18",
+      "close": 45308.68,
+      "foreign": -481.46,
+      "trust": 6.94,
+      "dealer": -167.08,
+      "total": -641.6,
+      "return": -1.2
+    },
+    {
+      "date": "2026-08-19",
+      "close": 44719.35,
+      "foreign": -481.46,
+      "trust": 6.94,
+      "dealer": -167.08,
+      "total": -641.6,
+      "return": -1.3
+    },
+    {
+      "date": "2026-08-20",
+      "close": 44933.74,
+      "foreign": -481.46,
+      "trust": 6.94,
+      "dealer": -167.08,
+      "total": -641.6,
+      "return": 0.48
+    },
+    {
+      "date": "2026-08-21",
+      "close": 45224.29,
+      "foreign": -481.46,
+      "trust": 6.94,
+      "dealer": -167.08,
+      "total": -641.6,
+      "return": 0.65
+    },
+    {
+      "date": "2026-08-24",
+      "close": 44762.32,
+      "foreign": -481.46,
+      "trust": 6.94,
+      "dealer": -167.08,
+      "total": -641.6,
+      "return": -1.02
+    },
+    {
+      "date": "2026-08-25",
+      "close": 45169.46,
+      "foreign": -481.46,
+      "trust": 6.94,
+      "dealer": -167.08,
+      "total": -641.6,
+      "return": 0.91
+    },
+    {
+      "date": "2026-08-26",
+      "close": 45832.62,
+      "foreign": -481.46,
+      "trust": 6.94,
+      "dealer": -167.08,
+      "total": -641.6,
+      "return": 1.47
+    },
+    {
+      "date": "2026-08-27",
+      "close": 45975.22,
+      "foreign": -481.46,
+      "trust": 6.94,
+      "dealer": -167.08,
+      "total": -641.6,
+      "return": 0.31
+    },
     {
       "date": "2026-08-28",
       "close": 46331.45,
-      "return": 0.77,
       "foreign": 418.0,
       "trust": -1.97,
       "dealer": 42.7,
-      "total": 458.0
+      "total": 458.0,
+      "return": 0.77
     },
     {
       "date": "2026-08-31",
       "close": 46128.47,
-      "return": -0.44,
       "foreign": -144.0,
       "trust": -40.0,
       "dealer": -74.5,
-      "total": -258.0
+      "total": -258.0,
+      "return": -0.44
     },
     {
       "date": "2026-09-01",
       "close": 46948.72,
-      "return": 1.78,
       "foreign": 267.075988,
       "trust": 136.002569,
       "dealer": 163.2954,
-      "total": 566.373957
+      "total": 566.373957,
+      "return": 1.78
     },
     {
       "date": "2026-09-02",
       "close": 46164.72,
-      "return": -1.67,
       "foreign": -913.54536,
       "trust": -35.277074,
       "dealer": -203.6158,
-      "total": -1152.438234
+      "total": -1152.438234,
+      "return": -1.67
     },
     {
       "date": "2026-09-03",
       "close": 45857.66,
-      "return": -0.67,
       "foreign": -481.459307,
       "trust": 11.418752,
       "dealer": -167.0752,
-      "total": -637.115755
+      "total": -637.115755,
+      "return": -0.67
     }
-  ],
-  "status": "seeded_5_days; run Backfill 60 trading days workflow to fill official 60-day history"
+  ]
 }
