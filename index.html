@@ -4,7 +4,7 @@
 <style>
 *{box-sizing:border-box}body{margin:0;background:#f3f6f4;color:#1d2824;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",sans-serif}
 .app{max-width:720px;margin:auto;padding:calc(14px + env(safe-area-inset-top)) 14px calc(92px + env(safe-area-inset-bottom))}
-h1,h2,h3,p{margin-top:0}.topline{font-size:14px;color:#65716d;margin-bottom:15px}.card{background:#fff;border:1px solid #dfe7e3;border-radius:20px;padding:17px;margin:12px 0}
+h1,h2,h3,p{margin-top:0}.topline{font-size:13px;color:#65716d;margin-bottom:15px;display:flex;justify-content:space-between;gap:12px;align-items:center}.topline b{font-size:16px;color:#1d2824}.card{background:#fff;border:1px solid #dfe7e3;border-radius:20px;padding:17px;margin:12px 0}
 .hero{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.hero h1{font-size:25px;margin-bottom:4px}.tag{font-size:12px;padding:5px 9px;border-radius:999px;background:#edf3ef}
 .big{font-size:34px;font-weight:800}.label{font-size:12px;color:#77827e}.row{display:flex;justify-content:space-between;gap:10px;align-items:center}.meter{height:12px;border-radius:20px;background:linear-gradient(90deg,#52c88a,#e7c42e,#ff765c);position:relative;margin:13px 0}.dot{position:absolute;top:50%;width:22px;height:22px;border-radius:50%;background:#1d2824;border:3px solid white;transform:translate(-50%,-50%);box-shadow:0 1px 4px #0005}
 .tabs{display:flex;gap:7px;overflow:auto;padding-bottom:4px}.tab{white-space:nowrap;border:1px solid #d8e1dd;background:#f7faf8;border-radius:999px;padding:8px 12px;font-size:13px}.tab.on{background:#dfece6;font-weight:700}
@@ -14,10 +14,10 @@ h1,h2,h3,p{margin-top:0}.topline{font-size:14px;color:#65716d;margin-bottom:15px
 .stock{display:grid;grid-template-columns:1fr auto;gap:8px;padding:12px 0;border-bottom:1px solid #edf0ee}.stock:last-child{border:0}.score{font-size:21px;font-weight:800;text-align:right}
 .bottom{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid #dce4e0;padding:8px max(10px,env(safe-area-inset-right)) calc(8px + env(safe-area-inset-bottom));z-index:5}.nav{max-width:720px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);text-align:center;font-size:12px}.nav button{border:0;background:none;padding:7px;color:#64706c}.nav button.on{color:#087f5b;font-weight:800}
 .sheet{display:none;position:fixed;inset:0;background:#0008;z-index:20;align-items:flex-end}.sheet.on{display:flex}.panel{background:white;width:100%;max-width:720px;margin:auto;border-radius:25px 25px 0 0;padding:19px 17px calc(24px + env(safe-area-inset-bottom));max-height:88vh;overflow:auto}.close{float:right;border:0;background:#eef2f0;border-radius:50%;width:35px;height:35px;font-size:20px}
-table{width:100%;border-collapse:collapse;font-size:13px}td,th{padding:10px 4px;border-bottom:1px solid #eee;text-align:right}td:first-child,th:first-child{text-align:left}
+table{width:100%;border-collapse:collapse;font-size:13px}td,th{padding:12px 4px;border-bottom:1px solid #eee;text-align:right}td:first-child,th:first-child{text-align:left}tbody tr{cursor:pointer}.pill{display:inline-block;padding:4px 8px;border-radius:999px;background:#eef3f0;font-size:11px}.up{color:#d95b37}.down{color:#168b66}
 .hidden{display:none}.empty{text-align:center;padding:28px;color:#77827e}@media(min-width:650px){.pred{grid-template-columns:repeat(4,1fr)}}
 </style></head><body><main class="app">
-<div class="topline" id="dateLine">等待資料更新</div>
+<div class="topline"><b>台股 AI 盤後情報</b><span id="dateLine">等待資料更新</span></div>
 <section id="todayPage">
 <div class="card"><div class="hero"><div><h1>今日重點</h1><span class="label">市場情緒</span></div><span class="tag" id="marketRet">大盤 —</span></div><div><span class="big" id="sentiment">—</span> <b id="sentimentText">資料累積中</b></div><div class="meter"><i class="dot" id="sentDot" style="left:50%"></i></div><div class="row label"><span>樂觀</span><span>恐慌</span></div></div>
 <div class="card"><h2>明日 AI 預測</h2><div class="pred"><div class="box"><span class="label">方向</span><b id="direction">—</b></div><div class="box"><span class="label">信心</span><b id="confidence">—</b></div><div class="box"><span class="label">預估區間</span><b id="range">—</b></div><div class="box"><span class="label">模型世代</span><b id="generation">—</b></div></div><p class="ai muted" id="forecastWhy" style="margin-top:12px">累積足夠資料後產生預測。</p></div>
@@ -31,15 +31,43 @@ table{width:100%;border-collapse:collapse;font-size:13px}td,th{padding:10px 4px;
 <section id="watchPage" class="hidden"><div class="card"><h1>自選</h1><div class="empty">個股詳細頁可加入自選；v0.3 先保留介面。</div></div></section>
 </main>
 <div class="bottom"><div class="nav"><button class="on" onclick="page('today',this)">今日</button><button onclick="page('rank',this)">排行</button><button onclick="page('history',this)">驗證</button><button onclick="page('watch',this)">自選</button></div></div>
-<div class="sheet" id="sheet"><div class="panel"><button class="close" onclick="sheet.classList.remove('on')">×</button><div id="detail"></div></div></div>
+<div class="sheet" id="sheet"><div class="panel"><div id="detail"></div></div></div>
 <script>
 const $=s=>document.querySelector(s), fmt=x=>x==null||isNaN(+x)?'—':(+x).toFixed(2);let latest={}, sectorData=[], market5=[];
 function page(n,b){['today','rank','history','watch'].forEach(x=>$('#'+x+'Page').classList.toggle('hidden',x!==n));document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('on'));b.classList.add('on')}
-function sectorOpen(i){let s=sectorData[i]||{};$('#detail').innerHTML=`<h2>${s.name||'板塊'}</h2><span class="tag">${s.state||'觀察'}</span><div class="pred" style="margin-top:14px"><div class="box"><span class="label">當日法人</span><b>${s.net_buy_text||'—'}</b></div><div class="box"><span class="label">近5日</span><b>${s.net5_text||'—'}</b></div><div class="box"><span class="label">近20日</span><b>${s.net20_text||'—'}</b></div><div class="box"><span class="label">5日漲跌</span><b>${s.ret5_text||'—'}</b></div></div><h3 style="margin-top:18px">同概念類股</h3><table><thead><tr><th>股票</th><th>收盤</th><th>當日%</th><th>AI</th></tr></thead><tbody>${(s.stocks||[]).map(x=>`<tr><td><b>${x.code}</b> ${x.name}</td><td>${fmt(x.close)}</td><td>${fmt(x.ret1)}</td><td>${fmt(x.score)}</td></tr>`).join('')||'<tr><td colspan=4>等待板塊成分資料</td></tr>'}</tbody></table><h3 style="margin-top:18px">相關概念</h3><p class="ai">${(s.related||[]).join(' · ')||'等待資料建立關聯'}</p>`;$('#sheet').classList.add('on')}
+function stockOpen(x){
+  const ret=x.ret1==null?'—':`${x.ret1>0?'+':''}${fmt(x.ret1)}%`;
+  const sc=x.score==null?'待資料':Math.round(x.score);
+  $('#detail').innerHTML=`<button class="close" onclick="sheet.classList.remove('on')">×</button>
+  <h2>${x.code} ${x.name}</h2><span class="tag">${x.market||'—'} · ${x.signal||'待資料'}</span>
+  <div class="pred" style="margin-top:14px">
+    <div class="box"><span class="label">收盤</span><b>${fmt(x.close)}</b></div>
+    <div class="box"><span class="label">當日漲跌</span><b>${ret}</b></div>
+    <div class="box"><span class="label">AI 分數</span><b>${sc}</b></div>
+    <div class="box"><span class="label">狀態</span><b>${x.signal||'待資料'}</b></div>
+  </div>
+  <p class="ai muted" style="margin-top:16px">5 日/20 日法人、量價異常與明日預測會在歷史資料回補完成後自動補上。</p>`;
+}
+function sectorOpen(i){
+  let s=sectorData[i]||{};
+  $('#detail').innerHTML=`<button class="close" onclick="sheet.classList.remove('on')">×</button>
+  <h2>${s.name||'板塊'}</h2><span class="tag">${s.state||'觀察'}</span>
+  <div class="pred" style="margin-top:14px">
+    <div class="box"><span class="label">當日法人</span><b>${s.net_buy_text||'—'}</b></div>
+    <div class="box"><span class="label">近5日</span><b>${s.net5_text||'—'}</b></div>
+    <div class="box"><span class="label">近20日</span><b>${s.net20_text||'—'}</b></div>
+    <div class="box"><span class="label">5日漲跌</span><b>${s.ret5_text||'—'}</b></div>
+  </div>
+  <h3 style="margin-top:18px">同概念類股</h3>
+  <table><thead><tr><th>股票</th><th>收盤</th><th>當日%</th><th>AI</th></tr></thead>
+  <tbody>${(s.stocks||[]).map((x,j)=>`<tr onclick='stockOpen(${JSON.stringify(x).replace(/'/g,"&#39;")})'><td><b>${x.code}</b> ${x.name}<br><span class="mini">${x.signal||''}</span></td><td>${fmt(x.close)}</td><td>${x.ret1==null?'—':(x.ret1>0?'+':'')+fmt(x.ret1)}</td><td>${x.score==null?'—':Math.round(x.score)}</td></tr>`).join('')||'<tr><td colspan=4>等待板塊成分資料</td></tr>'}</tbody></table>
+  <h3 style="margin-top:18px">相關概念</h3><p class="ai">${(s.related||[]).map(x=>`<span class="pill">${x}</span>`).join(' ')||'等待資料建立關聯'}</p>`;
+  $('#sheet').classList.add('on')
+}
 function market5Render(){let e=$('#market5');if(!e)return;e.innerHTML=market5.slice(-5).map(x=>`<div class="sector"><div class="row"><b>${x.date.slice(5).replace('-','/')}　${fmt(x.close)}</b><span class="${x.return>=0?'ok':'bad'}">${x.return>=0?'+':''}${fmt(x.return)}%</span></div><div class="mini">外資 ${x.foreign>=0?'+':''}${fmt(x.foreign)}　投信 ${x.trust>=0?'+':''}${fmt(x.trust)}　自營 ${x.dealer>=0?'+':''}${fmt(x.dealer)}　合計 ${x.total>=0?'+':''}${fmt(x.total)}</div></div>`).join('')}
 function render(){
  let stocks=latest.stocks||[], model=latest.model||{};
- $('#dateLine').textContent=`資料日期 ${latest.market_date||latest.updated_at||'—'} ｜ 約 18:30 前更新`;
+ $('#dateLine').textContent=`${latest.market_date||latest.updated_at||'—'} ｜ 約 18:30 更新`;
  $('#generation').textContent=model.generation??'—';
  let usable=stocks.filter(x=>x.score!=null), avg=usable.length?usable.reduce((a,b)=>a+b.score,0)/usable.length:50;
  let fear=Math.max(0,Math.min(100,Math.round(100-avg)));$('#sentiment').textContent=fear;$('#sentDot').style.left=fear+'%';
