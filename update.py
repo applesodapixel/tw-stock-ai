@@ -1,4 +1,4 @@
-import json, urllib.request, urllib.parse, time, math
+import json, urllib.request, urllib.parse, urllib.error, time, math
 from pathlib import Path
 from datetime import datetime, timedelta, timezone
 
@@ -40,12 +40,28 @@ TRACKED_SECTORS = [
 ]
 
 def get_json(url, timeout=35):
-    req = urllib.request.Request(url, headers={
-        "User-Agent":"Mozilla/5.0 tw-stock-ai/0.8",
-        "Accept":"application/json"
-    })
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return json.loads(r.read().decode("utf-8-sig"))
+    headers = {
+        "User-Agent":"Mozilla/5.0 tw-stock-ai/0.8.1",
+        "Accept":"application/json,text/plain,*/*",
+        "Referer":"https://www.twse.com.tw/"
+    }
+    current = url
+    for _ in range(4):
+        req = urllib.request.Request(current, headers=headers, method="GET")
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                body = r.read().decode("utf-8-sig").strip()
+                if not body:
+                    raise ValueError(f"empty response from {current}")
+                return json.loads(body)
+        except urllib.error.HTTPError as e:
+            if e.code in (301,302,303,307,308):
+                loc = e.headers.get("Location")
+                if loc:
+                    current = urllib.parse.urljoin(current, loc)
+                    continue
+            raise
+    raise RuntimeError(f"too many redirects: {url}")
 
 def load(name, default):
     p = DATA / name
@@ -405,7 +421,11 @@ def default_model():
     }
 
 def model_score(features, weights):
-    return weights["mom5"]*features["mom5"] + weights["flow5"]*(features["flow5"]/300.0)
+    mom5 = float(features.get("mom5", 0) or 0)
+    flow5 = float(features.get("flow5", 0) or 0)
+    wm = float(weights.get("mom5", 0.55) or 0.55)
+    wf = float(weights.get("flow5", 0.45) or 0.45)
+    return wm*mom5 + wf*(flow5/300.0)
 
 def direction_from_score(score):
     return "偏多" if score>.35 else "偏空" if score<-.35 else "震盪"
@@ -447,10 +467,11 @@ def make_forecast(days, model):
     if len(usable)<20: return None
     last = usable[-1]
     features = {
-        "mom5": round(sum(x["return"] for x in usable[-5:]),2),
-        "flow5": round(sum(x["total"] for x in usable[-5:]),2)
+        "mom5": round(sum(float(x.get("return") or 0) for x in usable[-5:]),2),
+        "flow5": round(sum(float(x.get("total") or 0) for x in usable[-5:]),2)
     }
-    score = model_score(features, model["weights"])
+    print("forecast features", features)
+    score = model_score(features, model.get("weights", {}))
     direction = direction_from_score(score)
     confidence = round(min(80,max(52,52+abs(score)*6)))
     rets=[x["return"] for x in usable[-20:]]
@@ -460,9 +481,9 @@ def make_forecast(days, model):
         "prediction_for":next_weekday(datetime.fromisoformat(last["date"]).date()).isoformat(),
         "made_at":NOW.isoformat(timespec="seconds"),
         "direction":direction,"confidence":confidence,"range":range_text,
-        "reason":f"近5日指數動能 {features['mom5']:+.2f}%，三大法人合計 {features['flow5']:+.2f} 億；模型權重 動能 {model['weights']['mom5']:.0%} / 法人 {model['weights']['flow5']:.0%}。",
-        "model_version":model["version"],
-        "model_generation":model["generation"],
+        "reason":f"近5日指數動能 {features['mom5']:+.2f}%，三大法人合計 {features['flow5']:+.2f} 億；模型權重 動能 {model.get('weights',{}).get('mom5',0.55):.0%} / 法人 {model.get('weights',{}).get('flow5',0.45):.0%}。",
+        "model_version":model.get("version","baseline-0.8.1"),
+        "model_generation":model.get("generation",0),
         "inputs_snapshot":features
     }
 
@@ -542,9 +563,9 @@ def main():
         "target_market_days":60,
         "stock_detail_count":len(stocks),
         "sector_count":len(sectors),
-        "engine":"v0.8"
+        "engine":"v0.8.1"
     })
-    print("v0.8 updated",len(days),"market days",len(stocks),"stocks",fc)
+    print("v0.8.1 updated",len(days),"market days",len(stocks),"stocks",fc)
 
 if __name__=="__main__":
     main()
