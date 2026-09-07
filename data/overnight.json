@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-04T18:31:21+08:00",
+  "updated_at": "2026-09-07T18:32:11+08:00",
   "bias": "中性",
-  "confidence": 54,
-  "score": 0.7,
+  "confidence": 52,
+  "score": -0.35,
   "markets": [
     {
       "label": "S&P 500",
@@ -25,73 +25,59 @@
   ],
   "headlines": [
     {
-      "title": "Supermicro 採用 NVIDIA RTX PRO Blackwell 伺服器版 GPU 的解決方案 - Supermicro",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRmE5ckxVTE54TUlmczhxbEVNODRrMXluR0xob05VS2dwM0JsTWhwZG1TVmwzX0JNSnlOemh0ME03MkpJOFBISTBncW01R2lhT1RuX1c3M0xMekJVa0JFUjhIbzFJc1dDdFZsTy1qXzVlOEJSWnYwS0V5cHAxVFYxMw?oc=5",
-      "published": "Fri, 04 Sep 2026 02:21:15 GMT",
-      "source": "Supermicro",
-      "impact": 0
-    },
-    {
-      "title": "【美股財報前瞻】戴爾營收叩關450億？AI 伺服器毛利戰，台廠這4家最關鍵！博通財報如何牽動台積電、日月光CoWoS供應鏈？｜豐雲學堂2026 年 09 月 - sinotrade.com.tw",
-      "link": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxNMDZ1ZEJBcnViQVVya0FwVHIyb3drUGFQLXQxQTFMZ1VFWnJwRmVWU2FxVEtrVHlXcmw5ODFCd043UWoxTUI1WXdfZWM4QTBELTNNMHprWklUcUJxelhDOW5SbEt1S1NTSkR0WWVKcHQwSHV5WlNtbXBTR1NvcU1XRXgyQnF1QnNmMTRSWjNiT013aXZ5a0lGYl9FR2FwRkIzTmt2dHlNbUl6T3FjdzQtQnhHejNNWXBRQzRiZHMzTUg0ZFNLQkNNdUp2UFVFbzI5WVlaTTZaSld4aHQ2QkJYN2dSdjBnUHUtdlFZb3ZaaVFiTHkzckFBcDFpaFZMb2ZVaExsaUdyN1RyTHk2OThmcFZydDJhdkNjbWdfYlpmanZaT28wUHJtUTBJMnB5MHNYTktOd1haN25Kbk1VVi1PRUVZNDA2T1VPNUxldDRrVTMzVFN0UGliMG1MWlpVclJLeXpFYjd0YmppWlE1SkwwWl9TNGd6dG1qOTJZ?oc=5",
-      "published": "Thu, 03 Sep 2026 03:26:07 GMT",
-      "source": "sinotrade.com.tw",
-      "impact": 0
-    },
-    {
-      "title": "上市櫃公司下周公布營收 韓國8月出口靠HBM創造68％年增率 台廠也不會太差 - 信傳媒",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1jZTFLWWNpeDllOVJ0ekdsbXJuUDA0cmdlNV9ubmJiNVlVdFc0WVBrTVhlNEdzSzFuaWdzQ1lHWE5hRVpJTDlzYkpXaEQ0NXRfZnRZaFp2aG4yQQ?oc=5",
-      "published": "Fri, 04 Sep 2026 05:15:00 GMT",
-      "source": "信傳媒",
-      "impact": 0
-    },
-    {
-      "title": "AI伺服器拉貨動能強勁！巨頭齊推新模型，博通AI營收看增186%帶旺台積電-財經焦點情報站 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVldLNjVYYWxwemJiaUxRSlBOVGFmTER0RkdYUXRRODU0bHZLWDk1MWxSQTA5U0owRVliY2RTODFwX0MzeGVnZElxei16c1V1WFVWSGFYa0NkeUFiY0lCOWtPUzBHZDhPWWRsM3Q2ckVSUnZQWkN5UGpkT1R4aEJYRmFn?oc=5",
-      "published": "Thu, 03 Sep 2026 17:33:46 GMT",
-      "source": "CMoney投資網誌",
-      "impact": 1
-    },
-    {
-      "title": "【美股快訊】Dell股價續飆7%，市場持續消化AI伺服器訂單利多 - 優分析UAnalyze",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91NGFzWHJLX295WS0wc2FURzBjX1A4MTlKSGI3aHR4UFU5MmZrRGpRc3c2Z3k3bXkxR0FoQ3BtSWtZZ0Fjck1uUWpCS0lZcnBQYTk1a2xR?oc=5",
-      "published": "Thu, 03 Sep 2026 16:16:40 GMT",
-      "source": "優分析UAnalyze",
-      "impact": 1
-    },
-    {
-      "title": "台股漲693點！成交破兆 電子股全面走強 - 財經新聞 - PChome Online 新聞 - PChome Online 新聞",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc1hTdHhSNFlqWTN1bGY2a2QzVUxyMmdKdWVEbVpfZkQxZWR2WnlWckxvZzc5ZGFDWWFMcFAxVC0tVHFsSFpxNUw5R1pnSVhkM1pGMGpkZ01tOXZ1R25VSmxKNE1PTzVvd2xvM0ZNMm5JbDNHRVlJOGhHRHdrOVVHOTJ1THlqVU13TkVV?oc=5",
-      "published": "Fri, 04 Sep 2026 06:10:49 GMT",
-      "source": "PChome Online 新聞",
-      "impact": 0
-    },
-    {
-      "title": "黃仁勳再下一城！NVIDIA收購Hugging Face劍指兆美元AI 推論市場 - onegeek1979.com",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBpZG5IUWFOUnI0ZkFhb3NkZVZ6d0NsZ2kxdzN4czZsNEFYeVNJYXFma2I4Z3VoMHlvRE1YVGxkTnI4QXNhNE5zNGpn?oc=5",
-      "published": "Fri, 04 Sep 2026 04:49:26 GMT",
-      "source": "onegeek1979.com",
-      "impact": 0
-    },
-    {
-      "title": "DRAM、NAND「缺到爆」！戴爾AI伺服器需求炸裂、訂單衝950億美元 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91N0FCTHAxYUhVeVIycDBuYTRPQVBVWEVyODlMajhlMUtrcnJ6b1pXRDFZTUVvR1F3U0R3LThLVm5fRk5GU1Y4NXY5TWtBMUE?oc=5",
-      "published": "Wed, 02 Sep 2026 03:10:05 GMT",
+      "title": "華碩深化夥伴策略合作 全球AI Tech高峰會揭示全方位解決方案 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ZTDFvOVFoVGtzZkZPNndWUlk3VFBTOXFueU5nS3phWTlUN3UwWml0amI0ZVo4bkg4NTI2aEZIYzdzM0V3V21GanZhcnZ2WWc?oc=5",
+      "published": "Mon, 07 Sep 2026 08:30:30 GMT",
       "source": "news.cnyes.com",
       "impact": 0
     },
     {
-      "title": "美股：AI伺服器熱潮續燒，戴爾股價週四再漲4.71%續破頂，兩日飆逾21% - 富聯網",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZmpJaWp6em50YUdNV3VwOW1sWllrNUI2UWdyazVIVm1vN3FiVWxXMWRlRmxodkNCUzJLd2hXZGwyOUxtVGN0dVFxc3lsLUwxTmtJS05FbWd5dGNIeDhMMnh2cmVnWUc5eVVtLXhESkY2NmtHZDBTZTlmZmZpMDF5Q1ZuUHFGM2d4?oc=5",
-      "published": "Fri, 04 Sep 2026 00:46:00 GMT",
-      "source": "富聯網",
+      "title": "MSI XpertStation WS300 搭載 NVIDIA DGX Station 架構出貨 - technews.tw",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1sa0ZFOHNjZFFYRUJ1dU9kU293T3l2dlp4UVFGMFg4NjlpMXJfSjVxOFVROGtRc0VnQ0JxOXlVbmFuMGNJSkREaE84NTlicmdiNl96c05pQk1maUZSRDcwbFNpREZWcFc4QjUxaEIybkhmdmVVWmM0NjNEUk9wdw?oc=5",
+      "published": "Mon, 07 Sep 2026 06:01:36 GMT",
+      "source": "technews.tw",
       "impact": 0
     },
     {
-      "title": "戴爾財報／AI伺服器需求超旺 全年營收大幅上調250億美元 盤後狂飆8% - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBhX2MxTVpBNlNFUG4tNWYxNTBPVFZaanlxR2RCR2xYYUVBTzc5ZE5wQ3BGVUVrQkVFSURWcXB2SFc3N3ZHRlB4VFlKUVVoTnVuTEFwdUpJNDFfS05r0gFiQVVfeXFMUExlbk1CTkxLSGEyalRZRHA0QTJnVlNhOGUzSG1CWXZ4VnY3VnV5c1JiMVhxWmtsMTQzM195SEVkd09Eb3JuY2YycXBCUnd6NHlTNjhHUE43RGw3WGRYX2UzY0E?oc=5",
-      "published": "Wed, 02 Sep 2026 00:22:51 GMT",
-      "source": "經濟日報",
+      "title": "中企遭美制裁後仍取得輝達先進AI晶片 疑透過子公司繞過出口管制 - TVBS新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84dWhJSllrZ1dYY092eHBZc09nYk53cTJaOHZ2NkUwaTJSeUlzV0w5T3N2VzRPdkYwUDFSMGNCa212Q0pJTU9hV2MzdE52dw?oc=5",
+      "published": "Mon, 07 Sep 2026 09:17:00 GMT",
+      "source": "TVBS新聞網",
+      "impact": -1
+    },
+    {
+      "title": "(DELL) 戴爾 做什麼？從PC巨頭到AI伺服器龍頭，營收成長、護城河與台廠供應鏈全解析 - pocket.tw",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9YZjRnemFidUdIMGl2WkYtcVZacHcxQnQySGlwUkpVRkRWWWRPX3Z4Y0JxZXpRa05xTW1yWEQ0ZHVPeldQRHE4eWQ0TVYyb1RPNmNEOVQ2MA?oc=5",
+      "published": "Fri, 04 Sep 2026 07:00:00 GMT",
+      "source": "pocket.tw",
+      "impact": 0
+    },
+    {
+      "title": "亞馬遜上修資本支出掃貨 AI 伺服器！世芯、緯穎、鴻海下半年業績爆量可期 - 鏈新聞 ABMedia",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQLWxETFZ6S1JiUjRVVzFxeE1ETkFBaTVLaHlxWjA5bUpRZkRvdTJucVBJb0Fkd1pTN3ZWNkhvYWZkemRON1ZnckV5dGRsNjhlZFFkUmtnZmpmZXQ3UXVVS29nSVFxNS1hMHM4QmpIWHJWc0V0Sm5fMTg0UnB0M1BaLUhSSHI0dG1rUVE?oc=5",
+      "published": "Mon, 07 Sep 2026 03:24:56 GMT",
+      "source": "鏈新聞 ABMedia",
+      "impact": 0
+    },
+    {
+      "title": "【美股巨頭】Dell暴漲16%，AI伺服器需求炸了-CMoney 研究員 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQnFxaWZub2tvWWdZTzVrV3BpTE93WmxQVjdKNE53T2l2alBNUzVQSktBVDNpUHhDbEpnb29Fak9vS210YzVlVVBVSlhudlZ1SE45QzFMOTRsRWZpeG9nQVI0U09WOXFrSnZzZ2JqSEpmcUJOeTE1SnF4cWRUVWhEdHVFMFJNUlYtUW5tVl9B?oc=5",
+      "published": "Sat, 05 Sep 2026 22:30:13 GMT",
+      "source": "CMoney投資網誌",
+      "impact": 0
+    },
+    {
+      "title": "2330 台積電 - 【美股巨頭】Dell暴漲16%，AI伺服器需求炸了- 股市爆料同學會 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5aY2djUmpnczlTM09pZmZ2SkZLck9TY0c1ZFRXYzZEUVgtdmxWbWRSZkRER1NsUTd3Vkt3OUtFNU5RLXlkLV8xUDdib3JEWU1INVZHNlRDaEQ?oc=5",
+      "published": "Sat, 05 Sep 2026 22:30:23 GMT",
+      "source": "CMoney",
+      "impact": 0
+    },
+    {
+      "title": "飆股幕後》擴大AI伺服器布局 永擎漲停創歷史天價 - 自由財經",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1nOE5lbnBDUE94bzJOZFh5UHBpeFQzZ1VNbUFEeFduOWVBYTZvRHRvanVqcy1WdTJwX0lCNjZhY3hHeVg0bEFOdkQ0R0gxWVU1eHNGaWZn0gFbQVVfeXFMUFJNZXFIc1hOandwMmE5RG82YzdsRWFMUEI0UGVFNHExejBqR1VkT2RmYnh4ZmpyQmw1TktXZnIxVHJleWJidC0zS09SZkJscFlSZTYtVTFhc2NpZw?oc=5",
+      "published": "Fri, 04 Sep 2026 21:30:00 GMT",
+      "source": "自由財經",
       "impact": 0
     },
     {
@@ -102,10 +88,24 @@
       "impact": 0
     },
     {
-      "title": "記憶體成本攀升，NVIDIA 明年起調漲 AI 伺服器價格、漲幅逾 15% - TechNews 科技新報",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcGIwOTlIQzJ2a2pwLUNheE93NHhRVWFkOWZ6U1Nfak1jOXFEcFJfcmhkZm0ycTQ0X3NXS2hHbU5OSmNNRVlMclhwV1F1YkxZRUhxb0w4ZzJnNnVadTR4VkJXZ0YwZWRQQ1FVU2tWY19Da3J4TGVVbUo2S24taDR4ZUE0X2dhSWNTTnUzY0V1bW1oUURBRTBnN1RtMjd4em9FcFE?oc=5",
-      "published": "Sun, 23 Aug 2026 07:00:00 GMT",
-      "source": "TechNews 科技新報",
+      "title": "戴爾財報／AI伺服器需求超旺 全年營收大幅上調250億美元 盤後狂飆8% - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBhX2MxTVpBNlNFUG4tNWYxNTBPVFZaanlxR2RCR2xYYUVBTzc5ZE5wQ3BGVUVrQkVFSURWcXB2SFc3N3ZHRlB4VFlKUVVoTnVuTEFwdUpJNDFfS05r0gFiQVVfeXFMUExlbk1CTkxLSGEyalRZRHA0QTJnVlNhOGUzSG1CWXZ4VnY3VnV5c1JiMVhxWmtsMTQzM195SEVkd09Eb3JuY2YycXBCUnd6NHlTNjhHUE43RGw3WGRYX2UzY0E?oc=5",
+      "published": "Wed, 02 Sep 2026 00:22:51 GMT",
+      "source": "經濟日報",
+      "impact": 0
+    },
+    {
+      "title": "【美股快訊】Dell股價續飆7%，市場持續消化AI伺服器訂單利多 - 優分析UAnalyze",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91NGFzWHJLX295WS0wc2FURzBjX1A4MTlKSGI3aHR4UFU5MmZrRGpRc3c2Z3k3bXkxR0FoQ3BtSWtZZ0Fjck1uUWpCS0lZcnBQYTk1a2xR?oc=5",
+      "published": "Thu, 03 Sep 2026 16:16:40 GMT",
+      "source": "優分析UAnalyze",
+      "impact": 1
+    },
+    {
+      "title": "將地端AI伺服器搬進客廳！綠聯推出搭載NVIDIA Jetson Thor、要價2萬美元的智慧中樞MasterAgent - Mashdigi",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOMVFjSzAzSkVSYUlRd2g4c1I2eHJwSk5BSWdDNEdLdW1TYkQ0VHZqMUhiTmNVZFlUR0NldlhUMzF2SmpJTXdOSEk2dGZoUDRuV21BbEJRa3pXcFB5UzFBVFlUWm91aWZfdFdwV1A5UEdWd1dnR1FZRXFUd1IwWnlka1FXbzVBWjBVX2pSbGZwX050NVI2QkpIZGVEZ2h1VEROcFVXWk8yMUdMWS1BLU9qRHNaTEtiWHEwNnRfbEVKUHN2RTFqb2ZrSHVkd2k0NEN4cE1lVXc2ZDhyUUx1OWdNdEhYY1l6WjVKTWpON01NSENPVGJ1cHJtbnp3?oc=5",
+      "published": "Sat, 05 Sep 2026 01:00:16 GMT",
+      "source": "Mashdigi",
       "impact": 0
     }
   ],
