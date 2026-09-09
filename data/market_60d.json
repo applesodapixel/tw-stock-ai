@@ -1,22 +1,13 @@
 {
   "days": [
     {
-      "date": "2026-06-15",
-      "close": 45396.99,
-      "foreign": -481.46,
-      "trust": 6.94,
-      "dealer": -167.08,
-      "total": -641.6,
-      "return": null
-    },
-    {
       "date": "2026-06-16",
       "close": 45809.19,
       "foreign": -481.46,
       "trust": 6.94,
       "dealer": -167.08,
       "total": -641.6,
-      "return": 0.91
+      "return": null
     },
     {
       "date": "2026-06-17",
@@ -539,6 +530,15 @@
       "dealer": -185.4,
       "total": -99.86,
       "return": -0.47
+    },
+    {
+      "date": "2026-09-09",
+      "close": 47183.36,
+      "foreign": 209.24,
+      "trust": 30.4,
+      "dealer": -18.84,
+      "total": 220.8,
+      "return": 0.16
     }
   ]
 }
