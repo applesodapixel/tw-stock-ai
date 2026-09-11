@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-10T18:32:53+08:00",
+  "updated_at": "2026-09-11T18:32:17+08:00",
   "bias": "中性",
-  "confidence": 52,
-  "score": 0.35,
+  "confidence": 50,
+  "score": 0.0,
   "markets": [
     {
       "label": "S&P 500",
@@ -25,45 +25,73 @@
   ],
   "headlines": [
     {
-      "title": "緯創 AI 伺服器出貨翻倍，美銀喊目標價 265 元 - TechNews 科技新報",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9OOTB0c2dSc2lGSkNsNkFjQTVJdEdrT3hNNmVINHVSYnZVd3hsdFV5eFI2Z0hUczl0SkV6S1RRUEgxalBEX2hnbGd2bTd4RnhoMVhrTTN4Y2NlMUlvbFlCUjFTZVE4SHpVUlRV?oc=5",
-      "published": "Thu, 10 Sep 2026 06:02:55 GMT",
-      "source": "TechNews 科技新報",
+      "title": "ASIC接入NVLink NVIDIA把戰線拉到AI機櫃 - CTIMES",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqNTdpeHpzWWNSV212LVlMdjdWdHBxZzJiWG5QNTFnUlNoNG50aEMyMWh3dGtTd1FzT0RJUmRpQXRuZ1BfMUhfT0FoR24zVktLTTBCYUdyalV3dWhraDhrTWxuTlg?oc=5",
+      "published": "Fri, 11 Sep 2026 07:53:20 GMT",
+      "source": "CTIMES",
       "impact": 0
     },
     {
-      "title": "緯創擴美、越伺服器產能| 產經 - 非凡新聞台",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmTTdISDMtNGxVM1o1NHZGaWFzVms0ZWQzeExUdi1VZnRoV1RWckhyQjk1aTdQYWxRcjlMVHdkcmVnWi1aZjFKNWdKNkt5dzBFX1JtZk5OZnBjbkZOMktLVg?oc=5",
-      "published": "Thu, 10 Sep 2026 02:05:49 GMT",
-      "source": "非凡新聞台",
+      "title": "AI伺服器、被動元件營收達成率領先！法人點名創意、川湖等6檔 下半年動能續強 - FTNN 新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5JVXhlUjIyQUVOSGpUN0laRE1JczZ1OHlmaGl1bDQ2dEtpV3pLM3QtQlY1V1JZbGt5bm1lMEZKSlFfb2VJT2lqUnFHMA?oc=5",
+      "published": "Fri, 11 Sep 2026 09:10:00 GMT",
+      "source": "FTNN 新聞網",
       "impact": 0
     },
     {
-      "title": "【美股巨頭】亞馬遜砸16億綁住台灣緯穎，在美國本土造AI伺服器 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTUNwdGpNRUVYWnpsSlF3bHZRNEJ6dkJ1ZXl4X1pXLTl3alZsZGtwektFV2V0eGJ4U1VyckJ3bzBUcGdpVzF1Y0tTSUZIcnE1dnFVV29HazFYLXh6aC1sMXFnZFVUMS01QW50MUJkUWU3VThYSEFmbHJCNXdZb0JIeTFyUEZoT0pIWXNTeU93?oc=5",
-      "published": "Thu, 10 Sep 2026 02:32:20 GMT",
+      "title": "美股科技股走弱，台股先看台積電與AI伺服器賣壓收斂嗎？-孔明投資長 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5uMkN6SXFCM2Z2NmthOGh2X2dmYXVtVGRmWFJpU0w1d2dqUmhrcEM0MGxZTlc3SUVRS0tLaVlBZUpDeTlRSmFiWVRvc1hJdnNKZTVETlUzNkEzNEtOcXBneFR6WmhRdDlLTzZqT3NQLXpZMTFuc1EzUDlrc0ZmblE?oc=5",
+      "published": "Fri, 11 Sep 2026 02:19:25 GMT",
       "source": "CMoney投資網誌",
       "impact": 0
     },
     {
-      "title": "AI不只拚伺服器！機器人新商機浮現 這檔ETF布局台積電、聯發科等半導體股 - tw.stock.yahoo.com",
-      "link": "https://news.google.com/rss/articles/CBMiwgNBVV95cUxNOUlnSWRncG53VTQ5UjRZYm41d1FidU9EX0FrQktZUDhhRkdMR2VVeTNlWi1jUTNEcXU2UThlRFgxdUxQd3Mxb244a2prQzhaSk4xX3pFSF9YVnRRbzlKUXk2YXB5N042R0Y5TlhNYy05bTVKUDQ4UXFic05hQmxkWmNYdUVoOGRrMGtDSVN3dGtxWTV6RVRBWkVfZkJ6Qkd5ckdCWGRQSDNOTC1Zd19vWXJZR3dBSjFYZW9EdHl6ZTFxSFo1YlVTOVdUNmNBZ1EwN1ZlNDBpR0gwMl9sc3ZkNTZYU0c3VnZGN0g0ZzExZjNHMFF5c3dRcGo2MVJTS3k4dUVIMUd4S2hxVVU4cGRvQzJrLVM0Sy05T3RjV2RkRGo4NklvejY5V1llbENFRy04N0pwS2tyc2xVMHZsSGVtWmw1UUc1ZC1TZHlObFVxZU5ZTGRGckZCNnViQU5iUzhTY1JOeWY2cTlEQko0Y3VrSTdLcWk3ay1NU0RQLThOb1pILUFRVk5nQ2dHRGp1OUNrbFJoaVNtVnJIMGZ3TlJYcUFtNmh6Z2N3MHJPNGFHYjhBOENCa0R1U041V2Uzd0dWbkE?oc=5",
-      "published": "Wed, 09 Sep 2026 05:31:00 GMT",
-      "source": "tw.stock.yahoo.com",
+      "title": "AI拉貨台積電吃滿！2奈米接棒均線可布局法人喊買| 財經 - Newtalk新聞",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LV3R1LUFJa0wtcE5PemNGM2t3VVVWR2FfR0VlcVBmSUNZb0FjUzdRUHFpdXBvZEt0YVhfMFpIZ0d4ZF92NW45STB6Q09EQkdoNmNhWTBDT1dacDQ?oc=5",
+      "published": "Fri, 11 Sep 2026 06:49:27 GMT",
+      "source": "Newtalk新聞",
       "impact": 0
     },
     {
-      "title": "【優分析即時新聞】微星(2377)毛利率衝上15.97%創高，RTX Spark接單熱、AI伺服器拚2026翻倍 - LINE TODAY",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aakc5R3Y2V1JmZUR4REFKRFpyZ3Q4WFlRQjl2b2M1YkJRcG0tRlhzbzdwZ09DMm9FZmxibmR4Zm01XzNjRzR2ZmF6OW9XZklrN3U1dlJB?oc=5",
-      "published": "Thu, 10 Sep 2026 03:58:13 GMT",
-      "source": "LINE TODAY",
-      "impact": 1
+      "title": "AI伺服器走私案頻傳 學者：台灣應嚴查非法轉運 - 大纪元",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pclJNOEItelg2TmVDdUJkNWFhT0VMczdHLWNETmVZemRocHZpcXBwV2Fka3BKNXB4clRGOFhicEotVHplVzJFU29ZOUxjc3lzMnBhMmo4c3EwYnRqTmFGa9IBZkFVX3lxTE95d1FDb2RzaUZ5ek5yR29VM0FUTVg2cDl1NmxqRGx6XzNqMHBfMEppZDJBZURBMXlZLWlVMnhFZEp3MjdqWklqcVlQLThxUEdlNzNjcHpmSW5rNC1Wd3dTSE9LX2FXUQ?oc=5",
+      "published": "Thu, 10 Sep 2026 18:20:00 GMT",
+      "source": "大纪元",
+      "impact": 0
     },
     {
-      "title": "(DELL) 戴爾 做什麼？從PC巨頭到AI伺服器龍頭，營收成長、護城河與台廠供應鏈全解析 - pocket.tw",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9YZjRnemFidUdIMGl2WkYtcVZacHcxQnQySGlwUkpVRkRWWWRPX3Z4Y0JxZXpRa05xTW1yWEQ0ZHVPeldQRHE4eWQ0TVYyb1RPNmNEOVQ2MA?oc=5",
-      "published": "Fri, 04 Sep 2026 07:00:00 GMT",
-      "source": "pocket.tw",
+      "title": "AI不只拚伺服器！機器人新商機浮現 這檔ETF布局台積電、聯發科等半導體股 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMiwgNBVV95cUxNOUlnSWRncG53VTQ5UjRZYm41d1FidU9EX0FrQktZUDhhRkdMR2VVeTNlWi1jUTNEcXU2UThlRFgxdUxQd3Mxb244a2prQzhaSk4xX3pFSF9YVnRRbzlKUXk2YXB5N042R0Y5TlhNYy05bTVKUDQ4UXFic05hQmxkWmNYdUVoOGRrMGtDSVN3dGtxWTV6RVRBWkVfZkJ6Qkd5ckdCWGRQSDNOTC1Zd19vWXJZR3dBSjFYZW9EdHl6ZTFxSFo1YlVTOVdUNmNBZ1EwN1ZlNDBpR0gwMl9sc3ZkNTZYU0c3VnZGN0g0ZzExZjNHMFF5c3dRcGo2MVJTS3k4dUVIMUd4S2hxVVU4cGRvQzJrLVM0Sy05T3RjV2RkRGo4NklvejY5V1llbENFRy04N0pwS2tyc2xVMHZsSGVtWmw1UUc1ZC1TZHlObFVxZU5ZTGRGckZCNnViQU5iUzhTY1JOeWY2cTlEQko0Y3VrSTdLcWk3ay1NU0RQLThOb1pILUFRVk5nQ2dHRGp1OUNrbFJoaVNtVnJIMGZ3TlJYcUFtNmh6Z2N3MHJPNGFHYjhBOENCa0R1U041V2Uzd0dWbkE?oc=5",
+      "published": "Wed, 09 Sep 2026 05:31:00 GMT",
+      "source": "Yahoo股市",
+      "impact": 0
+    },
+    {
+      "title": "NVIDIA攜手Palantir將「主權AI」導入關鍵供應鏈，首波應用於自家Vera Rubin伺服器產線 - mashdigi.com",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQRG94amI3QmhhNFBkWjBMOENBQ0NHZVdiQjA1XzlFN0ZaOXZneWdJOUpxSUhIdEpnZF9kWGNCQjI2cU1DZURCUzJtc0poMkR4TFBMRWdNMlRVUXAwMm15dnZVOC1xWVZwU2lhMW1XN245QmJVLVlLMV9KZnZLZi1XaXV0VU1qUko1VXB4NXBwdXZmLUNfRUR4MGk5aERCOW5yT0lFalJRczZNTTFFMDJpRkljanBRMHRwYjctekFQbWY1M3lDdFpmSlNxTUtaOUxVa0hyUGdNYXhxYXdRTS1fcjY2azdxTkgzMnhkdGRjVUhwWkNFdW92XzN1b2RFSnU4Tk9RSzF3WElXT0xULUMwaG4yWWttTEZjWng1dA?oc=5",
+      "published": "Fri, 11 Sep 2026 00:53:20 GMT",
+      "source": "mashdigi.com",
+      "impact": 0
+    },
+    {
+      "title": "AI需求撐盤 台積電8月營收5148億元創單月新高、年增53.3% - PChome Online 新聞",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOFRVVEpkT0pIdUR4MGtyUGR4SWx3aVVfZ0tOajRKYjNZSXZHWTJmaHJGMkxpNkEwVlI4eWpMRWp0NGtPYTB0NUhkMFg3MDZnS1NKWlduZy1CRkwtSGhVYWhYek1MTkhlM0hwVXhtWlkxSXJUOWV2d2xwaURsRHZUMjNabHROOFdhRkRMWA?oc=5",
+      "published": "Fri, 11 Sep 2026 02:17:09 GMT",
+      "source": "PChome Online 新聞",
+      "impact": 0
+    },
+    {
+      "title": "緯創擴美、越伺服器產能| 產經 - 非凡新聞台",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwYkNsRXlJYTdGSHJLNzRUSDNDdXlxX1ZHMjBvaHIwZVJwQTVieEp6RWJncDdLQVA1NVJGWVZWLVJmQzRlblFsUUFnVl81NFI2bzVYR3laVFBEWG9PT1c4?oc=5",
+      "published": "Thu, 10 Sep 2026 02:09:37 GMT",
+      "source": "非凡新聞台",
+      "impact": 0
+    },
+    {
+      "title": "費半狂飆台積 ADR 暴衝！三大法人豪買千億攻破四萬七，聚焦晶圓代工與 ASIC - TechNews 科技新報",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWlFGYXRYcWJxQ0s5UHk2UGlNT2liazJkRlJGazRwaVFvcHFZZGowLXowQm1YdHcwQk5vRGlUV3BGQTBRR2NEQUFHMF9wNXE4ZDZjYXRVcGtaVDAxU0RqbzhXd21jcW51NnpJRkZadC1iWUdWZXE2eFI5clAyb25QVU9jOVRQNWlTU25NOVdQeDZaWkkxN0R2SDVtWmRaSzhfYnBqcEFFSFdXbTU4aVM5TVJDTURGNGpYcmk0QTlB?oc=5",
+      "published": "Tue, 08 Sep 2026 03:04:50 GMT",
+      "source": "TechNews 科技新報",
       "impact": 0
     },
     {
@@ -78,34 +106,6 @@
       "link": "https://news.google.com/rss/articles/CBMimgVBVV95cUxNcXkyYzl3eTZkaEdWU3AwcWVER2Z2NmhRSW1BVWMxZmQ3eEluODZUb05wVml6VTlfenl1VVdlYjNZSFBjUkFhdUJxZEJLaFhna2pRZ0g1YmNENjB0eDhrS0NZUjYzWnNUT0RORUNRT19HYzE3QzJFWnpfV3NPalJaTU9PbktaaFVJdjV4SVZvb1JZMXlFQnU3Uy1qenZhaUdlejZzRUxYdWwxb19CTUc4dVlnZ0xTVGpaWWdBZUhYVXNqckowdXY5NFFIVlpxbFlHUFh0N2hXeVB0WFMxQi03RGVVVmRnaklsVmVPLU5RVmI5QU9hQ0pkUFF1YlpOcU03b1FRMTQzVjBlMlVaZGxURXVranpOSkI3bFBHZ2FudkFaTWlwZndVR0lnUFJMVm1xREt3YTJNSExHNXVpZ2VBczY2al9hU0JHOE5vbG5TMVZWUW9KYnNQX0txOVBWNnl4MVBQdDlBZ0tCSl9QbUtXd2ZYa21aQXdjaXVqQVA1UEVNYWRhRlNwSlVsT1g4Q3BzanVSZ0JoT014TDFHaFM1VkZfVWdUdnFXajRyVzNZWTZzSkRxNGVEdzFQSVJMNkpoM2s5Si1WZWd1S0FsbWNubXVJYmNCSVdWVGxXYXN2YlpiVk0xY0lLRFdIQ08wUElybWV5dlJaR3RqTDVkYmVYcXlLWVlud3kwY1c4ZFZsUE44OHJnTWZNSTF5WlNRcGoyLUJLZzdTLXU0VHZPeVJVWUJ0VTdaSGhHNE92UHBZblZ2NENWT1R1VktpclQyaXV0U3ZSaXBYZ0c1WUlCc0pqQjlNNFZ1empXTEE1dnEyV3JJRmRHYTVtMjY5Z2J2b0JXNUdDd2ptb2k0allaTlUtTEJLb2p4SnUxNnc?oc=5",
       "published": "Thu, 03 Sep 2026 03:26:07 GMT",
       "source": "sinotrade.com.tw",
-      "impact": 0
-    },
-    {
-      "title": "2330 台積電 - 【美股巨頭】Dell暴漲16%，AI伺服器需求炸了- 股市爆料同學會 - cmoney.tw",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5aY2djUmpnczlTM09pZmZ2SkZLck9TY0c1ZFRXYzZEUVgtdmxWbWRSZkRER1NsUTd3Vkt3OUtFNU5RLXlkLV8xUDdib3JEWU1INVZHNlRDaEQ?oc=5",
-      "published": "Sat, 05 Sep 2026 22:30:23 GMT",
-      "source": "cmoney.tw",
-      "impact": 0
-    },
-    {
-      "title": "Cerebras挑戰輝達台積電5奈米打造新AI伺服器第3季上市| 國際 - 中央社 CNA",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE51WWs1SzVoQ2hveDdhajh3Wk5XU2pTclZYZjNrd1FuWHc4c0ktSElpRWhXS013QnlOeWk0YlJFVVNJU2E0TFRUc2N3Q0Y4Z1hmT3dlNmFvM01oVUNYR2lF?oc=5",
-      "published": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "中央社 CNA",
-      "impact": 0
-    },
-    {
-      "title": "輝達AI伺服器喊漲15%！台廠供應鏈吃補 6檔成焦點 - ETtoday財經雲",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9UTTMyN2tLOXozSzNWMWp3dy11SWRNb2VKRnRCVXBuZ0h2VVQ3andReFJPdkJSZzFORTM1aHE0UUZBbDVnSDExTjFfRWJGdVdFTkHSAVBBVV95cUxOdGhiZjZvM0hpekZFbk5ucko2Ml93TUVDWEQ0YzEwZjJiWFJCMGhaVFF5N0JwQXlPOF9ZcTM0bElfTllnRzJKN1EzVGN1aUdWZg?oc=5",
-      "published": "Sun, 23 Aug 2026 07:00:00 GMT",
-      "source": "ETtoday財經雲",
-      "impact": 0
-    },
-    {
-      "title": "緯創 GDR 折價發行拖累股價下跌，AI 伺服器龍頭估值仍低於同業？ - 鏈新聞 ABMedia",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE55T2wwSXcxQWN6YkxoRnptQ1ZDYjdCRDJyQ0JUcDR1TzFRR0xoSHRXNUFSZS0xaFFfQVZMbHlHZmtKTU1rY25OYkJNd1BVWkRq?oc=5",
-      "published": "Wed, 09 Sep 2026 01:44:04 GMT",
-      "source": "鏈新聞 ABMedia",
       "impact": 0
     }
   ],
