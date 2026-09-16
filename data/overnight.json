@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T18:32:36+08:00",
+  "updated_at": "2026-09-16T18:32:23+08:00",
   "bias": "中性",
   "confidence": 50,
   "score": 0.0,
@@ -25,66 +25,59 @@
   ],
   "headlines": [
     {
-      "title": "AI伺服器供應鏈動能強勁！台灣今年GDP上看12%，台積電產能滿載至明年-財經焦點情報站 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUnZwOTNfU0xtSk9nLVphSXpLM21tZDBDQzlYUDhaS1JVQkI1NmhOTUE4NW9FdEwzNEQ1aHdZUzZQRlRBQmlKSG5LbExHaTdqME1lcThFaU9YOHJETEtQQVpXd3RmTEpQdllHT0VyUV9NY0RSelZCRG5TdHpkV2dKaVh3?oc=5",
-      "published": "Tue, 15 Sep 2026 09:31:21 GMT",
-      "source": "CMoney投資網誌",
-      "impact": 1
+      "title": "AI伺服器下一個缺貨材料？這塊「布」價格近翻倍，輝達M9升級打開新需求 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Oa3YzX2tkTUI4dFlUQ09oNUdkMWtsSWRvcm1kN3IybExXVUdxcU9QeVdfRnZ4OXRZWTR4QlAyZXo4a185am84c1FnYU5USlU?oc=5",
+      "published": "Wed, 16 Sep 2026 10:00:38 GMT",
+      "source": "news.cnyes.com",
+      "impact": 0
     },
     {
-      "title": "華碩全球 AI Tech 高峰會前進韓國，攜手 NVIDIA 加速 AI 工廠落地 - TechNews 科技新報",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNaUhjVnZfcmd5MVZ6eF9RbEhRVWZNSVFwaTZpNDhOMGVQRExtTEtsQXhTR0lqTHRETGVLcXl0ZVZRYzJRcEt3eEJ4bFFrUTNITEJ2bUtPY3ZIVTkwdTJfTVFTdlAwM0Ry?oc=5",
-      "published": "Tue, 15 Sep 2026 07:54:18 GMT",
+      "title": "夏普攜鴻海搶進AI伺服器開放接單、27年度開賣- 新聞 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTEZTQU1NZjVxeWZJZXZyQ3Z4NktCdTFTUm95Vnc4ZVVXWUVkMzFrVTZDVHNYZjJDcnYyQlk0eVY2cTE4Y09VRVlhQXYtTk5hNXZpbTd1OUlUcVBYYnFBRGktaGZ2RVZYV0I4aFZVa3BTLUNaR0xsWEd3OF9hM1lQMW1uSTd0ZGY0aVpwdjY3ZUJYUQ?oc=5",
+      "published": "Wed, 16 Sep 2026 05:23:00 GMT",
+      "source": "MoneyDJ",
+      "impact": 0
+    },
+    {
+      "title": "美債升破 5% 衝擊台股退守 4 萬 5 防線，避險資金急湧中小型股與 ABF - TechNews 科技新報",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZHRSWkxHd0VUZG44ek1vSmZRc0FCams0dW9yNFgwWWowWHRGeDcya09fZ2NRY2hpckxGeVY4YVYwN29lOERxVzZ4MTdXLTAzdWExSm9McE1rU25xMzd0QmQwRUtCd0VkVVBnNFFfYllqeEJjMXFiT29qd0RXYXgyV2hnZThHT2J6M0NXV21XVXBzQWdaNkc0NmFRVHhMYlNzQWFlNTN2SG1CM09JOU9TSnNmMk5lSUVtLTlhdXBZQ0I3Uzc0dDhxbWNrVzNtaTRoZWxBVWNB?oc=5",
+      "published": "Wed, 16 Sep 2026 05:02:00 GMT",
       "source": "TechNews 科技新報",
       "impact": 0
     },
     {
-      "title": "國發會：台積電、伺服器訂單已看到明年 今年GDP有望「摸到12%」 - 非凡新聞台",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjYmFjblRJcEhra2xGRWJRamt0ZGdiajQwdlYycUVXdTE4bGtqMGR4LXQ5c1EtSDFDUmo5N0ZlTzV2ZmF5T0dfbWw5VXliWUN1OS1Ndk41bFI1d194VFZQVA?oc=5",
-      "published": "Tue, 15 Sep 2026 09:42:57 GMT",
-      "source": "非凡新聞台",
+      "title": "鴻海AI伺服器再下一城！夏普接單輝達GPU新品，2030年要拚500億營收 | 下班經濟學 | 財經 - 風傳媒",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBVUUt4NHVvT0NuVlBVb05ZR1Z5VWl1ZkxrbVdxUXdqVXEyd1NnMjdtMlNEMEpRWElzRlBVVTBsWHRyd0k1eG1JajVrQk5Pdw?oc=5",
+      "published": "Wed, 16 Sep 2026 08:17:37 GMT",
+      "source": "風傳媒",
       "impact": 0
     },
     {
-      "title": "川普、黃仁勳聯手反擊「AI末日論」 AI放慢爭議升級美中科技戰 台股資安、伺服器雙主線浮現 - 理財周刊",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE53MTlFamM0V3ZSVjdUQ0lPazhsY3ltdHNWSkZRMHpSaVFZSzloS0J4Y1Z2c0NiUU9IbU85cnRNX3BIZ3R4SzRNRjBUeVd4YXRHUHd0OUNuWUFuVklrTk1zY0pXVi1RQWdWV1dGcHdicw?oc=5",
-      "published": "Tue, 15 Sep 2026 03:36:28 GMT",
-      "source": "理財周刊",
+      "title": "鴻海攻日本AI伺服器市場！借重夏普品牌 瞄準五年後營收513億 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBLS1h5dnJCWnhKVnlQRjNvUy1KaHlLYWgwTnVrbF9EdW1rdnhpYjFvai1IbDlKRmJSYTBWaHZYSkZhZ1RZMGNfVWhwXzJCdTYx?oc=5",
+      "published": "Wed, 16 Sep 2026 02:14:12 GMT",
+      "source": "UDN",
       "impact": 0
     },
     {
-      "title": "台積電代工客戶加1 日本富士通2奈米AI晶片明年將出貨美超微 | 信傳媒 - LINE TODAY",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11R3lTekc1RUx6TXdfd3VTVzV4bVkxNC1WV09WLV9Oa2x0U0FlTXVpZkxCMDNZY3dSazR6Tld5QUFodGtuTW5TSFdzcmg3WnNJdHJLaUJn?oc=5",
-      "published": "Tue, 15 Sep 2026 06:06:38 GMT",
-      "source": "LINE TODAY",
+      "title": "AI伺服器供應鏈需求爆發！8月營收年增逾三成，台積電等概念股同步發酵-財經焦點情報站 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdnByZ2ZHUENWY3YwX1pjYTI1NmZjYzhwTW9HdEhxcWN3NzFQcFc4RjhGQ21TMjZSQU50QWEzNXlzVVpOeS13Qk9XMXpPT0pINUZCaXFkRWlOLU1ZYmVKT1hjNTFzZTlzRWVrM284UVNraGE3Y0NJX1hnVDdINVN2dFBB?oc=5",
+      "published": "Tue, 15 Sep 2026 20:52:03 GMT",
+      "source": "CMoney投資網誌",
       "impact": 0
     },
     {
-      "title": "週四前後利空出盡？載板、被動、電力 | 陳學進的貼文 | 鉅亨號 | Anue鉅亨 - 鉅亨號",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1GV2g2ZnJQckpnYkhhQUoyZmpzaDd1aGVwNlBTeDJ6cTZSdGtDZFBPRFdoUmhTekJVclZoeUN6cUxUcHpwR3A0Vw?oc=5",
-      "published": "Tue, 15 Sep 2026 09:45:54 GMT",
-      "source": "鉅亨號",
-      "impact": -1
-    },
-    {
-      "title": "AI三巨頭籲放緩發展腳步 台積電米玉傑妙喻：現在AI是三歲的超人 - 鏡報",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE53S3NyWFJaOGxkbi1NYWg3VkFwTDZhU0dhVzFUSDVOSDQwT0dwRnNqNURKeHhqNnBYc3hQTkFrQjVfWnJZSW1zRjB5S2R6c3pCaWc?oc=5",
-      "published": "Tue, 15 Sep 2026 09:06:00 GMT",
-      "source": "鏡報",
-      "impact": 0
-    },
-    {
-      "title": "毛利率87%超車台積電！家具廠如何靠一條滑軌擠進AI伺服器供應鏈？ - 104 職場力",
+      "title": "毛利率87%超車台積電！家具廠如何靠一條滑軌擠進AI伺服器供應鏈？ - 104職場力",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12eTlMZFdVekJmZU5VSTBuLW1uRnNPTTZhZXJrUF9RcHczVHpRZFA3VlUyblFaY051X09DR2hhMkRZUUlsMUowRElyUmkybWhiTi00bWU3MXdkdTBPeHR2blg0dmlta1FnaHc?oc=5",
       "published": "Sat, 12 Sep 2026 04:04:57 GMT",
-      "source": "104 職場力",
+      "source": "104職場力",
       "impact": 0
     },
     {
-      "title": "AI股遭血洗別急著逃！大行情藏在後面 台積電在內「這5檔」被看好 - stock.ltn.com.tw",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9GZ0VWU1d0aEdRMFFXUHZFNks2Sk5JUlVIWURWemt1cHJseFFBb0laenlQNWxTZENmcGVuM2hyS2ZfRVg3amtiSDhHYTlOVVU1bkNLU1d0MXY?oc=5",
-      "published": "Mon, 14 Sep 2026 14:59:00 GMT",
-      "source": "stock.ltn.com.tw",
+      "title": "AI伺服器是什麼？從輝達GPU到台灣代工廠，2026年概念股完整地圖 - pocket.tw",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5jVmpMd0tiMWFLWWZKb0dnQ1JCRkJrdVYzdTh3S0dzcWFHWFBBV3p1ZWZmakJNYmp1ME9wVWx6TmRiZ2pjZmVBX016SVdpWVF0emlxV2c4R0lRUFBUM004NXo1Yw?oc=5",
+      "published": "Mon, 14 Sep 2026 20:08:41 GMT",
+      "source": "pocket.tw",
       "impact": 0
     },
     {
@@ -95,17 +88,24 @@
       "impact": 0
     },
     {
-      "title": "台積電法說會對AI伺服器供應鏈成長有何影響- 股市爆料同學會 - cmoney.tw",
+      "title": "台積電法說會對AI伺服器供應鏈成長有何影響- 股市爆料同學會 - CMoney",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA3amctb1RmN1dOUHpRdVR2VkR4aTBGOVdNdGFBdHZLWWZJR3RBR1Y2U2szUjA3RXhac0NoNjZqYV9NMmhNd3RHajJoN1ljYUduYU16cGN1WjlEMlRYYm5JSk0zdVNrSW4yNVhTYVA5UVRyaDRxbV83Y3pHUQ?oc=5",
       "published": "Sat, 12 Sep 2026 16:51:35 GMT",
-      "source": "cmoney.tw",
+      "source": "CMoney",
       "impact": 0
     },
     {
-      "title": "富士通次世代 AI CPU「MONAKA」開賣，搭台積電 2 奈米製程 - 鏈新聞 ABMedia",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeWUxLUlESHZCT0d3ckxJSkVKRkIyTkhmMzlPQllkVnFYYXRoUzE4QnBzdm93dXYyaFBCUXJoWVB3YXhQVndIdEVucV9PMVI0cUptMDlFaVByZzFQYVNCQWxKZFpqcW1BRWtyNGktU3NXY3A2TkJEMVVxdjkwOC10ZnJ5OVNDRGM?oc=5",
-      "published": "Tue, 15 Sep 2026 03:51:35 GMT",
-      "source": "鏈新聞 ABMedia",
+      "title": "〈台股盤後〉台積電填息、AI散熱與記憶體點火 受制月線漲337點未收復4萬6 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpMm5YdlZUQTk0eG91WWo3NllkX2pMb2ZnYUMtVnpTUWFaazdNNDRMV1RxSkVWRVFLWWdxYmtKaWFPVjZBNC16NkdLSkhLM1U?oc=5",
+      "published": "Wed, 16 Sep 2026 05:53:30 GMT",
+      "source": "news.cnyes.com",
+      "impact": 0
+    },
+    {
+      "title": "富士通AI晶片Monaka預計明年上市 採台積電2奈米製程量產 - 自由財經",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XX1Q2dERGOHlZZjYwSmlpNHhHVk5WUDBSaHZ6WVpock1hZ1JrSHljTGsyV1RTdm5NekZwNlZEZmRJUktDZEVGSDF6TUQ1MnR3dldsRXBfUks0U1EwU3U40gFkQVVfeXFMTWVEdHhpY0RuNDZfTjZEdlBTTEVHMUF1UlNKdlpSSWNjOWVZNGFMU1FTS1ZXSEROVXBqUjhZZHNCOG11RnpvaUQ5VEpaa0Y5bVdSUnppYlhQaHo2bjRaNGhDRWtsNA?oc=5",
+      "published": "Mon, 14 Sep 2026 08:31:22 GMT",
+      "source": "自由財經",
       "impact": 0
     }
   ],

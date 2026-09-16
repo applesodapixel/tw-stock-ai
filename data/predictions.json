@@ -159,6 +159,25 @@
       "inputs_snapshot": {
         "mom5": -3.43,
         "flow5": -2694.33
+      },
+      "verified": true,
+      "actual_return": 0.74,
+      "actual_direction": "偏多",
+      "correct": false,
+      "error_reason": "市場未延續預測當下的短期動能與資金訊號。"
+    },
+    {
+      "prediction_for": "2026-09-17",
+      "made_at": "2026-09-16T18:32:23+08:00",
+      "direction": "偏空",
+      "confidence": 80,
+      "range": "約 ±1.04%",
+      "reason": "近5日指數動能 -2.85%，三大法人合計 -3128.93 億。",
+      "model_version": "baseline-1.0",
+      "model_generation": 0,
+      "inputs_snapshot": {
+        "mom5": -2.85,
+        "flow5": -3128.93
       }
     }
   ]
