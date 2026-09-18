@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-17T18:31:44+08:00",
+  "updated_at": "2026-09-18T18:31:08+08:00",
   "bias": "中性",
-  "confidence": 54,
-  "score": -0.7,
+  "confidence": 52,
+  "score": 0.35,
   "markets": [
     {
       "label": "S&P 500",
@@ -25,73 +25,59 @@
   ],
   "headlines": [
     {
-      "title": "時隔15年重返伺服器市場！蘋果擬推M8 Ultra並考慮引入輝達互聯技術 大行激辯蘋果AI算力野心 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBybXM3d3o4d0ZVdTN5X3NiOWJJaGVQTHRUVHdLZm1GN05OSC11b2Z1NzYzaUxHQ2Mwbk5PSXdmMm1LSVJFd0lNQ3BkRDNtbjg?oc=5",
-      "published": "Thu, 17 Sep 2026 01:20:36 GMT",
-      "source": "news.cnyes.com",
+      "title": "錢流向伺服器了！戴爾今年大漲324%，AI 伺服器概念股有哪些？｜美股產業｜豐雲學堂2026 年 09 月 - sinotrade.com.tw",
+      "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxNTUVTSHhYUEdUNnVraE5LSTlmX0R1aHQzVHpvTjdHem9tWldHVU5BWW9TSmZTeWprbnVRdGVQV2Y4U3M3QXpvMFdtazRUMzlueXA2LXNOekw3enFidDVGR2pNLTRmd3pzN25mWE1WY2h4ekd4ckd5M2Q3Z19wNGRMOWJhNWQ3cnRkVlNaSTFaUGRRSlZmaHNIZk5kRnJzT2VzaExSMWtEbkZYZEpyeHFIWkhsWENKak1lQUc0NExRUjRRVlN1NlZfbVQwc1hhR05zSG9FOXRrdWR6ZVgtVWg3Nk9fd1FSTXFxU1JVQ0VpZER0dnVFZjJHeWJ1VUhqSkR5YmtUR2V2TTgxdW5ISVAwbTFlUER1SEQ3T21hY0NYV2JOVmtfbWhMMDNjTE41RnN4OHdBTjlKSkxVYWY2YUVBNndtZXVrWDd3cm9Qb3RJR2RNeUxUd3lEcVBnaEY2U0RYYnJrS0dnX2p3MzZqSVZRX3B4V1NvbTVuSzJGbDNGenRJaTBLU2xYUlctZTZxdll2Umt4bDdUQnhlUlVlUVpSSkFCQ0Q5Zmd1cFdJWFJ4eVhwN1d2UWl5UC1xdlJST1ZfZzMwR3BlOA?oc=5",
+      "published": "Fri, 18 Sep 2026 05:30:58 GMT",
+      "source": "sinotrade.com.tw",
+      "impact": 1
+    },
+    {
+      "title": "AI效應 蘋果擬重返伺服器市場 採用Nvidia技術串聯 - 世界新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xeDN4WnczbWtfUTF6OU9LSUhwNVhCMHZGSmRsOGF3X2FSbXJQSC0tTW9yUWphUnpPbVRTMXN5ZHZZSVlJeGswSXVxMlI1d2lma2stbVNYMHpLNzFJZXRVZGt5dUtGQ0nSAWdBVV95cUxPcXgzeFp3M21rX1ExejlPS0lIcDVYQjB2RkpkbDhhd19hUm1yUEgtLU1vclFqYVJ6T21UUzFzeWR2WUlZSXhrMEl1cTJSNXdpZmtrLW1TWDB6SzcxSWV0VWRreXVLRkNJ?oc=5",
+      "published": "Fri, 18 Sep 2026 06:30:00 GMT",
+      "source": "世界新聞網",
       "impact": 0
     },
     {
-      "title": "AI伺服器基礎建設狂飆！最新算力與能源需求大增，台積電等供應鏈成焦點-財經焦點情報站 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdmNSYnI4enFPWlZsdEFyYTQ2WkdTM3ktSDFNRVF0Rm5mbWx4NXY4QWJDaHRWYmQ5X2JsRzd2LVliNkdOWllQMURsa0NPUl9tSFAxYWZvMzVtV0wtcTJPZG9NU3lzNHljTkcyVC1NeE44d1JjOFVFdHUzNWJvWDBfRzJB?oc=5",
-      "published": "Thu, 17 Sep 2026 01:22:07 GMT",
+      "title": "AI伺服器供應鏈迎爆發期！輝達預告銷量翻倍，台積電等3檔台廠受惠-財經焦點情報站 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPenBscFJkc1VQVnJMLVowWU83R0pPWTBFMmRhZllDVEVLZVpLYTJqaG9uczFFMFV5RW10bEZuNTc0YkpzM25KRWYwOTVBVnRtS0lLUV9QaXFhakY3SjdSTUpiS21HLU45ZHllZ3NZeHI4V2FQR2dncW9PNFBYNUtSLW1B?oc=5",
+      "published": "Fri, 18 Sep 2026 03:52:07 GMT",
       "source": "CMoney投資網誌",
       "impact": 0
     },
     {
-      "title": "暌違多年重返伺服器市場？傳蘋果自研AI伺服器晶片，擬結盟NVIDIA NVLink Fusion架構進軍資料中心 - Mashdigi",
-      "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOMnJEU09kTWctSElNSy1zdVVJRUZYYnFFYXZjNVBZQTVaendIa1hzaHNMVmFBMVdUaDJ1YW1MYzByaG9sRzBlbWYxdlV1SlJDNFZYWldhdUxXZFhYM3Z1OGpxOG8zSjUxZm1aWlREODhyVnlKcXoyVTh4amtlVVFCOWZRUmV6dXlRVkxyLUFiam1jdzQ0M3dKb2ZSQV9HcnlIQTZKSXFhNXhOZEhqOFdLby1BbmxBTHNOTHMyYklYb3NSbmFYZno5ZWlyS0EzOGNndHhtU2NmYWw3WmJHQXkxNThWekEzQjJVbDFQajdIWFZMODNLOW1aTHBfa0dXSmMyU0Q1cy1OUmg4dG1WX2VCNWgycXpNSjRjM1RIejI3dlFxdjAtbmJaSTM3UTdrZXJZR2VYYTJvQXcwQVpR?oc=5",
-      "published": "Thu, 17 Sep 2026 07:54:00 GMT",
-      "source": "Mashdigi",
+      "title": "AI 晶片封裝面積持續放大 集邦：台積電 CoWoS-L主流地位延續至2028年 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5OdFZoYzUwZVJaY2I0dE9zRDR3OHhvc01hTHU1WjJzbk1Qc0ZPTWw4djNhV0haNVFUYU9MWDJOWG1kVS1QYVBCa2tFRjVFVVM00gFWQVVfeXFMUHpvY3Jkdko1VFFQcy1RUHdfUHllbWV4Um5pMDJHbTZMckh2M0pLajM0WXRxY2gzZFdoQk8zZHAxRTh5bWp1R1dnTGRwdm5wVnh0YWxCc3c?oc=5",
+      "published": "Fri, 18 Sep 2026 09:23:31 GMT",
+      "source": "UDN",
       "impact": 0
     },
     {
-      "title": "蘋果攜手輝達？Google跟進資產化！陸行之：AI供應鏈全受惠 - 三立新聞",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5XT0FfVlQ2ai1JbWZSaUJaSk5NWkFNRnBTMWtxWmE1MzdIeEFZN2V3ZWdTMTQ2RWlBOW9QQkh1WnB2Y0tUYjJlVzlzRQ?oc=5",
-      "published": "Thu, 17 Sep 2026 05:57:49 GMT",
-      "source": "三立新聞",
+      "title": "英特爾EMIB-T殺進來 CoWoS-L遇強敵？ 集邦揭台積電「主流地位」 - fnc.ebc.net.tw",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83M3A3dFRrMjVwcXB0dWhvUTJXdkdxTHA1WHd3TlhiZnBlVTBzRHpzSERlbzlxVkh3blBhZUltNmJsVXlfLUlFME1wT3EyTnpoSDYzZXNCcERYdw?oc=5",
+      "published": "Fri, 18 Sep 2026 09:18:00 GMT",
+      "source": "fnc.ebc.net.tw",
       "impact": 0
     },
     {
-      "title": "蘋果傳重返企業伺服器市場 M8 Ultra擬搭輝達NVLink Fusion - 科技新聞 - PChome Online 新聞 - PChome Online 新聞",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX05oZ0JzdENQdmhtZW0wcTdhc1I3Q1c3RGZIeEhxc01aMVFhazUyRWZ6V1ZLa3FFajd1Z25GQXJPT1ZjYnVOc3RKTUhhOVZiZ3dydWtmRlVrY2hfdVE1b2FSemRCY0k2Z2w4SlI1ajJjMHp5MlZrTVNYTzVESWhYUF9UX000amxBN0lGdw?oc=5",
-      "published": "Thu, 17 Sep 2026 03:15:06 GMT",
+      "title": "3檔AI股「比台積電更會漲」 分析師點名 - ETtoday財經雲",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5BZnhyUmVJTWM4OHJOZHBLdFdPSnptZXotbTVzQk9mNUNvRzA5bld4TS1ueXJSdi1iR2xIWjNfbUpnRzFrbW5PdTdsVUpLUGNhdXfSAVBBVV95cUxPWGZnVkc5OXlSSzNnVVRmQlY5TVgtOFBvOG9uaHptb2NpQ184V19vQV9GZXBOVmN6S3J4N3I5dXl0V0s4N012bFl1Qi1KWDlGYQ?oc=5",
+      "published": "Thu, 17 Sep 2026 23:56:00 GMT",
+      "source": "ETtoday財經雲",
+      "impact": 0
+    },
+    {
+      "title": "蘋果也要搶AI伺服器！傳2029年推出新品 最高塞4顆M8 Ultra - PChome Online 新聞",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOejB6cjJweGxMSDlJemF6bHRhR0Y0ZHptMU9IOUt4LXZkbkwwNGJqUEwzbUktSEg4TGNJMnhlTllReDczQjYwdkRhanNoQ2FxemxkcE15WVRtd0dxTWV0ZzRYZ1VVLUVubDdSTVhPcnZuT1pEWHgtWXVxSm5wS2NuN3YyR1dkM0QwZVNuNA?oc=5",
+      "published": "Fri, 18 Sep 2026 02:10:57 GMT",
       "source": "PChome Online 新聞",
       "impact": 0
     },
     {
-      "title": "記憶體續旺！華邦電擴大NOR Flash版圖 Fed升息考驗估值| 財經 - Newtalk新聞",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FN0JiTVFhNS03N1JWUkYwYVA1UUVFbUdoQ2h6Wkpmb1ZkcTF3MXRWZTlFWXB6M1FSeGh5RzdYMU1aNnF2QTJGS0pmYUxXU0R5a0xteF9UN0d5b3c?oc=5",
-      "published": "Thu, 17 Sep 2026 02:51:59 GMT",
-      "source": "Newtalk新聞",
-      "impact": -1
-    },
-    {
-      "title": "美媒：蘋果計劃推出AI伺服器 考慮採輝達NVLink技術 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMMFRoZ0duSFFTanJiQUNBbVdxSm9YdDBab3RncFhIZGZVbWdpMFpHQXlBNy0wbkI5bHRiSmhOV1FoWHp3SmtHT2YwM1RqeWkzWFhhRHFvUGVlZTYxQ1Aycm0wNklvR05LdXBfYXE4dmlmenJhSmw4bDU4UEJZQXfSAWJBVV95cUxOTHNhSmVYbElZMHJZLXhPQ2JiQTMzRGJtSEFFRkZGc0poaWZBcnVLZWQ5OTl3aTRka1hlMjFGWlpFdHgzOWN5QjRiV3dmTGVoWDRQMVIyRThPdGlYUlZoeGxsUQ?oc=5",
-      "published": "Wed, 16 Sep 2026 15:45:29 GMT",
-      "source": "經濟日報",
-      "impact": 0
-    },
-    {
-      "title": "台廠恐受波及！美國施壓墨西哥防中國關稅漏洞 擬推AI伺服器原產地新規 - Yahoo股市",
-      "link": "https://news.google.com/rss/articles/CBMiyANBVV95cUxQNHlraU9URWhGZ0F3TnJvZ3lpWDFzdFQ5REhIMzRoVzhveWU1RE5mWnBaZmpMUkdyczFoRUpzNXpvVFJ5akdScWFTVVdvUzFzWkV6Y01OcXRiSVNIejFOY2RNVXU3YkhsX1pFY2NONk9mZktIN2dpUHVFMnN3U1JaVzYxZmJSc0JFVHZfeVJjdmszc3RDU0VlWUZWVktMRW1oc3A2SVZEM1gyTjAtRGVrbzNZSFlaUU80RldlOGtqb2V2czFfbmp6MnlBeXM5OTFfa2ljSHI3MXJmbUtxZWlMd3FVckZkWmZUWFEwTExxNkNRbThsR2hnRUc4OFBEMDVSQy0xd3JjSFFXNTJ1RjVzRGVvMlpIdDhkajVFakpqSGFiOExkdjdDTjJJMmhNMHJEcTV6a2VFZXVPeWwzQlRvQ2ZHU0swbmJEODNlZ1VST3Z4T3d5ZzFNdkwtVTJUZ19OSV9xaGlLNlNSQXB1dWd0N0JjaG9LUG9VcXk5WUp4ZUlfdFE1YkxCZ0daV0lCUlNuWHhCX1lFa1N0OHlGSS1wX3FWemRUTXRoa096d2dZMjdTNkU5YXgtRHZxN3RSOW9GdmhQeVBFZkU?oc=5",
-      "published": "Wed, 16 Sep 2026 05:45:00 GMT",
-      "source": "Yahoo股市",
-      "impact": -1
-    },
-    {
-      "title": "蘋果據報研企業級AI伺服器 採自家晶片 考慮用Nvidia網絡設備 - 星島頭條",
-      "link": "https://news.google.com/rss/articles/CBMigwNBVV95cUxNN2pxREZaZlFJUU12cHkwbUJVSld5dmNva1RsZjRwbVQ0QUlEZWVLM1NlMWxKWi02b2VtRkhuLUNVbkw5aVd0VU53RnRqTmtOMzBEekgwX0VRbUdjb3M0QnpZSUxBWVFNS0Y2MktBYlpXZGFoeVZ5MUFHenM4aWJSQndKdC10V01mZDUwQWlJT3RPRmhEMEFPQzczejM4ZVA4S3ZPa3BFRndRV1JuX0E4UnpYR3dITjhUMFQ1elNST1hEOFNlY2MyS2Ftc1YwUmlvTUJkenRhRHJ2eXRsdFk4QjdQY180Y291NEpLTFQ3MFVCQ1hPWlRibzQwRjJTalN0Mk5nTkYtcUJORndGS3BRNEM0ckZoZjI3T0swdkZWUTZJbE44UjZURlhUeTRpTTlrbmh2VDZuMWFqcTdvOGJ1ZzdCbzhBT0NJa2FpcHFuZS1yYkxIMkZPT2ROa3dOTEQxNUhHZzBhVmVSSXRUbnlKTGRBcjFtbFg4Nkhxb0dHT2Z1cnc?oc=5",
-      "published": "Thu, 17 Sep 2026 03:15:23 GMT",
-      "source": "星島頭條",
-      "impact": 0
-    },
-    {
-      "title": "用 M8 Ultra + NVIDIA 技術 傳 Apple 打入 AI 伺服器市場 料 2029 年推出 - unwire",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsUXpKdkFwbl84T29GRV80NE5IOGJhMXhIV25ULV9IUXlFOHBzb3Qtdi15R19XdF9LeUxGclhfQmlraTZrMEttT1F0UFFmUy1pQVRuc0xjN0lHMEZMMl96QlJYZzZqTzVocjUyT213?oc=5",
-      "published": "Thu, 17 Sep 2026 09:52:25 GMT",
-      "source": "unwire",
+      "title": "AI再掀供應鏈洗牌！先進製程、CCL、伺服器成兵家必爭之地| 財經 - newtalk.tw",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zMllacFJlS2xPZDUwaUNqQTNfNW1DRGlOb0c2V2FGczdlTWNnVXA3dDdxSnJ5Y3JIR2dpNmlfbTFsb1dWVDB2NTI3QkN4RFNIU2tmUWZ1Sk5zbDg?oc=5",
+      "published": "Fri, 18 Sep 2026 06:12:49 GMT",
+      "source": "newtalk.tw",
       "impact": 0
     },
     {
@@ -102,10 +88,24 @@
       "impact": 0
     },
     {
-      "title": "台灣戴爾攜手中國信託深化AI應用 守護7500多台ATM防止資產損失 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14VURmRzVtVFdtQ2VyNmhmTHFRSWxIUEVQUUp3VEJSeWE0Si03Yi0wOFNPRG5oNWc3ajNjaDhzWExjWThjODRXcS05cjE2SG8?oc=5",
-      "published": "Thu, 17 Sep 2026 09:11:56 GMT",
+      "title": "台積電擁兩大優勢 CoWoS-L穩居先進封裝主流至2028年 - 自由時報",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBbVRxZnI1cmYwSjMxdkJLSFJOOGd4NDBvcWlBRUl1NllQZ3JsTFB5dnRRNW5kTkhvYmxuWERNV2JZWW1pRVRYUDVkZTViaHlzd1NySVFzSkM?oc=5",
+      "published": "Thu, 17 Sep 2026 17:11:00 GMT",
+      "source": "自由時報",
+      "impact": 0
+    },
+    {
+      "title": "台灣五大ODM重構AI伺服器供應鏈北美在地製造進入加速期 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBiWi1HTk85aVNJNnJVRzRValFZVXczOXdWQmNwa1ZHMnNlTVZJX0lFNklnRGIxWTRkRWFmTXQ3dHEwSFg5Nm1lbmdrVGlMbnM?oc=5",
+      "published": "Wed, 16 Sep 2026 01:00:14 GMT",
       "source": "news.cnyes.com",
+      "impact": 0
+    },
+    {
+      "title": "美媒：蘋果計劃推出 AI 伺服器，考慮採輝達 NVLink 技術 - TechNews 科技新報",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNb1dKQTVlRF9QNmNFRkxvNlJJSG1tOXRkVzhnNXNuRFJmRGJwNkpnS2JQQ2Q0dW95QXVMZkNoYjl2Vnh4Y21fM1ZSdU5NT2NCTHY2MGM1LVg2WDlvNnZieU1BRTMwa3E4bTNTYWhSNE1QeXNBNGNDUXNpTzQyQmhxZFUzMndYY2ZPSnhNb0N2MTIzYWs0dVBYX0xRWHJiQl9HVjlMaFNwRy1uX2pCRmZ0QUlhdEU?oc=5",
+      "published": "Thu, 17 Sep 2026 00:29:45 GMT",
+      "source": "TechNews 科技新報",
       "impact": 0
     }
   ],
