@@ -216,6 +216,25 @@
       "inputs_snapshot": {
         "mom5": 2.16,
         "flow5": -121.46
+      },
+      "verified": true,
+      "actual_return": 1.14,
+      "actual_direction": "偏多",
+      "correct": true,
+      "error_reason": "方向命中。"
+    },
+    {
+      "prediction_for": "2026-09-22",
+      "made_at": "2026-09-21T18:31:26+08:00",
+      "direction": "偏多",
+      "confidence": 73,
+      "range": "約 ±1.09%",
+      "reason": "近5日指數動能 +4.00%，三大法人合計 +845.96 億。",
+      "model_version": "baseline-1.0",
+      "model_generation": 0,
+      "inputs_snapshot": {
+        "mom5": 4.0,
+        "flow5": 845.96
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T18:31:08+08:00",
+  "updated_at": "2026-09-21T18:31:26+08:00",
   "bias": "中性",
   "confidence": 52,
   "score": 0.35,
@@ -25,59 +25,52 @@
   ],
   "headlines": [
     {
+      "title": "TWA00 加權指數- AI伺服器帶動MLCC超級迴圈，韓國三星電機與通用型廠商股價... - 股市爆料同學會 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlUXdScUNIM2tnd3E5QWlwVVdhOWtsQ0ZMZnh1RVZqOEFCUnEyeEc3NUZTZVl3SUd5bDNxTngxVkI4TzdoN1JrQ2pIWDBBUG1kcUhkU0dQT3k?oc=5",
+      "published": "Mon, 21 Sep 2026 10:17:28 GMT",
+      "source": "CMoney",
+      "impact": 0
+    },
+    {
       "title": "錢流向伺服器了！戴爾今年大漲324%，AI 伺服器概念股有哪些？｜美股產業｜豐雲學堂2026 年 09 月 - sinotrade.com.tw",
-      "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxNTUVTSHhYUEdUNnVraE5LSTlmX0R1aHQzVHpvTjdHem9tWldHVU5BWW9TSmZTeWprbnVRdGVQV2Y4U3M3QXpvMFdtazRUMzlueXA2LXNOekw3enFidDVGR2pNLTRmd3pzN25mWE1WY2h4ekd4ckd5M2Q3Z19wNGRMOWJhNWQ3cnRkVlNaSTFaUGRRSlZmaHNIZk5kRnJzT2VzaExSMWtEbkZYZEpyeHFIWkhsWENKak1lQUc0NExRUjRRVlN1NlZfbVQwc1hhR05zSG9FOXRrdWR6ZVgtVWg3Nk9fd1FSTXFxU1JVQ0VpZER0dnVFZjJHeWJ1VUhqSkR5YmtUR2V2TTgxdW5ISVAwbTFlUER1SEQ3T21hY0NYV2JOVmtfbWhMMDNjTE41RnN4OHdBTjlKSkxVYWY2YUVBNndtZXVrWDd3cm9Qb3RJR2RNeUxUd3lEcVBnaEY2U0RYYnJrS0dnX2p3MzZqSVZRX3B4V1NvbTVuSzJGbDNGenRJaTBLU2xYUlctZTZxdll2Umt4bDdUQnhlUlVlUVpSSkFCQ0Q5Zmd1cFdJWFJ4eVhwN1d2UWl5UC1xdlJST1ZfZzMwR3BlOA?oc=5",
-      "published": "Fri, 18 Sep 2026 05:30:58 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi9ANBVV95cUxOYm1zZXRRVTlNOUY2dTVucFhSQUhhYWxwOURraUVrZjV3ZWJnM1Faa2U4QzVralNpODlIT2NfM1ZXcGN6UmIteDRKOW45OC1jaEZjdFRFX3hMcnBLQmlRQ2J5eFBQR3pQMC0wZmY0eVByVHQyUDhtaGdGX0pTRG8xOW16aWxGV2pYak5UM2NDb2lCcGhHbXZVRERlWl9TU3ZKeG0yQkVldEZScFA4Rk1HX3JDOFJfWF85Z2RpRllTWFN5VW1qUjdpWlZtbmhMRlpVdGFGbGduaU93WDNZNzlsRjRaZTlUVFJpLWZlNTUwTG1OM0VLWkF2U2RNQkoxUFBvUWxLNm9ReTNRUGdZaE5obVMxU2tzTHBFSk54ci1aU0x3WWVTdGY3TkhWRFNvMlVZSE5SOWxpN3dyNjA5Vk5yQWJvNWhDU3dGNk9wX1lucmdwYWxVaEItcHk2MVpkTnBQTGxoWWpIWDNNR2x4X3dDbTl1cC1GVl85TjRJbk14TmFNUzdNQ3E0V1hkdGdjQ3JNVFhmVFB0N0JvSVlwTmU0aGZEdE13MlpjM1d0RDBZUmZTYlBPZWZ2dHFHZldKbVZ3MFlobDI5UVBwVUd2TTdEY29LSDNPMDdISnBDYXI0NnpGaFNyZWcxNm1oRXB0Skk3cThjQQ?oc=5",
+      "published": "Fri, 18 Sep 2026 07:36:52 GMT",
       "source": "sinotrade.com.tw",
       "impact": 1
     },
     {
-      "title": "AI效應 蘋果擬重返伺服器市場 採用Nvidia技術串聯 - 世界新聞網",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xeDN4WnczbWtfUTF6OU9LSUhwNVhCMHZGSmRsOGF3X2FSbXJQSC0tTW9yUWphUnpPbVRTMXN5ZHZZSVlJeGswSXVxMlI1d2lma2stbVNYMHpLNzFJZXRVZGt5dUtGQ0nSAWdBVV95cUxPcXgzeFp3M21rX1ExejlPS0lIcDVYQjB2RkpkbDhhd19hUm1yUEgtLU1vclFqYVJ6T21UUzFzeWR2WUlZSXhrMEl1cTJSNXdpZmtrLW1TWDB6SzcxSWV0VWRreXVLRkNJ?oc=5",
-      "published": "Fri, 18 Sep 2026 06:30:00 GMT",
-      "source": "世界新聞網",
+      "title": "每日椽真：和碩傳獲Tesla AI伺服器訂單| iPhone Duo將接棒18 Pro延續換機潮| 華為力拚當「中國版NVIDIA」 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTUJ5eTcwLVdXejdGU0VzZ08yZExkWW9XVE1ZVHhDZ180cXg5LUF5aERhUHFTRG9URTNnYW5teDZVbm1FRG02ZE1ZOXdxWEFXZ2FHa0xKN3NnV3FoTWVGbzY4MXJNQTVpalEtajh4ZGgyWlpMbk5IUmg0MXZOWVEyNnpFd01oSE9INDktRE1n?oc=5",
+      "published": "Sun, 20 Sep 2026 21:15:00 GMT",
+      "source": "DIGITIMES",
       "impact": 0
     },
     {
-      "title": "AI伺服器供應鏈迎爆發期！輝達預告銷量翻倍，台積電等3檔台廠受惠-財經焦點情報站 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPenBscFJkc1VQVnJMLVowWU83R0pPWTBFMmRhZllDVEVLZVpLYTJqaG9uczFFMFV5RW10bEZuNTc0YkpzM25KRWYwOTVBVnRtS0lLUV9QaXFhakY3SjdSTUpiS21HLU45ZHllZ3NZeHI4V2FQR2dncW9PNFBYNUtSLW1B?oc=5",
-      "published": "Fri, 18 Sep 2026 03:52:07 GMT",
+      "title": "川普喊成立「AI軍」 美國搶AI霸權 黃仁勳：台灣站在全球AI革命核心 - 台灣好新聞",
+      "link": "https://news.google.com/rss/articles/CBMinwNBVV95cUxPUDRVTjVObm0yRUgtX1FnQnFVbUFTWUhsQVNfVlRQQWkzdENwdkcyT001ZGhnTzNxdTBaeHRwLTBFTGV3Z1gzckk0bGlrUkwweHB2S2N5ZmVON19uVXRtVTFRRWJMTlp1Z29SaDRnTGl3aklwRnVvZEtCcnJ4bzZnV3dSRUhWSU5UMVJRLV80M2xuVFk1cEVlQkxXUXgwaU54X1dDQUh0WGxnQWdWaklnQzNoVXNSMVVmaDhLMnB3S09SZjkxU2l2RzZySXE3MFA1eHJvNXVnem1QZHRYeWVpaWxhWk9pcXBGcks5WFc0REVSWlBZZzJtNFZ4VzFFUUpJQkdVbFRvYkNaaERmcV90eS1VUlZYWUxpbEpYVmVUaXhlVlpjazBlZW85LXdHU0JPVnJkR1hZRUZkSTVsRFowN0ZWWU1GQjk5NDVBSGNrc1pJczY4MVM3YmJobks4QVpGNEdEdXJYa3JtVW8yeGNPWExkVEJxaVRlU1VGV0VLRjNsWm5MVkQycS1lM2VkR2tHZ2xoYWtoMmNrYXFHMzEw?oc=5",
+      "published": "Mon, 21 Sep 2026 07:01:49 GMT",
+      "source": "台灣好新聞",
+      "impact": 0
+    },
+    {
+      "title": "AI狂潮下的隱形債雷：Meta、Nvidia、Broadcom如何用「保證」撐起兆元伺服器帝國？ - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeDA0XzNweWc4SEpUcDVVOFZJS1pQU3FoeW5DNXBxTW9tQnVFTm5nOHl2VWl5NzgyamhsbmdPOW5Wa09hTmhFM20wR0QyNFRhQlpORFVKRW9kT1hyQW1RVXk0NENpaGJ3TFFfOVRYLU1OUlhXTjFWZzFBUnlCUUQ5SHRTa1lSWk5EQ1lDeUtn?oc=5",
+      "published": "Sun, 20 Sep 2026 14:00:24 GMT",
       "source": "CMoney投資網誌",
       "impact": 0
     },
     {
-      "title": "AI 晶片封裝面積持續放大 集邦：台積電 CoWoS-L主流地位延續至2028年 - UDN",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5OdFZoYzUwZVJaY2I0dE9zRDR3OHhvc01hTHU1WjJzbk1Qc0ZPTWw4djNhV0haNVFUYU9MWDJOWG1kVS1QYVBCa2tFRjVFVVM00gFWQVVfeXFMUHpvY3Jkdko1VFFQcy1RUHdfUHllbWV4Um5pMDJHbTZMckh2M0pLajM0WXRxY2gzZFdoQk8zZHAxRTh5bWp1R1dnTGRwdm5wVnh0YWxCc3c?oc=5",
-      "published": "Fri, 18 Sep 2026 09:23:31 GMT",
+      "title": "AMD 霸氣宣戰NVIDIA Vera！第 6 代 EPYC Venice 伺服器處理器實測：Zen 6 效能狂飆超過2 倍 - TechSpace 鐵客空間",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4ZGJuUDRyc28zMGxvWVFUV3Q4Mk5nckRjQTU4OGFicERKOG03bjJ3NGp1Z0Z5aGpMUHZaVXU1YlRMb0g2TVNDd1ZwQVBMOTA3UkhORUFYZzdWMWxlRGFBamVRYk8xRElrSzBkNGRJTjdXTmx5YlZTWg?oc=5",
+      "published": "Mon, 21 Sep 2026 01:06:08 GMT",
+      "source": "TechSpace 鐵客空間",
+      "impact": 0
+    },
+    {
+      "title": "AI伺服器拉貨狂潮撐腰 這檔ETF重倉韓股半導體雙雄 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xX1hyWkF5U3RMMjYyNWxfa00xS2lHRy0xVXNrNmZsZVFZbF9QR2pYcVpZU05lRkg3TmRsVk41NVBfbkNQTC1WQndtV053bHBpNkdr0gFYQVVfeXFMTmFqS2psUS1jX2FyUmgxbFNXLVB4M1N6U1RWcllDdWZjaW1jZUhoZGlQR0ZuR1NsYVNIWTE3VnNORXdfYmxhc3NUVTRTYkduSUd6dWh2MW1HSg?oc=5",
+      "published": "Sun, 20 Sep 2026 09:39:52 GMT",
       "source": "UDN",
-      "impact": 0
-    },
-    {
-      "title": "英特爾EMIB-T殺進來 CoWoS-L遇強敵？ 集邦揭台積電「主流地位」 - fnc.ebc.net.tw",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83M3A3dFRrMjVwcXB0dWhvUTJXdkdxTHA1WHd3TlhiZnBlVTBzRHpzSERlbzlxVkh3blBhZUltNmJsVXlfLUlFME1wT3EyTnpoSDYzZXNCcERYdw?oc=5",
-      "published": "Fri, 18 Sep 2026 09:18:00 GMT",
-      "source": "fnc.ebc.net.tw",
-      "impact": 0
-    },
-    {
-      "title": "3檔AI股「比台積電更會漲」 分析師點名 - ETtoday財經雲",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5BZnhyUmVJTWM4OHJOZHBLdFdPSnptZXotbTVzQk9mNUNvRzA5bld4TS1ueXJSdi1iR2xIWjNfbUpnRzFrbW5PdTdsVUpLUGNhdXfSAVBBVV95cUxPWGZnVkc5OXlSSzNnVVRmQlY5TVgtOFBvOG9uaHptb2NpQ184V19vQV9GZXBOVmN6S3J4N3I5dXl0V0s4N012bFl1Qi1KWDlGYQ?oc=5",
-      "published": "Thu, 17 Sep 2026 23:56:00 GMT",
-      "source": "ETtoday財經雲",
-      "impact": 0
-    },
-    {
-      "title": "蘋果也要搶AI伺服器！傳2029年推出新品 最高塞4顆M8 Ultra - PChome Online 新聞",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOejB6cjJweGxMSDlJemF6bHRhR0Y0ZHptMU9IOUt4LXZkbkwwNGJqUEwzbUktSEg4TGNJMnhlTllReDczQjYwdkRhanNoQ2FxemxkcE15WVRtd0dxTWV0ZzRYZ1VVLUVubDdSTVhPcnZuT1pEWHgtWXVxSm5wS2NuN3YyR1dkM0QwZVNuNA?oc=5",
-      "published": "Fri, 18 Sep 2026 02:10:57 GMT",
-      "source": "PChome Online 新聞",
-      "impact": 0
-    },
-    {
-      "title": "AI再掀供應鏈洗牌！先進製程、CCL、伺服器成兵家必爭之地| 財經 - newtalk.tw",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zMllacFJlS2xPZDUwaUNqQTNfNW1DRGlOb0c2V2FGczdlTWNnVXA3dDdxSnJ5Y3JIR2dpNmlfbTFsb1dWVDB2NTI3QkN4RFNIU2tmUWZ1Sk5zbDg?oc=5",
-      "published": "Fri, 18 Sep 2026 06:12:49 GMT",
-      "source": "newtalk.tw",
       "impact": 0
     },
     {
@@ -88,17 +81,17 @@
       "impact": 0
     },
     {
-      "title": "台積電擁兩大優勢 CoWoS-L穩居先進封裝主流至2028年 - 自由時報",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBbVRxZnI1cmYwSjMxdkJLSFJOOGd4NDBvcWlBRUl1NllQZ3JsTFB5dnRRNW5kTkhvYmxuWERNV2JZWW1pRVRYUDVkZTViaHlzd1NySVFzSkM?oc=5",
-      "published": "Thu, 17 Sep 2026 17:11:00 GMT",
-      "source": "自由時報",
+      "title": "蘋果、輝達要破冰了？睽違近20年傳洽談AI伺服器合作 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpU3JnekctcUZyN1FncHJnOF8tYUVUTFE2RVBrcjJWN2NSTURmTmNiSlB6THdTYlBjU2Q4RzZsUFY0Y29INjlCdjlrRlZwR2M?oc=5",
+      "published": "Wed, 16 Sep 2026 14:30:05 GMT",
+      "source": "news.cnyes.com",
       "impact": 0
     },
     {
-      "title": "台灣五大ODM重構AI伺服器供應鏈北美在地製造進入加速期 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBiWi1HTk85aVNJNnJVRzRValFZVXczOXdWQmNwa1ZHMnNlTVZJX0lFNklnRGIxWTRkRWFmTXQ3dHEwSFg5Nm1lbmdrVGlMbnM?oc=5",
-      "published": "Wed, 16 Sep 2026 01:00:14 GMT",
-      "source": "news.cnyes.com",
+      "title": "蘋果2029年AI伺服器出擊在即，傳評估匯入Nvidia互連技術 - BigGo 財經",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE55NXJfbWM3aTYxWmRIQlFtcG5IZHRoSDBMWUlONHFzekdyRlI0NjFyVGxwUWY0bkFzbHNfQWtNajlIV2tqQ3JycjdnSE9CRzdnUkhoSVlmS0R4b01QR2FyVnVSRzJBdkdJQmtMU0pLWnFUR3NDLVRDdGxn?oc=5",
+      "published": "Wed, 16 Sep 2026 14:15:27 GMT",
+      "source": "BigGo 財經",
       "impact": 0
     },
     {
@@ -106,6 +99,13 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNb1dKQTVlRF9QNmNFRkxvNlJJSG1tOXRkVzhnNXNuRFJmRGJwNkpnS2JQQ2Q0dW95QXVMZkNoYjl2Vnh4Y21fM1ZSdU5NT2NCTHY2MGM1LVg2WDlvNnZieU1BRTMwa3E4bTNTYWhSNE1QeXNBNGNDUXNpTzQyQmhxZFUzMndYY2ZPSnhNb0N2MTIzYWs0dVBYX0xRWHJiQl9HVjlMaFNwRy1uX2pCRmZ0QUlhdEU?oc=5",
       "published": "Thu, 17 Sep 2026 00:29:45 GMT",
       "source": "TechNews 科技新報",
+      "impact": 0
+    },
+    {
+      "title": "AI效應 蘋果擬重返伺服器市場 採用Nvidia技術串聯 - worldjournal.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xeDN4WnczbWtfUTF6OU9LSUhwNVhCMHZGSmRsOGF3X2FSbXJQSC0tTW9yUWphUnpPbVRTMXN5ZHZZSVlJeGswSXVxMlI1d2lma2stbVNYMHpLNzFJZXRVZGt5dUtGQ0nSAWdBVV95cUxPcXgzeFp3M21rX1ExejlPS0lIcDVYQjB2RkpkbDhhd19hUm1yUEgtLU1vclFqYVJ6T21UUzFzeWR2WUlZSXhrMEl1cTJSNXdpZmtrLW1TWDB6SzcxSWV0VWRreXVLRkNJ?oc=5",
+      "published": "Fri, 18 Sep 2026 06:30:00 GMT",
+      "source": "worldjournal.com",
       "impact": 0
     }
   ],
