@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T18:32:41+08:00",
+  "updated_at": "2026-09-28T18:34:34+08:00",
   "bias": "中性",
   "confidence": 52,
   "score": -0.35,
@@ -25,6 +25,20 @@
   ],
   "headlines": [
     {
+      "title": "英特爾坦承CPU 供不應求 AMD 受惠與台積電在台擴產- 財經新聞 - PChome Online 新聞",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQ1pzYXlUbmVXb2p2NWhwdTBuelA2U0pReEdqeDl2eldUWllQek1DSVpEclVENjNpSjl5bi14SVg1U25zVXJrUkQwajJXMnJWWTN1UTFjZWtYU3VTVTJDam9uZk42OGQxRGIxdXljZGg5OUl1OHB5TnE1clc5amJoeURQS1ZBTGZ2R1VoUA?oc=5",
+      "published": "Mon, 28 Sep 2026 07:05:07 GMT",
+      "source": "PChome Online 新聞",
+      "impact": 0
+    },
+    {
+      "title": "美光財報前瞻：AI記憶體需求能否延續高景氣？華爾街最高看2000美元 - TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNVlvTUI3SFotaC1EeGd5MW1Hc3pZWVkxdlVqTEZrX1RQMmxtbXRTQVNPT3FhMFJXdVdCdUtiazI0SU4xNXIwV3U1cG1rbTVLSkVGUk9IMThSSmZ0MFh2Zk9oRUdpQTA2WndicTNvZGZwUEtvUVRpeVN3MUpZc2xRN1ZEVFlPU2NrOXd2NnN3QThCWDl4MjFZbG5FTm9mc1NOZEN1dXhTZ2hNdjEzbVd6ZmNXckZSc1FNM25OWkFrc3k?oc=5",
+      "published": "Mon, 28 Sep 2026 03:56:15 GMT",
+      "source": "TradingKey",
+      "impact": 0
+    },
+    {
       "title": "台股主動ETF新浪潮！群益00415A 9月30日開募鴻海法說登場AI伺服器全年倍增成長怎麼說？聯準會升息後兩大關卡！PCE＋非農數據牽動11月是否再升｜投資早知道 - Yahoo股市",
       "link": "https://news.google.com/rss/articles/CBMi4AZBVV95cUxPWDBZNVc3My14blVCcXRIamlzQmpHQ0RNNkczSF9RUEpsSGptVUJuLXdJbFhLMzR1RldoU1lpQ19WbGRrUmFyekY1akFlcGg4aDJUR1duQnFhX0JkMXRaMW1TVjh5VzBOV1pYUFR3Qm9vMzQ2LUtZR3A1dDZkTl9tZjR5dFV0S01JaXgwLWQ4NkM4VjV5VDRlN2JTM1puNFN1THJ5eUstUHlnMVpZUkZrSVluVDYxTjBiYklDOThWYnQ4MklGYXFKLUE5bkNMMnA1UEduc1ctTHNHUURxYkE3NGxYcjczcGNxYmdFQllSWkt5MDA1bUx0SjZtMzJVYVljcVExZW4wem9EUDJJRHFGMGZXQXExWXM4QnQ1V1ZCem1nM2dGckNOZkJiczVXRVZSNGszSzhlTGROblVlSDlVdmpCUnVsVmpzTUJRRlBYZkJMTkxMZXk0NU1OYU9NSzBXbmRSZ29YcS15bGVBVTZDVWwzUHBUd3FHbkRLbm1ZSl8xeFREZEg2WWY5ZldZdU9LdGYwNlR6TUhHVUZ2WV9CYVNXUlJFcEp5VjNsNHB6NDk3OVhFZ2pEUUhzVURuWXMwVE9BNTA1aEYzLThnSDFFQ2JVdzVrblI2NUIzZ2xKUnRSaXFDM0ZDMGdkM2E2UnBGS25PQWlxSi04cWJqX3FTTnQwTXUxTVE2Qmg0ZEJIdU1oaGpkMTBWb01vY3hPcWI2WS1adElTZ2VFOVVkTVFXOU90NmFlb1dSUlJPWC1BRF83YU5hVHhXeHoxQmoxeE95RWlqc3pab29kS3FMVGlLY0JoVnpseEJZSzZuVHFEZy1hVEdIaEJhMGNPMExrT1RBTng4d0M4T1NHUTVrQnRqTkNhS0NNcnJVU1puVGVUN3BqUmU3NHp0d0ktazVPNTktSG9mM24tMFMwUS12UTZoODhYRUE3b3I4dGM5ZFBnMFVDbk5FWUFCem5SbmhqaGFuRFFZaUlIcWl0N1VCaU5NYlVzcEZZbWU4LWJQVG1zNEgwelZlRjZSVTYwOENYRE05cXVWZENfOGNEc20yU1Z3T0VmejFWT2Y1UTEyNmpxZ3NqazNpRUx2aVUzcmRDVjlxSE5nZXNYYlZ4T3MySDRsMU5wYUU5LUFIUWpHeGM2RTU?oc=5",
       "published": "Thu, 24 Sep 2026 17:06:02 GMT",
@@ -32,80 +46,66 @@
       "impact": -1
     },
     {
-      "title": "〈熱門股〉車用放量疊加AI伺服器雙引擎發威 雷笛克光學周漲13%連7紅 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5KX0dzRm0xZVRUcnlxaWc2UlJZa2ZaR2RwT2V4NGhEbmlqNEk0MzAxQm51eVN1ZzBhUkE2WHFYQTNqX1dMMXZLaHhLaUcwRHc?oc=5",
-      "published": "Fri, 25 Sep 2026 00:12:29 GMT",
-      "source": "news.cnyes.com",
-      "impact": 0
-    },
-    {
-      "title": "AI伺服器規格一路升高，台股半導體鏈誰先吃到訂單-葉博金融研究院 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUlgyY3BlVkEzaDNlaXM2ZDN5SERiOXVGVzd4U1BFRlZ0ZlVocEp1bW5NRTdFV3VIU0xXS1dHNFVENGRrY0V3SllEUllwTXpIZ3dqckNoT2ZQRXhmZkpkaWJUVml3QmtDMUlhR3pzc0xHWUktWl92eDJpT2dOUmpoVw?oc=5",
-      "published": "Fri, 25 Sep 2026 06:59:36 GMT",
+      "title": "AI伺服器供應鏈迎5GW算力大單！Meta整合AI代理技術，帶動台廠新契機-財經焦點情報站 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPeE1TRVdkWS1UbF9GUDMwVEJ3T21LUVJSLXFnVmRFNnZISFBWR1U5aXExOFplcGxvemRZTzIwMmoyaHNROWI0VnlMMnBkNGptUkJEa0NENXdIMVExZ2d5Mll4V251Unk0UklyVVRLQllzcTZLZjRtMzVBRzFCNWtzQURB?oc=5",
+      "published": "Sun, 27 Sep 2026 19:14:48 GMT",
       "source": "CMoney投資網誌",
       "impact": 0
     },
     {
-      "title": "記憶體漲價潮1》輝達Vera Rubin大開SSD胃口 群聯：囤貨看不到盡頭 - 民報",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VRURJd1V0OGE4VlVuRnlOTlcxa2dqeXlmNlJOVVZUQ3BjYm16WFVUV2dUUDBNOHMtZ1Z6d3VORk9wTDU2bUk2anhyWXlzclFBbDBSbS1BbktDZ0xIY2c?oc=5",
-      "published": "Fri, 25 Sep 2026 04:00:00 GMT",
-      "source": "民報",
+      "title": "AI伺服器擴產仍不夠！滿手訂單接不完鴻海、廣達、緯創籌逾1,700億元銀彈拚產能- 日報 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB5Mm9POEtTWmhFYlpieEllaHJIREF1Y0R4SGd2RkNkZFlNZnQ1TldDQkFyMHRuQno4N09sUjRobXZfUVU5YlVrS09sRUltQmtwcllxVmxfVkJvSm9za1VZ?oc=5",
+      "published": "Sat, 26 Sep 2026 19:00:00 GMT",
+      "source": "工商時報",
       "impact": 0
     },
     {
-      "title": "AI紅利換它飆？電源管理需求增 專家點名多檔「低位階潛力股」 - TVBS新聞網",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1HcVhweW9UZDhjY3BwbmJVRmtjZXgweDVVMUR0Y1hlR0NYZGVRMmtQck0wVWNWSXBQVWZ5eE1iLUN4SjlEaGY4QjFxVGtQUQ?oc=5",
-      "published": "Fri, 25 Sep 2026 08:48:00 GMT",
-      "source": "TVBS新聞網",
-      "impact": 0
-    },
-    {
-      "title": "AI伺服器進入MW時代 美超微開賣Vera Rubin NVL72機櫃 - 科技新聞 - PChome Online 新聞 - news.pchome.com.tw",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMVY0cU9VMFRiUjJDcWFPN2JCR0loSG5wV1B3MGs3TzdDRXVJeXY3NmNaanA3SlBiRnBOZ0N4LV9xdlhReEdNSEJhbVRtTVRvcGktWG8tdTE5NGxiWmg3WUdWc3MwVXpwaGJQM2hMVHRWV2V5LUhZQm5PdjdCTVAyMnNCbUE3NzBoMmJvSg?oc=5",
-      "published": "Thu, 24 Sep 2026 07:41:46 GMT",
-      "source": "news.pchome.com.tw",
-      "impact": 0
-    },
-    {
-      "title": "下周最值得留意的5大族群重點分析整理、以及該注意提防的風險 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUbkdaaVk1eFFyXzFCeWtPOHJOS3ZVa3Blb1RtLWppQUIycVYyR05JUXNrV25HTGJqaTVUVTQxamRnblc3NmtsOHVRSFN3Rkk?oc=5",
-      "published": "Fri, 25 Sep 2026 00:50:03 GMT",
+      "title": "台積電又有漲價題材！「含積量」成焦點 00881包下AI四大電子族群 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wMndWQUZ3bVVvTWFYUnlyQ2wzUVJtT1ZOWC1Bb0NHbU1pdzlERDY2Uk1iNHBKZlp2VG5kckJmQ0RBOTdWQnRqV2w3QzYxb0U?oc=5",
+      "published": "Sun, 27 Sep 2026 03:25:07 GMT",
       "source": "news.cnyes.com",
       "impact": 0
     },
     {
-      "title": "毛利率87%超車台積電！家具廠如何靠一條滑軌擠進AI伺服器供應鏈？ - 104 職場力",
+      "title": "毛利率87%超車台積電！家具廠如何靠一條滑軌擠進AI伺服器供應鏈？ - 104職場力",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12eTlMZFdVekJmZU5VSTBuLW1uRnNPTTZhZXJrUF9RcHczVHpRZFA3VlUyblFaY051X09DR2hhMkRZUUlsMUowRElyUmkybWhiTi00bWU3MXdkdTBPeHR2blg0dmlta1FnaHc?oc=5",
       "published": "Sat, 12 Sep 2026 04:04:57 GMT",
-      "source": "104 職場力",
+      "source": "104職場力",
       "impact": 0
     },
     {
-      "title": "夏普攜鴻海搶進AI伺服器 開放接單、27年度開賣 - 新聞 - moneydj.com",
+      "title": "夏普攜鴻海搶進AI伺服器 開放接單、27年度開賣 - 新聞 - MoneyDJ",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTEZTQU1NZjVxeWZJZXZyQ3Z4NktCdTFTUm95Vnc4ZVVXWUVkMzFrVTZDVHNYZjJDcnYyQlk0eVY2cTE4Y09VRVlhQXYtTk5hNXZpbTd1OUlUcVBYYnFBRGktaGZ2RVZYV0I4aFZVa3BTLUNaR0xsWEd3OF9hM1lQMW1uSTd0ZGY0aVpwdjY3ZUJYUQ?oc=5",
       "published": "Wed, 16 Sep 2026 05:23:00 GMT",
-      "source": "moneydj.com",
+      "source": "MoneyDJ",
       "impact": 0
     },
     {
-      "title": "美媒：蘋果計劃推出 AI 伺服器，考慮採輝達 NVLink 技術 - TechNews 科技新報",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNb1dKQTVlRF9QNmNFRkxvNlJJSG1tOXRkVzhnNXNuRFJmRGJwNkpnS2JQQ2Q0dW95QXVMZkNoYjl2Vnh4Y21fM1ZSdU5NT2NCTHY2MGM1LVg2WDlvNnZieU1BRTMwa3E4bTNTYWhSNE1QeXNBNGNDUXNpTzQyQmhxZFUzMndYY2ZPSnhNb0N2MTIzYWs0dVBYX0xRWHJiQl9HVjlMaFNwRy1uX2pCRmZ0QUlhdEU?oc=5",
-      "published": "Thu, 17 Sep 2026 00:29:45 GMT",
-      "source": "TechNews 科技新報",
-      "impact": 0
-    },
-    {
-      "title": "AI半導體產值衝1兆美元！出口結構大洗牌，台積電受惠但這2族群衰退？-財經焦點情報站 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZ1ZkY2hmZlpudm5rYVFmZDRHRVJUTEhGbDJaQWpYeFBqMU93UmhyVHFOME12STRNa19keFR1V0ZpNng5V3Atb2RUMGtiNDM4UkRWYWNFenpkNzgwNE8yQ0ZIaFFWcXhhRHpEbUliV0hOYWo2b1RiMzlkUDF1akRac0Rn?oc=5",
-      "published": "Fri, 25 Sep 2026 01:14:59 GMT",
+      "title": "AI伺服器推升先進封裝需求！最新玻璃基板拚2年交貨，台積電穩居七成市占-財經焦點情報站 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdW9QM2I5NkVTNlNMNzl1akJlQWoxbjVOOWJwR0dwODV0RExUZDJrRWdpNXk5SHVzU2k4WTVIUXRLcnMwOUFaNEhvVkZTbTh0ZFYyQ0hoNkdSbmdZeFU5Wk04QkFiZVROQm1lSW1IOTRudmJVM3ZocnZ2dVJSWEtyRHd3?oc=5",
+      "published": "Sat, 26 Sep 2026 08:44:57 GMT",
       "source": "CMoney投資網誌",
-      "impact": -1
+      "impact": 0
     },
     {
-      "title": "AI不只拚伺服器！機器人新商機浮現 這檔ETF布局台積電、聯發科等半導體股 - Yahoo股市",
-      "link": "https://news.google.com/rss/articles/CBMiwgNBVV95cUxNOUlnSWRncG53VTQ5UjRZYm41d1FidU9EX0FrQktZUDhhRkdMR2VVeTNlWi1jUTNEcXU2UThlRFgxdUxQd3Mxb244a2prQzhaSk4xX3pFSF9YVnRRbzlKUXk2YXB5N042R0Y5TlhNYy05bTVKUDQ4UXFic05hQmxkWmNYdUVoOGRrMGtDSVN3dGtxWTV6RVRBWkVfZkJ6Qkd5ckdCWGRQSDNOTC1Zd19vWXJZR3dBSjFYZW9EdHl6ZTFxSFo1YlVTOVdUNmNBZ1EwN1ZlNDBpR0gwMl9sc3ZkNTZYU0c3VnZGN0g0ZzExZjNHMFF5c3dRcGo2MVJTS3k4dUVIMUd4S2hxVVU4cGRvQzJrLVM0Sy05T3RjV2RkRGo4NklvejY5V1llbENFRy04N0pwS2tyc2xVMHZsSGVtWmw1UUc1ZC1TZHlObFVxZU5ZTGRGckZCNnViQU5iUzhTY1JOeWY2cTlEQko0Y3VrSTdLcWk3ay1NU0RQLThOb1pILUFRVk5nQ2dHRGp1OUNrbFJoaVNtVnJIMGZ3TlJYcUFtNmh6Z2N3MHJPNGFHYjhBOENCa0R1U041V2Uzd0dWbkE?oc=5",
-      "published": "Wed, 09 Sep 2026 07:00:00 GMT",
-      "source": "Yahoo股市",
+      "title": "AI大單持續湧入！台積電、聯發科、鴻海、台達電怎麼買？ - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPZ2ZpOGg5WUgzZW1TQUUwYjZOWjl4ZThTaVBrM3ItUkszMVRNVzE0QzlLR3JDWEU4LUwyTG45Z1lhQlJFcU1ianRtZ2xBWEJsUkZTXzhoMXV1YW1JTzdDRWdjRUJDdmp0cU9qN3FnR3gxQmRVaExKank3TW9XTy14ZFJWVkM2VGpVSVpvS2pONVdpejhjTWh3anZYcHFIUEIyUHh5eC1PMm1KWWNWNUl1Yms1WDVIV21VcDJGajlOLVUzMkhRRmhYXzAzaHFqR2tobEpHajdDZFVycnNMU1NtaTVBVjdfLVBsbnRiMVliZDlreU11ME10QWYyQy1heUVKQzY0dmJ2R0RBZFZpelBsU3ZXVm5rcExHZVlGOEpNcVYzVUVFVWhxaVFBNkJxWkRnQmZrUkdGLVBOQnJRVm9yT0swMjhENHRaYl9v?oc=5",
+      "published": "Sun, 27 Sep 2026 04:39:30 GMT",
+      "source": "Yahoo新聞",
+      "impact": 0
+    },
+    {
+      "title": "AI伺服器進入MW時代 美超微開賣Vera Rubin NVL72機櫃 - PChome Online 新聞",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMVY0cU9VMFRiUjJDcWFPN2JCR0loSG5wV1B3MGs3TzdDRXVJeXY3NmNaanA3SlBiRnBOZ0N4LV9xdlhReEdNSEJhbVRtTVRvcGktWG8tdTE5NGxiWmg3WUdWc3MwVXpwaGJQM2hMVHRWV2V5LUhZQm5PdjdCTVAyMnNCbUE3NzBoMmJvSg?oc=5",
+      "published": "Thu, 24 Sep 2026 07:41:46 GMT",
+      "source": "PChome Online 新聞",
+      "impact": 0
+    },
+    {
+      "title": "時隔15年重返伺服器市場！蘋果擬推M8 Ultra並考慮引入輝達互聯技術大行激辯蘋果AI算力野心 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBybXM3d3o4d0ZVdTN5X3NiOWJJaGVQTHRUVHdLZm1GN05OSC11b2Z1NzYzaUxHQ2Mwbk5PSXdmMm1LSVJFd0lNQ3BkRDNtbjg?oc=5",
+      "published": "Thu, 17 Sep 2026 07:00:00 GMT",
+      "source": "news.cnyes.com",
       "impact": 0
     }
   ],
