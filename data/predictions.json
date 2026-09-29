@@ -293,6 +293,20 @@
         "mom5": 3.71,
         "flow5": 2194.94
       }
+    },
+    {
+      "prediction_for": "2026-09-30",
+      "made_at": "2026-09-29T18:35:24+08:00",
+      "direction": "偏多",
+      "confidence": 57,
+      "range": "約 ±1.08%",
+      "reason": "近5日指數動能 +0.96%，三大法人合計 +247.21 億。",
+      "model_version": "baseline-1.0",
+      "model_generation": 0,
+      "inputs_snapshot": {
+        "mom5": 0.96,
+        "flow5": 247.21
+      }
     }
   ]
 }
