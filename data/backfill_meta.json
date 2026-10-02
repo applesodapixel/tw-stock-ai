@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-01T18:35:28+08:00",
+  "updated_at": "2026-10-02T18:33:55+08:00",
   "market_days": 60,
   "target_market_days": 60,
-  "stock_detail_count": 1982,
+  "stock_detail_count": 1981,
   "sector_count": 35,
   "classification": "TWSE/TPEx 官方產業別（中文）",
   "engine": "v1.0"

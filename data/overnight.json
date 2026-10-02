@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-01T18:35:28+08:00",
+  "updated_at": "2026-10-02T18:33:55+08:00",
   "bias": "中性",
-  "confidence": 52,
-  "score": -0.35,
+  "confidence": 50,
+  "score": 0.0,
   "markets": [
     {
       "label": "S&P 500",
@@ -25,10 +25,38 @@
   ],
   "headlines": [
     {
-      "title": "Arm 機櫃級伺服器已超越 x86，Arm 攜手 NVIDIA 搶代理 AI 商機 - technews.tw",
+      "title": "涉將3億美元NVIDIA AI伺服器走私中國 加州科技公司負責人遭逮 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBWd1VtOTV3cnRxT01ETklyVUVHQ2FYalYwZUdyZHJZTTlGZHliM1BEakdHVXhGcU5EWnFXR2s5c3U4ZlFPbTgtb0NvMXNxZmV4ak4yd1ZFRkNxMC1xdmdkUGRyZEtaVzM5Tnpn?oc=5",
+      "published": "Fri, 02 Oct 2026 04:09:00 GMT",
+      "source": "DIGITIMES",
+      "impact": 0
+    },
+    {
+      "title": "成高階AI基礎設施標配 2026年液冷散熱滲透率達53% - 電子工程專輯",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNT0F0a2h2QTduX29GekxCTm5fZjFjMnFUTFpiVjcyZ2czSTJrRG9IQVMtaFhOc2o1aFZZLW5Pdlg2MmZ0X1RTakE3N2RhRVhXazlUZjJvd3RBTlVXbHVMZENuYWRYOE01WjJnVHJ4ZGxVemZlWGVLM3BrMWJEb3pCODBBTXpKeDNyNVdlTHlwX3B5XzlLbFpNempyZVdQVXREYXNieA?oc=5",
+      "published": "Fri, 02 Oct 2026 06:56:15 GMT",
+      "source": "電子工程專輯",
+      "impact": 0
+    },
+    {
+      "title": "半導體產值飆破9.19兆元新高！先進封裝與AI伺服器帶動台積電等供應鏈-財經焦點情報站 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQ3NwRnBudDRLQUMzRlV1VG1QeDN2Z0FsVmU3d3plSjAtdVA4bUFqbm1MQ3oyUF9rQmMyeWtBZll4U3M0clhRNGxkS0swTWQxYmp5enpwaFNHdmFKb29WcnlrZHBFRWd5M3RteDUyR2k2TVdvOXl4a3ZUV0V3OGJ1QmdB?oc=5",
+      "published": "Fri, 02 Oct 2026 02:44:58 GMT",
+      "source": "CMoney投資網誌",
+      "impact": 0
+    },
+    {
+      "title": "Arm 機櫃級伺服器已超越 x86，Arm 攜手 NVIDIA 搶代理 AI 商機 - TechNews 科技新報",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VRXlFUk81a2RndmtsNlpsOEtzY2dqZGpNT3RLb0Q2RmM1WEZ2ZngzY3g2R2pRTHVseE9fME9PZlRZcG9OOUpBcU52LUVGR0daUy1IMVJDejdOc3g0OUZaZE5FcHNRRlNn?oc=5",
       "published": "Thu, 01 Oct 2026 09:37:06 GMT",
-      "source": "technews.tw",
+      "source": "TechNews 科技新報",
+      "impact": 0
+    },
+    {
+      "title": "美股震盪、美債走高 法人建議三重配置抗震 - PChome Online 新聞",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTllhU244Vmw0eDZWbEEzeFM2Xy1YQWdYUzIyUFNaMEJJd05RZVBTczNNTFhqZEZjaWFidnhDZFJ3akYwX05oQXR3UEU2N21Xek56bkJPdzhOeUY0ZUVQZkppRUJVeWtoYzFVVm8taTBVcHVyeWVXZTZYNm5qX2ozb0lLZVJzYzhkUHc?oc=5",
+      "published": "Fri, 02 Oct 2026 10:15:46 GMT",
+      "source": "PChome Online 新聞",
       "impact": 0
     },
     {
@@ -39,24 +67,17 @@
       "impact": 0
     },
     {
-      "title": "AI伺服器供應鏈迎建置潮！半導體ETF吸逾45萬人，台積電等廠受惠-財經焦點情報站 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPM1h6UnVMNkNPejhxTmpLTzYzMHRSenNMcVg0eHhtOS1vc3NpaU9LaHNKWmt3LVowVktmMEgzQmNXNlpUZUkzbm1kV0s0V1o2ei1URTFmM2xPQWxVUnUzRXlick9xbndVeHNkR2NXLTdtZDZOYVZXeFAyY08yMlh2YlJn?oc=5",
-      "published": "Wed, 30 Sep 2026 18:44:54 GMT",
+      "title": "未來城市＠天下｜AI供應鏈是什麼？台灣AI供應鏈有哪些公司？從晶片、AI伺服器到智慧城市，完整解析上中下游 - 未來城市＠天下",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOXN3ZW5DbUlZNk1FRlg4Y0RHV1lJa0ZTdDdNX1RoUjBFZk5vaDAzazdFMUpsaHc1R3RNejdJN0RHZWtIUjNLeGowS2d3ZzAyMTdiaEdsMDM5R3QyZG91cEtIdVZ4SDJwSV9fZWt3U3hySU1UVDNnby0zeHdMb3pCVA?oc=5",
+      "published": "Thu, 01 Oct 2026 04:14:54 GMT",
+      "source": "未來城市＠天下",
+      "impact": 0
+    },
+    {
+      "title": "AI伺服器帶動供應鏈輪動，台積電與光通訊誰先把營收做出來？-柏宇 KD 獲利模式 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY3dWSU9ybTdVMm4zTW43NXoyYnJQbkEwRDFyVFlsczBxZGN2aEZUdVlXY1FRNW9sd05iaVlGaXlZSDg5THVDVVJUZ1RpQUpCTzNVaEpDQVlmSmxMbEJRLTFSakFHY0VEM1B2VU5QalJobUhJX2FrbWgtMTd6NzFOZw?oc=5",
+      "published": "Fri, 02 Oct 2026 08:07:28 GMT",
       "source": "CMoney投資網誌",
-      "impact": 0
-    },
-    {
-      "title": "AI伺服器材料升級再往上游Low Dk2玻纖布成供應鏈新焦點 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ORHY1RXBUYlhGQXZlcHlPUFJLbTU0b3JfZlhqSzlOODlMRUowai1qck5ZbFlXbllvNmhfQm95OFl2bjRQTklkeXlVZ2N3cXc?oc=5",
-      "published": "Wed, 30 Sep 2026 06:30:12 GMT",
-      "source": "news.cnyes.com",
-      "impact": 0
-    },
-    {
-      "title": "《美股》焦點股：超微AI伺服器拿下大單 HPE漲3.9%；美光業績旺爆 - 富聯網",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNWRxVnd3d3R5cWhsX2IyXzZSQzZBX0VubWtHTVkwQmd6UTR6MTJJLW9SN2VYalpDU0VKTFZTQkQ1RHhmc2JFajYxTzQ5dHFDTkI5aE5WOEFyWFV0TWFzb3hJLXZhaGxkQkxIU1VqUTFsQU92SktUN2pLdTQ3emJUN3pjVzBjSGhS?oc=5",
-      "published": "Thu, 01 Oct 2026 02:49:00 GMT",
-      "source": "富聯網",
       "impact": 0
     },
     {
@@ -74,10 +95,10 @@
       "impact": 0
     },
     {
-      "title": "台積電雨露均霑！「35檔」Q4金秋 - 三立新聞網SETN.com",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1qcHlrUnY0LXRHQU1WeFg2eFJiMENNTWliNk5sektDaE1ZYzd2RXQwZGxfeFQtb1BNUlVHMl9jaGNLSWdUQWhHZtIBTEFVX3lxTE5MbTNJZnhfVlFLRFlGTXVpa3hOanlESF93R3dvb3V3VFJ4eEM5b3YxY0hHMVlhNENGdU5wdlNxUW0tTnZwU2ZVazBnZno?oc=5",
-      "published": "Tue, 29 Sep 2026 21:00:00 GMT",
-      "source": "三立新聞網SETN.com",
+      "title": "神雲科技於 Data Centre World Asia 2026 展示代理式 AI 世代創新成果 - TechNews 科技新報",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5WZUw4V05WdmJVTVJ0QkVOQ2FWdDUzR0k1MkRScGd5YTltR21CQi1DYU1IY1hYT2drOFFzV2cwR1dlUTdFT0lhdnVVLXY1RnAyNHhORGV5RHltcXEwWGxmYzNETXdHTEttMTZYNGozdGh0SGs?oc=5",
+      "published": "Fri, 02 Oct 2026 06:07:59 GMT",
+      "source": "TechNews 科技新報",
       "impact": 0
     },
     {
@@ -86,27 +107,6 @@
       "published": "Thu, 24 Sep 2026 17:06:02 GMT",
       "source": "Yahoo股市",
       "impact": -1
-    },
-    {
-      "title": "毛利率87%超車台積電！家具廠如何靠一條滑軌擠進AI伺服器供應鏈？ - 104職場力",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12eTlMZFdVekJmZU5VSTBuLW1uRnNPTTZhZXJrUF9RcHczVHpRZFA3VlUyblFaY051X09DR2hhMkRZUUlsMUowRElyUmkybWhiTi00bWU3MXdkdTBPeHR2blg0dmlta1FnaHc?oc=5",
-      "published": "Sat, 12 Sep 2026 07:00:00 GMT",
-      "source": "104職場力",
-      "impact": 0
-    },
-    {
-      "title": "輝達AI伺服器喊漲15%！台廠供應鏈吃補 6檔成焦點 - finance.ettoday.net",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9UTTMyN2tLOXozSzNWMWp3dy11SWRNb2VKRnRCVXBuZ0h2VVQ3andReFJPdkJSZzFORTM1aHE0UUZBbDVnSDExTjFfRWJGdVdFTkHSAVBBVV95cUxOdGhiZjZvM0hpekZFbk5ucko2Ml93TUVDWEQ0YzEwZjJiWFJCMGhaVFF5N0JwQXlPOF9ZcTM0bElfTllnRzJKN1EzVGN1aUdWZg?oc=5",
-      "published": "Sun, 23 Aug 2026 07:00:00 GMT",
-      "source": "finance.ettoday.net",
-      "impact": 0
-    },
-    {
-      "title": "台積電 2 奈米製程加持，AMD Zen 6 架構 Venice EPYC 處理器 2027 年產能售罄 - TechNews 科技新報",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSFBiT3lNTzIxbDdFQzZkcmhvaVdMNU8wbk1iZ0hXQkhlR24yTmpvRWZ0cnBBVkdKNEh6MEt4QVlQRHlNdFlwR25ubTYxaE5iNmVjZEpZVmpqYUd6a2xFR3psSFVHMTJEcy1NVGZPVEtyc2RFQnJWaEVEQ29zalB1VHd0clctOTlHY2ZHSlFadkpndjhWaGx4bGN4MEtXSVhUQ21QMXZyMy1qNUhkR3c?oc=5",
-      "published": "Thu, 01 Oct 2026 00:04:51 GMT",
-      "source": "TechNews 科技新報",
-      "impact": 0
     }
   ],
   "note": "這是盤後正式預測之外的夜間即時修正，只使用公開美股行情與最新新聞；不會覆寫已事前登記的正式預測。"
