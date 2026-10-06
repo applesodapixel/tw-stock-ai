@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-05T18:37:25+08:00",
+  "updated_at": "2026-10-07T00:51:07+08:00",
   "bias": "中性",
-  "confidence": 50,
-  "score": 0.0,
+  "confidence": 54,
+  "score": 0.7,
   "markets": [
     {
       "label": "S&P 500",
@@ -25,88 +25,88 @@
   ],
   "headlines": [
     {
-      "title": "川普拚製造回流 AI供應鏈卻沒全回美國？外媒曝 : 台積電與台廠布局藏答案 - 自由財經",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CS3RTSWtPeTRjMFdoeGdSU3dWN3AwU2FHWVZBM3pPMllqRjZJQVpzT0hUbVZmLTVtNWladFV6UDVKeUx1YUh2U2hCVUtTdktVRHRCYWFDUXlYVHhmX05v0gFkQVVfeXFMT2lHTnNjTUpJZU5vUzlqYjVTZkpWVld1M3VmY05nVEoyUmdLdFJwRmk4c2F4bDA3YzZhMVlVVGg1QUM5LUoxTmVDUEhmZmVEeFJCalY1d0kxRE5UUGhEZGg3eGZ3Qg?oc=5",
-      "published": "Mon, 05 Oct 2026 02:25:27 GMT",
-      "source": "自由財經",
+      "title": "從匯流排到連接器 鴻海、NVIDIA推進AI伺服器彈性自動化 - CTIMES",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBPNXBTY0FQS3NndXU4X1ZHblZLb3VES3hYWHlheHkteFVqbjJxRjZWVDluajVnWUJ2bDN3dVFOd3E4amFyVUI2d0NBQkx3U1BBdUFaT0tEMm1aQXBpa0VrMm1tQmZ2VVdFV1FqZmtkSHl6ellJ?oc=5",
+      "published": "Tue, 06 Oct 2026 13:16:13 GMT",
+      "source": "CTIMES",
       "impact": 0
     },
     {
-      "title": "00830近一年翻倍？國泰費城半導體ETF成分股、配息與定期定額一次看 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBoWk5CVFJNYnlmZEVUaUFfSThLcTh5TXJJUkNUU1BLdHpidlRkQTFRWmY5bFFLQnRMczZ3S1VhaDZvd2tpTVJBMVRrRDRWTGc?oc=5",
-      "published": "Mon, 05 Oct 2026 05:55:42 GMT",
-      "source": "news.cnyes.com",
-      "impact": 0
-    },
-    {
-      "title": "外資狂買718億點燃資金行情，AI伺服器概念多檔漲停，台積電再締新猷-財經焦點情報站 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNLVJIdnR6em8ydkpzamZIOGZLVnRNNGdOZWczNjlseWZHeVFqZVZXRnlCYXN4czdqcHlUUVZKdndsZW1vM2lrc0ZSZWR1V2NUTEVtNEJPbVdhVzc0cThudHRtc1JocVJMM3lDN1dkSjV6TkliVzllMnRXVWJuZlY4ZVJB?oc=5",
-      "published": "Mon, 05 Oct 2026 10:15:00 GMT",
+      "title": "AI伺服器供應鏈加碼百億投資！最新產能規劃拉長至5年，台積電受惠-財經焦點情報站 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQY3ZIWmhmS1BObHFpUDNMa1dEUmJkMU5ZdWlnVHNkTDlFdU5od0RndS0tNXc3Y1FBckRHVjhTZTJHMzlEOFVUNE9PaDdpbk83VW15U3VYTHYxM1ZjdjhDeDI5aWJ2bGFyZDAyZ2FpN2ZGWW1rN0d1YnMwUmhGUENrYXF3?oc=5",
+      "published": "Tue, 06 Oct 2026 09:45:05 GMT",
       "source": "CMoney投資網誌",
       "impact": 0
     },
     {
-      "title": "iKnow - 科技產業資訊室",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xNXAwdXhfam40Ry1DenoyQmFXcnk4YVpYeUlteTlSU3c3Vk1QSElDbWlmUVRqU0p2cmJwa3pTMGhmS1VvZkp1Y1BjTmlTVWczYkZfcV9NdlBfdw?oc=5",
-      "published": "Sun, 04 Oct 2026 17:00:05 GMT",
-      "source": "科技產業資訊室",
+      "title": "賣電梯也能沾上AI紅利？專家點名這檔「冷門標的」低調穩穩賺：台積電擴廠都得裝 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxQcllnT21VMjhhQjlDWkRzS0pNNUNRSGlpNHk0WEtiWTU1dGpXaU9jMmVfTkJ1Q1NnYlVTeVdtMW5jeWI0UTlMTXNyaGZVS1RhclpnaWxFUXU3QUVYNkRjZFpicmp6NWFWYWF3Znp2WnpUUHlEYXk3MWFZODVKX09VVzVKRC1UbGlKZnQyWWUzZzUxaE5xbEVOUkdlWGk5S01kY3QtWm80Uy1vQVBtck51eC0tWlJkMk9vbk43aGRSWDJBMUlUeUFXeFRUVUEtYW9tSFg3Q2lKdHREYkN3VVdmMXJMbThweHVuTHFvRUthVTUyNXZGWVBLM2RZQldOeVBkQTRPTU5oNlVlTkdhUU1yNTJnc2g0VFlScTJ5ajBjWDFhTjdOZkRYVGE2YUVkNTBYSTh2aDdpemJZTEViWm9KZkpCenVFQnNqOElZUEVQNGhDc241RGZURWZ4Vklhalpjc0lpelV2cUdiWFQ4WWtOY25LLXlyMTNsRHUyaGNTN3p5TVJwbVlrdFZpd1ZZRlhmSXRtWlRYS0NTNnNkRkc2SFFGbG5WNnozUG1zZ1VRX3hjNEdZelFNREoySmlyTGxRR0doYnlUNXBtczB6QkJVcTRaR0xxQkxsLVln?oc=5",
+      "published": "Tue, 06 Oct 2026 15:39:04 GMT",
+      "source": "Yahoo新聞",
       "impact": 0
     },
     {
-      "title": "AI伺服器、蘋果新品帶動 鴻海9月營收首破兆元成台灣史上第一家 - 鏡週刊Mirror Media",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zUTlFdENrMTF3RktKZUF6U21KYlIwR3kwU3ZLOXhwZ0hKYlhSLWY5N1B5YVpsU1NtQkpSZ3pacDNER0R0NTQtYTdzNnJCazJsc3dGWUQxTGJweTVOVjl1M2JSY9IBaEFVX3lxTE1pNy1mNDJEU0hwdXIwMDFHX2oyMmhGS1lYZ1J6WERfeTNVWDF5QURYSUQwaml1N0UtVk91SFltQjE3Z2dpZ1RpR3gtckFkNzk3QkQ3aVZqX0lEQkxxZ1pwUnJkaWpMNHBz?oc=5",
-      "published": "Mon, 05 Oct 2026 07:51:00 GMT",
-      "source": "鏡週刊Mirror Media",
+      "title": "AI伺服器功耗提升！富鼎(8261)高階功率元件受惠！ - 口袋證券",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8wX0ZoY2NRLXAtX2lTeGR5TTN1Y1VhWE4wMWFwTUM2bDBybklSNl9JS2t6Y2RrUFdjUXl2ODc2S1FsamNKU28wLVBndmVtOG5ydDBBSFpQT1ZfTlYxakE?oc=5",
+      "published": "Tue, 06 Oct 2026 00:30:55 GMT",
+      "source": "口袋證券",
       "impact": 0
     },
     {
-      "title": "Nvidia攜鴻海攻AI 機器人幫大忙 伺服器產線自動化首曝光 - 世界新聞網",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81cmFnU2JGaVJfeVBoUmNKcm5hTG02Mm1sNkp2Q01OaXJzcHpTeV9UVG4xSXFDLWdCdHg1LUZySVMtRzhDdS1ZSUNPc0VoMF9kdzBadEZ6bzVrTEhPMlBEdFhR0gFnQVVfeXFMTmRPUkh2aHltUGdmVWtBQ3B5SzZ1dmpFY2k0VS1qVFB6MllhT0NmQk5jbHpTVXpTNWtFX3FzVEpVNEVzdmhJaWxqemtKbjhQYkRFdzRzMGFqZnJqb2Y5eDZXZ25TRGo1RQ?oc=5",
-      "published": "Mon, 05 Oct 2026 06:00:00 GMT",
-      "source": "世界新聞網",
+      "title": "【漫圖秒懂】繞道東南亞踢鐵板 3億美元NVIDIA AI伺服器走私案曝光 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBmdkRhUmU0clRaVUh4bEM1LTB5cWp6U3paT3pUMl81SXJEd3NlMmJHQXVQYnpRWk1ERTFuTVpLa3ZCdzdxRTVHaXM5MV9YWTFVWjFQOHJVTXBsVmhpNFNXS2VJUnJJemo4QWZJ?oc=5",
+      "published": "Tue, 06 Oct 2026 16:42:05 GMT",
+      "source": "DIGITIMES",
       "impact": 0
     },
     {
-      "title": "輝達/鴻海攻GB300機器人自動化，組裝成功率逾9成 - MoneyDJ理財網",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5kUTdqVGxjSm4ycTlEZ3JEYjVIRnFCS05DZzVjdmJGeU42Q0ZCYlZILTc2eGxBdkpPR3VydG1rN25XUGFkZm13SGtVNGhZU0g1OFpTUi1Gd3Y3Vk5GRGpieG1scmxUU1k3UkZDZTBXTnM5QzdrTktPZw?oc=5",
-      "published": "Mon, 05 Oct 2026 01:20:00 GMT",
-      "source": "MoneyDJ理財網",
+      "title": "南俊國際9月營收2.7億元年增3成 AI伺服器新品逐月出貨Q4重返成長 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBOX2NhQnlzRnJuSkRGTS1JdjduSnJ5TjByYW42Y1dQVVVXY2lJX2pWM25ySDlaTGs3S2Y1YV9KWGVDSU82Y3VfU2Z4VklMUVU?oc=5",
+      "published": "Tue, 06 Oct 2026 06:51:01 GMT",
+      "source": "鉅亨網",
       "impact": 0
     },
     {
-      "title": "CPU 重返舞台！代理式AI 概念股有哪些？輝達、超微、美光搭上第二波成長｜美股產業｜豐雲學堂2026 年 10 月 - sinotrade.com.tw",
-      "link": "https://news.google.com/rss/articles/CBMi-ANBVV95cUxQRWp1bDUySUJZX21fUzl5YzdfSm45eVRCRWdtUmtaOFRUSzI4Y01keFdEUkpmcEQtQ3NfWVpXcjlJeHpXRHJ2QW5Ha25rV0htd2Z4QzhQSTloX0pXaVl5VGgyRUhkMUlvOWMzb1hTbDR3c2hITkNBZm0xVDh1UDItSDl2SVl2RFlCSkh1S1dwQUgwdmJTbUlzUEdLeVRKUEdsa2JzSmpVLVluU0dCVW43RUNNdWZFQ1ZEc1RYZEdXd3JybWR0ZTc4UlZXLXRkX25NQ0o4QktMckVBZFd1RDIwdTNLWG1RaF9wTVNjSHdzQmpGWkFQMXhXZmZfNXk3N2wwU2pJVUMyR2R6Rm5yWGxscDJRd2dtSjlKY1VuVHJyOVhYaXZVeG9zekRsRkh4OU1MeFZaQWhRRlRacVcwNWctYTRvcVU0Nk1DYXdud2trXzl6OXVvV09BQlNfdy0xbFhnYVFubjZERUR6ZUZIS0ptYjJXa2pfc1ZJeVNDa3p4bFo2dE9qalJSdEZrWE9DeVRxc3pWYWxZTnAwbXF2SjZkYTZwVldMUHZLQ1Brb0QxY2s4V3g0S29aRTNlb0pHaURNMGZZM0N3bEhkNGRpdkEtWDlLNDVybzFxa2NrOHJPcjRMSWhBaUtZNUYwN0d6cmJJaEtSOGloaDE?oc=5",
-      "published": "Sat, 03 Oct 2026 03:45:00 GMT",
-      "source": "sinotrade.com.tw",
+      "title": "AI女王快閃1》蘇姿丰5個月2度來台 AMD從台積電一路搶到封測、載板 - 民報",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1OSm5PQTZoU0l5b1EtTWIzT3huYWlVVDB5ZHBFaFRybl9vSWRYeGpMWkltcVRYSXNuRExjNVlEdUxpTWRNRkM5VkhXY1BxVThMRVBzU1NFSXZpUmVYR0lVbFY1djg?oc=5",
+      "published": "Mon, 05 Oct 2026 22:00:00 GMT",
+      "source": "民報",
       "impact": 0
     },
     {
-      "title": "挑戰 99.5% 成功率，NVIDIA 攜鴻海讓機器人組裝 GB300 - TechNews 科技新報",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0yQW9Mb1U1c0RWMW5aTUdoTHZPMFlIb21QbmJYcDdQYzZNSnQ5SElMRlFZdHpCQXBDNmppTDFNS1NTUmdTdkhGX25RTzZVUHg3aUpGVzdNMTJtV19JakFGU2RLZUZkUVdqR2xnXw?oc=5",
-      "published": "Sun, 04 Oct 2026 09:39:03 GMT",
-      "source": "TechNews 科技新報",
+      "title": "蘇姿丰傳今訪台 鎖定台積電、鴻海等供應鏈確保 AI 伺服器量產 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1Q1hCNDNOX21yNmhpYmlLbmxCU0EwUzJuSkVodTB3aHRvRkZtal9zbzZXck9UdzhlVklHcHd2ZWd1cmtveHdZRzlPMUlrM3drMi1ISFBHdkVrUdIBX0FVX3lxTE9wWlRVZUJTRmxJbzJCOFB4TzdmVTVSNUhiOFFaWDhqQjk2VFhuc1dKQlZYMlQyaFgwMEp3YkZkMWVUUFMxelVHQ2djQ0dHcUgtOHpJSnNPZUIzcjBIaGVJ?oc=5",
+      "published": "Mon, 05 Oct 2026 18:07:52 GMT",
+      "source": "經濟日報",
       "impact": 0
     },
     {
-      "title": "AI伺服器供應鏈發威！台股飆漲千點逼近五萬大關，鴻海單月營收首破兆-財經焦點情報站 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQ29McUhNWURMYkhHdWhFM2xnQ1pnNkE3RlIzZ2g0QnRMNnkxa0J3M2ZGd05JbmZEN2tTY2N6ZElzQTNZZlFmZklrby1JNzZsanNqcU5SQU1mRTVXSmFLWHp1aEk3UHRhaUM3aHFGNm9vS1I3ejM5VFRqZ0dsakZoakF3?oc=5",
-      "published": "Mon, 05 Oct 2026 10:16:11 GMT",
+      "title": "AI伺服器供應鏈掀60億擴建潮！半導體與網通營收雙創高，台積電法說成焦點-財經焦點情報站 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVEYwcDVyNGhJT0JzdWdNaVhFNUJHaVpjRWhBYVExUkJfYVNCSWVvQmR0VWdFaklwcnhEVGZrcUJUSHlvVmdOU2lTRDlTWm5NLVhfdnN4dlNnQ3Q0blV4WHUtckVNUzdHT2VsajRYZjNZVktlQ1lsNXh3SjUwTE5POG13?oc=5",
+      "published": "Tue, 06 Oct 2026 15:45:15 GMT",
       "source": "CMoney投資網誌",
-      "impact": 0
+      "impact": 1
     },
     {
-      "title": "資金可望湧向MLCC族群！AI伺服器單板用量增逾6倍、全球ETF接連布局 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1fU1BKTXFiRDByN2RUb2JQaFdKOV9NdnNSMUFaZ0QyYXFNSkxqUWdKTTN0WkpTZlhrWGJoSmFKbVdDTmttLVcxZlE0Z2Y5MFk?oc=5",
-      "published": "Sun, 04 Oct 2026 12:30:05 GMT",
-      "source": "news.cnyes.com",
-      "impact": 0
+      "title": "輝達創歷史新高 鴻海AI伺服器需求強勁助攻 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zZXNiUmFYUkc3dU9XS2NsR2VKSDQ3Uy1ldV9FVFZPUzdHTWctT0N2TzM0U25IMVNwTzMxU2M2UmxKYjJicFFzOHN3bG5EekE?oc=5",
+      "published": "Mon, 05 Oct 2026 22:30:43 GMT",
+      "source": "鉅亨網",
+      "impact": 1
     },
     {
-      "title": "Arm 機櫃級伺服器已超越 x86，Arm 攜手 NVIDIA 搶代理 AI 商機 - TechNews 科技新報",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VRXlFUk81a2RndmtsNlpsOEtzY2dqZGpNT3RLb0Q2RmM1WEZ2ZngzY3g2R2pRTHVseE9fME9PZlRZcG9OOUpBcU52LUVGR0daUy1IMVJDejdOc3g0OUZaZE5FcHNRRlNn?oc=5",
-      "published": "Thu, 01 Oct 2026 09:37:06 GMT",
-      "source": "TechNews 科技新報",
-      "impact": 0
+      "title": "AI伺服器供應鏈迎利多！超微宣布加碼百億美元在台投資，台積電等台廠受惠-財經焦點情報站 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSy1CVVRPMEtHX3dheUp5SmdIbWFBZXVYdUt0b1RKUFFGNG1lbG5Yd0VrbGhlZzhsT2pZS2FJYTRITkwwZUk4d1FNeTJFdjVhQ0hLRGw5Ny1TYmFZSWdQaWlMRVoxNTUtV3NnWUF5TmhVNUZYUnlWNWJwcU1TSl9NVHl3?oc=5",
+      "published": "Tue, 06 Oct 2026 06:14:54 GMT",
+      "source": "CMoney投資網誌",
+      "impact": 1
+    },
+    {
+      "title": "3100→3300！高盛調高台積電目標價6.5% 看好AI帶動業績強勁成長 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9lbEp2TVlJWmpXV1VzcUNNZnhhTG9uRWJpQ1d3dnZ0NGwzN2FFNm5KMUVwSzhoWEVDNk91RXd1Vm5tanVOa2FYQ1owNkhldEU?oc=5",
+      "published": "Tue, 06 Oct 2026 01:20:50 GMT",
+      "source": "鉅亨網",
+      "impact": 1
     }
   ],
   "note": "這是盤後正式預測之外的夜間即時修正，只使用公開美股行情與最新新聞；不會覆寫已事前登記的正式預測。"
