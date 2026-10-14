@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T01:39:17+08:00",
+  "updated_at": "2026-10-14T23:13:14+08:00",
   "bias": "中性",
   "confidence": 50,
   "score": 0.0,
@@ -25,6 +25,48 @@
   ],
   "headlines": [
     {
+      "title": "仁寶參展OCP 聚焦加速AI架構轉化為可用算力 - 台視全球資訊網",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNTYwb3YxYnZpTm5uZUxKdUZHMnE1LTRKd0JwZWlQZ05EY0toZEJqRFR0ZWhVaUZsVXVkMGdBWGUwSUhkQXN6WXpLODMwYUJMWlhueUtIMlFYZTBkVTV5Wl90bzB4cnJxUUJJRlRVV0gtSWdkNnFqZ2JXcFpOS1FyRHNJQzA0V1c3SEowMnp3U2hsZw?oc=5",
+      "published": "Wed, 14 Oct 2026 10:01:48 GMT",
+      "source": "台視全球資訊網",
+      "impact": 0
+    },
+    {
+      "title": "仁寶布局輝達Rubin世代 釋出新一代44U機櫃 - 自由財經",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCZXNrZGFDWUdXYlF3cDBURUhCTTl1MXR3MXZUazd3WXE5SnJsWWY0dTRyMThYSzhXX0tYUk9Dei1OSVg2V2dPZjVZU21iVUVuWG1ZM190Ukwzd09PVTBN0gFkQVVfeXFMTVV6UG9CanhEeWZ3ZnkyOHRXNDZRWEk0NFgtSzlhWEtleVdYYTByNmVaRWFaX0hwQWdLRVNFRFFvWml5anFLTmtCUXFmUVZIZXBnZVc1WDRYSUhUc2ljN1czVnRCdA?oc=5",
+      "published": "Wed, 14 Oct 2026 12:52:00 GMT",
+      "source": "自由財經",
+      "impact": 0
+    },
+    {
+      "title": "華碩於2026 OCP 峰會展示新一代AI 伺服器，導入 NVIDIA Vera Rubin、Intel Xeon 6 與 AMD EPYC 9006 - 三嘻行動哇 Yipee!",
+      "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOSGNTdDFLaUlpVGNPZjRRalpLZFhUalBobFdxMUx5bHYzb2RxTFQ2bjZQb1Q2REo1SjN6YXFBSWV4OHQ5aXNsRWdJalVqa2Z0Z2VfWnpQdmtheHVzNjhmQmNPQjVMQlpxbUhrWEcwbGpQMVY3WEI1aDFBaV92Q2VxNXc0OU93blRDV1M3clk2UjZXdURyTGdSdDdBRHJxRGgwRmpxd2ppaUFOTEZxOUhPWmJreGlzX0FpcXNoOThTYV95cVVvbi1udHZjaUF4cFpHb3NLZW5XQmI5QW1nVV92R1hqUUtXZTlib2VzV2tWUHVILUFPZ2xVUmhlV3J1NkowbHhuemhJa0xwLWJYSWl6M0NzdnN4dkpsRXVjQnEtbE1tOWFEUzBtVk1TNnhiMG1yT2VLejhBZXlqT2R6MmNXVmtKbkdidXdi?oc=5",
+      "published": "Wed, 14 Oct 2026 09:46:29 GMT",
+      "source": "三嘻行動哇 Yipee!",
+      "impact": 0
+    },
+    {
+      "title": "美股平盤卻先出現分化，台股AI伺服器能否續強？-美股財經週報 - 阿筠 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVFdaVmV0YllJWDloekhlUk1aTU5Bdk5sZTF4X1AxSW1qTVB6LVpaRUxEamgySURSYWtwZ19tSVgyd2lNUVFKY1VFSHotUlVwT1kzYXhOdW81SE1NYTlXMHFha2FUZWF3Y090b1BOdi1uV1NMQkRSa3Z3NHJLQVVWcU5QTFZ4Zw?oc=5",
+      "published": "Wed, 14 Oct 2026 03:42:59 GMT",
+      "source": "CMoney投資網誌",
+      "impact": 0
+    },
+    {
+      "title": "《DJ在線》AI伺服器能見度高，ODM明年動能續看旺- 新聞 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd2dFRWhNSnd6U084U0N2V3hwcUdLc0VCWDBuaTRJa3QyRDN1cmt1SGJOb1FBWG1WTkcybGZpQ1BMR2tKblRfamJGSDUwRm5XUFB0R01USHAzWTZnVEJ4YUM5VmZrOWp2clRzT3JxZk42ZWpZSjhHeE05eTZEcEFfVF9mRHBHUW5CZTB6MnhfbGh1UQ?oc=5",
+      "published": "Wed, 14 Oct 2026 01:28:00 GMT",
+      "source": "MoneyDJ",
+      "impact": 0
+    },
+    {
+      "title": "光寶科前進2026 OCP 聚焦NVIDIA 800 VDC架構、液冷散熱核心布局 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91QV9qblJZaGhYOHVZaFpFZTRDTW0xYUw1N2JWX0pxYVRQdEs5Z1NMM0RfRmpBSUFNU2U0bzNIUk45M2lvM0c4VnVSZF94NEE?oc=5",
+      "published": "Wed, 14 Oct 2026 09:54:54 GMT",
+      "source": "鉅亨網",
+      "impact": 0
+    },
+    {
       "title": "華碩推次世代 NVIDIA Vera Rubin 伺服器 佈局代理式 AI - ASUS Pressroom",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcVJXMk1rVDNxQWFzWmctVEh1dXhOZ1Y3RGJsRUdEQlZHYTlWdlZzUExMajlBQjhmV3JQTWZSVWMwell0QTk5OTl2REVpSmJhc2d1czJnSG5Ubm4tYzZZbWlqc3M2TWlaVElVal9mVG45MEpuQk14VDBVRnpBV2lsSVFYVVFOcnNaSll6aWhtNlYzaXM1SnlRc0pQd1E?oc=5",
       "published": "Tue, 13 Oct 2026 07:03:22 GMT",
@@ -32,10 +74,10 @@
       "impact": 0
     },
     {
-      "title": "搶攻代理式AI商機 華碩OCP峰會發表次世代輝達Vera伺服器 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YWHVQVEljMVpxRHU4UHdLaW9GMzRMSEl3SGJ6cXlLRnN4S3pFOGRhQWZZcldxTk9wY1lxSFV2aVFUU1piZ0RMT0JzR2ZQT3c?oc=5",
-      "published": "Tue, 13 Oct 2026 11:04:51 GMT",
-      "source": "鉅亨網",
+      "title": "台股上演「領域展開」！00918靠AI、金融雙引擎9檔成分股一次看| 存股族愛ETF | 股市 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjaGdUVW9TZWd2TVhqUFU3NlJFdVRnbVpoQmU0d2RSdmpVU3I3MGpxek1XRGdVeDQ3YVRsMFRjSkJpc2Q2XzZmMkRTMEV4MU9QNzN3?oc=5",
+      "published": "Wed, 14 Oct 2026 02:45:43 GMT",
+      "source": "UDN",
       "impact": 0
     },
     {
@@ -46,66 +88,24 @@
       "impact": 0
     },
     {
-      "title": "華碩秀Vera Rubin平台，搶攻代理式AI商機 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeUw4NFFlUmRfdjJuNGhoRGRqQ3R5MHRmaDFlMDNIUGRqQndFS01UUE1OeHNreFBmazBieTdvYlpyb3hIeVRYbmJHVTZ5VXpfZVlianVPdFFEMzRqRmtlcGdjcEQwTWN1V0ZWT0RLSW53Y2tlZHFWb3YyYlJiODFOdDF5QzBheFJsbk9JLVlGSVE2QQ?oc=5",
-      "published": "Tue, 13 Oct 2026 08:04:00 GMT",
-      "source": "MoneyDJ",
+      "title": "2330 台積電 - 和碩績優爆量漲停！AI 伺服器、SSD 布局受矚還有小金雞月底掛牌- 股市爆料同學會 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9nd1RFOE1haVFvU09FdDIxVFlwaWx6MUcyVDEwbDNVXzNSa0Y1WmZwWDNJQjlubE1DVkYwVmtvSnI2UjNhQTdHdXRPS0VwRThpQWw1dU1UZlc?oc=5",
+      "published": "Mon, 12 Oct 2026 02:46:08 GMT",
+      "source": "CMoney",
       "impact": 0
     },
     {
-      "title": "勤誠前進OCP2026 秀AI整機櫃解決方案 - 自由財經",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5NcDBReWpETGZnblU1UWhsRTJUQm9ldHJ0UDVpRjEwWmxvR3VuMkRZLXdyQy11QWdWeWZEOW54WEpwSWgxSlBERlZZQlEyUmZlZy1rZkU0UFljWEY5WHpZ0gFkQVVfeXFMUFVVVW53OVRhQmpXNXNvRS1INWdzN2ZVVmZBTG45emd0eXVqNGZhZk1kWjdjS3RvNGZiakx1R2loLThXcmdaWUZlLXBYRy1TVjM1SUtOZ0lVRTl4dThxdUZ1REdudA?oc=5",
-      "published": "Tue, 13 Oct 2026 08:31:50 GMT",
-      "source": "自由財經",
-      "impact": 0
-    },
-    {
-      "title": "AI伺服器供應鏈秀機櫃與液冷，訂單量產能否接上-跟著大資走 澤明 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQy1oUEZqS3lLTzdZejVkU3FhZmNiYUFYXzMyRDBRb1pQd3k3dXMxTnJlV0hGbzdUR3VENncwTG52S0Y2YXk1amFmUkIxdHJuNHRDR3ZhTUs4ZnR6YzBPMkRuVHptLWhWdnV1UFQwcmpBcFRDMzlSczg3Z2xxbDFMb09LUQ?oc=5",
-      "published": "Tue, 13 Oct 2026 09:47:07 GMT",
-      "source": "CMoney投資網誌",
-      "impact": 0
-    },
-    {
-      "title": "鴻海 OCP 2026 秀 NVIDIA Vera Rubin 平台創新 - TechNews 科技新報",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBJY3gzcmRDVWgwZlFkNVdzeDU0enF3Nk5IZE5GSHZsbERFMEN5SjVwUU9VRHNtQXB2VWFYb1ZseTc4QzViYnRFWnJUa01FZC1hQzNvT0JSM2ZnYnByTnJqYnhfZUwzU1E?oc=5",
-      "published": "Tue, 13 Oct 2026 06:32:23 GMT",
-      "source": "TechNews 科技新報",
-      "impact": 0
-    },
-    {
-      "title": "捷普攜手阿達尼攻入印度AI伺服器供應鏈合資布局數GW機櫃製造產能 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzMzNvbzFOa2M3T05UR0U5ZTY3UlhSNXE5YndFZlo5ZXh6R3JOOEpBMU1hOWRIRlpHdGVJNGhkRHlxQmRKV3lhZHdKYV8yclk?oc=5",
-      "published": "Tue, 13 Oct 2026 14:30:05 GMT",
+      "title": "〈台股開盤〉台積電攜塑化跟上亞股反彈腳步 漲逾500點重回48900關卡 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9seXpqQTdFLXhkRER0N0E4Z1Q3RVRsV3pKMjdlTnBBaUVBS2cxem9XTFB5ZE9WOUt4dEV0TmpybDViVzEzMHBWc3VQYVRmbGc?oc=5",
+      "published": "Wed, 14 Oct 2026 01:41:11 GMT",
       "source": "鉅亨網",
-      "impact": 0
+      "impact": 1
     },
     {
-      "title": "鴻海OCP秀Vera Rubin平台，深化AI機櫃垂直整合布局- 新聞 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQak4zdHpVem9sSkdFMG90b3ZCVElYS2tkTUg5dk1jaTdJNG90aWEwZ2E0Z0ZTOG5BUzdPM3dlS0xucWs2NlRWdlNxZndvWnp1eE9NVFk5R3FmT1Q4Wk11WndzaEpXNjNEYnp4Uy1RRXJjUmNQTHNfMTVYMGtzbEZuQzllWjlDVUtYbmFULTg4Y2Z0Zw?oc=5",
-      "published": "Tue, 13 Oct 2026 07:32:00 GMT",
+      "title": "勤誠OCP大秀AI整機櫃實力，迎接AI基建商機爆發- 新聞 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2RVMUhXcFZ4NThWbVQyNjVsY2ZGcEQwanZxSHNqMUFENTFSN0NEU0EyYUhwUHBaZUF5ZDQtNnBHdWZPb21jQUdZbHhtZlV5QUJ0bTJwT1Q0bGZFdjQ1LWZTVEVUb1JfLTdBS3VQM0RIUFdJS0U1YkdBUkxtS2ZQd2o2Und6SV9lYWlCSE9VZFJjdw?oc=5",
+      "published": "Wed, 14 Oct 2026 01:18:00 GMT",
       "source": "MoneyDJ",
-      "impact": 0
-    },
-    {
-      "title": "微星深化AI轉型 搶攻機架級液冷系統商機 - 自由財經",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xX0lnajZzYXJMblMzZFdGdTAzRmFoejM4c1ZPNFJUYWlLM3J0dGUtWFkwVDVQVFRtVzRwMnMwa1hYWEtjUkVnZlVVeWNLNFBXZi1WbkIzZHk2SVVQalhn0gFkQVVfeXFMTWx5R2FXSUdaU01PeGlGeC0zNEVLdWVhZzJveHMyR0ZPODhkUDZCODM2YkVOSFdGRV9oYXJ5T0pBTmZHZ3pVek51YWhvRk9iNDJUb2VoeF9NTk42ZC1FMDI1aUhCZg?oc=5",
-      "published": "Tue, 13 Oct 2026 10:12:03 GMT",
-      "source": "自由財經",
-      "impact": 0
-    },
-    {
-      "title": "AI伺服器供應鏈迎大升級，最新OCP峰會多家台廠展機櫃級液冷實力-財經焦點情報站 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRnRMaFF6am9SalR2NTZyMjZkaDFKN0ZUSlNFbjdTNkEzNEV0NE9MNzhrMGZHN0NPdFpOZ0FjcjY0ZkxPVXppMURPVDlsV0xsWDV5X3BEczVzaWVUdGFQV2NfTURsQ3lseGpyNU92R3BtMHJhX1NpUXQ0bHd0TjVndXR3?oc=5",
-      "published": "Tue, 13 Oct 2026 08:50:31 GMT",
-      "source": "CMoney投資網誌",
-      "impact": 0
-    },
-    {
-      "title": "微星攜手輝達登場2026 OCP全球高峰會 秀出MGX機架級AI基礎架構 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5zcGF6eGJORFVBNXJPbjR4em5GQ0RCMmtNX1ZNcGpJajBBSHlrOWZ2RXNhVjRzdzQ2TTlvYXhDem9YTEd6Zk5DSDBBN3hvTWs?oc=5",
-      "published": "Tue, 13 Oct 2026 02:13:14 GMT",
-      "source": "鉅亨網",
       "impact": 0
     }
   ],
