@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T23:13:14+08:00",
+  "updated_at": "2026-10-15T23:06:43+08:00",
   "bias": "中性",
   "confidence": 50,
   "score": 0.0,
@@ -25,45 +25,31 @@
   ],
   "headlines": [
     {
-      "title": "仁寶參展OCP 聚焦加速AI架構轉化為可用算力 - 台視全球資訊網",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNTYwb3YxYnZpTm5uZUxKdUZHMnE1LTRKd0JwZWlQZ05EY0toZEJqRFR0ZWhVaUZsVXVkMGdBWGUwSUhkQXN6WXpLODMwYUJMWlhueUtIMlFYZTBkVTV5Wl90bzB4cnJxUUJJRlRVV0gtSWdkNnFqZ2JXcFpOS1FyRHNJQzA0V1c3SEowMnp3U2hsZw?oc=5",
-      "published": "Wed, 14 Oct 2026 10:01:48 GMT",
-      "source": "台視全球資訊網",
+      "title": "搶攻輝達Vera Rubin商機！「代工大廠」秀全液冷AI伺服器新技術八大公股卻倒貨逾3千張、提款3.4億元 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxQRFdPS0ZZV3ZqRDRpZTJ5WDZRV0ZveWpXSVg2NU55cUpFaVVNeHlqZEFDbzJxM3NFdUtrRW5lUkdHNXBLWjdiaUZNZkc1ZHZ1aFMtVDdxN2FmMVZYUEpCZW4wOERUSnVzYTlJTmtNanA1QTg4bGx6TGJHeEVQQ0RDWXgtdVktRnExclQ5UGNzeFlId1N1VmNvVThwXzZTMzdWQ1RsbnJneEF4ZXhxRHFKbWgzY1JPQXEwMFVtV2tWbHQyTXo2amRsR3dIaHdHR2VQbGRkWlBvbGRXTXRIQk1xM3VYa2FxRTdnTXNUWGloS2pUOWtHcWtHbGZCY2xnaU9wQTBQQXQ0VkRsQzdNMzlfN25Bc3NxWmNxZVhEMy1uZ3BUN19qU1UzMjdET1JUV215ckxxNjlRYnFFeGxuZ3V2SGZUMGlscDBwWDBrTERLQUh5dGgwWTVfZlNHSkdiVXl6eHZlZjM4bVhJekNvRkxMOW9pNXdCYmdlajBZUFJBOG5RWWs0a1cxYlZMSEwtS2ZEUWRMMHpmRHBqSjZ6ck9vVHBmZ0hpYUJES21zY0JubkdrZTltU1VOS2dhbzk5WXpmN3g3VHZydE1fT1g5bnNJZFlOQ0hnZ3V1?oc=5",
+      "published": "Thu, 15 Oct 2026 14:00:00 GMT",
+      "source": "Yahoo股市",
       "impact": 0
     },
     {
-      "title": "仁寶布局輝達Rubin世代 釋出新一代44U機櫃 - 自由財經",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCZXNrZGFDWUdXYlF3cDBURUhCTTl1MXR3MXZUazd3WXE5SnJsWWY0dTRyMThYSzhXX0tYUk9Dei1OSVg2V2dPZjVZU21iVUVuWG1ZM190Ukwzd09PVTBN0gFkQVVfeXFMTVV6UG9CanhEeWZ3ZnkyOHRXNDZRWEk0NFgtSzlhWEtleVdYYTByNmVaRWFaX0hwQWdLRVNFRFFvWml5anFLTmtCUXFmUVZIZXBnZVc1WDRYSUhUc2ljN1czVnRCdA?oc=5",
-      "published": "Wed, 14 Oct 2026 12:52:00 GMT",
-      "source": "自由財經",
-      "impact": 0
-    },
-    {
-      "title": "華碩於2026 OCP 峰會展示新一代AI 伺服器，導入 NVIDIA Vera Rubin、Intel Xeon 6 與 AMD EPYC 9006 - 三嘻行動哇 Yipee!",
-      "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOSGNTdDFLaUlpVGNPZjRRalpLZFhUalBobFdxMUx5bHYzb2RxTFQ2bjZQb1Q2REo1SjN6YXFBSWV4OHQ5aXNsRWdJalVqa2Z0Z2VfWnpQdmtheHVzNjhmQmNPQjVMQlpxbUhrWEcwbGpQMVY3WEI1aDFBaV92Q2VxNXc0OU93blRDV1M3clk2UjZXdURyTGdSdDdBRHJxRGgwRmpxd2ppaUFOTEZxOUhPWmJreGlzX0FpcXNoOThTYV95cVVvbi1udHZjaUF4cFpHb3NLZW5XQmI5QW1nVV92R1hqUUtXZTlib2VzV2tWUHVILUFPZ2xVUmhlV3J1NkowbHhuemhJa0xwLWJYSWl6M0NzdnN4dkpsRXVjQnEtbE1tOWFEUzBtVk1TNnhiMG1yT2VLejhBZXlqT2R6MmNXVmtKbkdidXdi?oc=5",
-      "published": "Wed, 14 Oct 2026 09:46:29 GMT",
-      "source": "三嘻行動哇 Yipee!",
-      "impact": 0
-    },
-    {
-      "title": "美股平盤卻先出現分化，台股AI伺服器能否續強？-美股財經週報 - 阿筠 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVFdaVmV0YllJWDloekhlUk1aTU5Bdk5sZTF4X1AxSW1qTVB6LVpaRUxEamgySURSYWtwZ19tSVgyd2lNUVFKY1VFSHotUlVwT1kzYXhOdW81SE1NYTlXMHFha2FUZWF3Y090b1BOdi1uV1NMQkRSa3Z3NHJLQVVWcU5QTFZ4Zw?oc=5",
-      "published": "Wed, 14 Oct 2026 03:42:59 GMT",
+      "title": "最新 AI 伺服器供應鏈啟動擴產潮！資本支出看增逾三成，台積電等大廠受惠-財經焦點情報站 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSXhyZDA1ZVYyNUxVV0NyOThIa2ZBejVYVXJjeUJSTUhOZWRnT1o1R3pkQjBkX0VZckFlaXZpLUFVMFIyWHN3SmJQTEhrbTBlYXpYM2RhY0RiSTluSFVra0JFcm1GR1R0eEVDTmJ2MEg1UWV6WUM0YTR1VnBMUjFJWE5B?oc=5",
+      "published": "Thu, 15 Oct 2026 13:46:36 GMT",
       "source": "CMoney投資網誌",
       "impact": 0
     },
     {
-      "title": "《DJ在線》AI伺服器能見度高，ODM明年動能續看旺- 新聞 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd2dFRWhNSnd6U084U0N2V3hwcUdLc0VCWDBuaTRJa3QyRDN1cmt1SGJOb1FBWG1WTkcybGZpQ1BMR2tKblRfamJGSDUwRm5XUFB0R01USHAzWTZnVEJ4YUM5VmZrOWp2clRzT3JxZk42ZWpZSjhHeE05eTZEcEFfVF9mRHBHUW5CZTB6MnhfbGh1UQ?oc=5",
-      "published": "Wed, 14 Oct 2026 01:28:00 GMT",
-      "source": "MoneyDJ",
+      "title": "【台股假摔陷阱？】別只盯著台積電！AI下一波3大飆股族群曝光 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1tdGExM0hHalRVMFBncDlnazRBaUdFcC00OTRzamlJcDFiVG5JWGVETktyTXB2Y0N3Rld1QmxoSDd2ak1kVF9VU0FzSS1Kdmc?oc=5",
+      "published": "Thu, 15 Oct 2026 02:18:59 GMT",
+      "source": "鉅亨網",
       "impact": 0
     },
     {
-      "title": "光寶科前進2026 OCP 聚焦NVIDIA 800 VDC架構、液冷散熱核心布局 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91QV9qblJZaGhYOHVZaFpFZTRDTW0xYUw1N2JWX0pxYVRQdEs5Z1NMM0RfRmpBSUFNU2U0bzNIUk45M2lvM0c4VnVSZF94NEE?oc=5",
-      "published": "Wed, 14 Oct 2026 09:54:54 GMT",
-      "source": "鉅亨網",
+      "title": "台積電法說會揭密！代理式AI爆發帶動CPU需求，魏哲家：需求仍高於供應 | 魏鑫陽 | 財經 - 風傳媒",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9rMGNKd0VHTVVfbndPZzVDcXQ5QTJLLUUzOHlqNHJBM0hIZUZTcmxWZmViMnI1d0x3UTNwTWJkdUNyekIyOXdzVUNTa1lrQQ?oc=5",
+      "published": "Thu, 15 Oct 2026 11:37:00 GMT",
+      "source": "風傳媒",
       "impact": 0
     },
     {
@@ -74,10 +60,10 @@
       "impact": 0
     },
     {
-      "title": "台股上演「領域展開」！00918靠AI、金融雙引擎9檔成分股一次看| 存股族愛ETF | 股市 - UDN",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjaGdUVW9TZWd2TVhqUFU3NlJFdVRnbVpoQmU0d2RSdmpVU3I3MGpxek1XRGdVeDQ3YVRsMFRjSkJpc2Q2XzZmMkRTMEV4MU9QNzN3?oc=5",
-      "published": "Wed, 14 Oct 2026 02:45:43 GMT",
-      "source": "UDN",
+      "title": "鴻海擴大美國AI伺服器布局 砸173億元增資Q-Edge - 自由時報",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5HOEpmR3MyZ2NYZ0NxOVZ0dGhyMFd6VHMzME12WnhVNTFkLUFoY1pHcElQN2dNRjdJdjF3WG1mZlBoeTRCS0tKMm5aR2FzVkhVdjZtTGpPRUw?oc=5",
+      "published": "Wed, 14 Oct 2026 18:59:00 GMT",
+      "source": "自由時報",
       "impact": 0
     },
     {
@@ -88,24 +74,38 @@
       "impact": 0
     },
     {
-      "title": "2330 台積電 - 和碩績優爆量漲停！AI 伺服器、SSD 布局受矚還有小金雞月底掛牌- 股市爆料同學會 - CMoney",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9nd1RFOE1haVFvU09FdDIxVFlwaWx6MUcyVDEwbDNVXzNSa0Y1WmZwWDNJQjlubE1DVkYwVmtvSnI2UjNhQTdHdXRPS0VwRThpQWw1dU1UZlc?oc=5",
-      "published": "Mon, 12 Oct 2026 02:46:08 GMT",
-      "source": "CMoney",
+      "title": "《DJ在線》AI伺服器能見度高，ODM明年動能續看旺- 新聞 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd2dFRWhNSnd6U084U0N2V3hwcUdLc0VCWDBuaTRJa3QyRDN1cmt1SGJOb1FBWG1WTkcybGZpQ1BMR2tKblRfamJGSDUwRm5XUFB0R01USHAzWTZnVEJ4YUM5VmZrOWp2clRzT3JxZk42ZWpZSjhHeE05eTZEcEFfVF9mRHBHUW5CZTB6MnhfbGh1UQ?oc=5",
+      "published": "Wed, 14 Oct 2026 01:28:00 GMT",
+      "source": "MoneyDJ",
       "impact": 0
     },
     {
-      "title": "〈台股開盤〉台積電攜塑化跟上亞股反彈腳步 漲逾500點重回48900關卡 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9seXpqQTdFLXhkRER0N0E4Z1Q3RVRsV3pKMjdlTnBBaUVBS2cxem9XTFB5ZE9WOUt4dEV0TmpybDViVzEzMHBWc3VQYVRmbGc?oc=5",
-      "published": "Wed, 14 Oct 2026 01:41:11 GMT",
-      "source": "鉅亨網",
-      "impact": 1
+      "title": "AI伺服器供應鏈擴大美國佈局！外資狂砍3千億，台積電等擴廠動向成焦點-財經焦點情報站 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUjRaOE1VZEdYeGFybDlyWThVUkVBV3J1djlPamRVeUNqYnNwRlpVZUhhaktaZWJfLWN3NnFmRFg2VkdSMUlrTjMwZzhMRGcwY05WcEFVdVN6dUJ1THlUZ2h0Ymw2UXBrQ3VGU05NSjJvU3ZxNlNiZkZBWUZENFVRejFB?oc=5",
+      "published": "Thu, 15 Oct 2026 14:16:30 GMT",
+      "source": "CMoney投資網誌",
+      "impact": 0
     },
     {
-      "title": "勤誠OCP大秀AI整機櫃實力，迎接AI基建商機爆發- 新聞 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2RVMUhXcFZ4NThWbVQyNjVsY2ZGcEQwanZxSHNqMUFENTFSN0NEU0EyYUhwUHBaZUF5ZDQtNnBHdWZPb21jQUdZbHhtZlV5QUJ0bTJwT1Q0bGZFdjQ1LWZTVEVUb1JfLTdBS3VQM0RIUFdJS0U1YkdBUkxtS2ZQd2o2Und6SV9lYWlCSE9VZFJjdw?oc=5",
-      "published": "Wed, 14 Oct 2026 01:18:00 GMT",
-      "source": "MoneyDJ",
+      "title": "AI伺服器再迎新動能！「這大廠」明年EPS破30元 目標價挑戰300元 - 三立新聞",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBSamlrOG5lOV9maDJPMVZqb0paaWpiMWdkZl8xWWs5Z3M5czJ2Yi1ibFRibGFMUVh6VWtGWkNnRC05ZVI4QUp0ONIBTEFVX3lxTFA5c1V6NkJDZHZtSGVUdktUV1hMMWM0R0lITGNTenpaOFphSm9WY3FlQnVVNDJmY3lsWUFXd2M5TU9jSzZDUDk0QkNTS0g?oc=5",
+      "published": "Wed, 14 Oct 2026 18:22:00 GMT",
+      "source": "三立新聞",
+      "impact": 0
+    },
+    {
+      "title": "台股早盤狂瀉逾1400點！台積電開低70元、聯發科離5字頭越來越遠5檔個股重摔跌停「AI伺服器大廠」破千張急逃 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMikgRBVV95cUxONnZjbDlKbVhMUGstQ19ackxyMkxMcTFPdXdfcy1mRm1nUXQyRTlkdDFJN09KYWRFOHMyNm5UMEthS2g0c29PSHhWRDZwTmFraWphdm5EYzFoTUNEZkEycVJRalFLT0U4Tk9BVkljT2h2dnM1c0traEM4M2RNMkh3Ml85NlJ1RGVGNnBXbktuU1NGUk9idmZQMW5SOEJOYlZoYjZ6V3E0VUp6dkN4bF9ua3V0b2Q3NWJYNzI0R0NIZFVRWXpIa1lQdi1BZ0hEMDVXQ2s1dE1SbWJJcVB6LWMwR1AzbWVVaVZRbng0SS0wMHhTZm1KTjNTdHA3T3YyMkFWRFJnSTFJVk9JVzFvSlh6YWgzUjNqVTVqanlsTDFFU18tVmUyblZzbXJweDQ3QnAzM0gzUG8tRHAzaVR6SE5hekt3RkR1Z3poMnRwQlZRaU5FWU1EdDU4ZjNZSjNmRFY2clhFb3JQdVFUWEZheU5iRDlqeHlpODM0aC1xZDJUQ0pXY3prZDV0b1g0TV90VnpOeGN0ZmR4X1pyOHhObVgxaklUdy1GaDFQNlVwaVlZZDktSjRDOEJSbWFaRXBxZ1BvSU41UHFaRmgtb0JhNllSc3VlNWstWnZ6bTRpSTFXUF9tdEFFS3JLVE5VSXdlZV9nZkx1djRONy1qcHRkQmx2cWJFOE5waVhoZG5Wb3hka1VHQQ?oc=5",
+      "published": "Thu, 15 Oct 2026 01:26:24 GMT",
+      "source": "Yahoo股市",
+      "impact": 0
+    },
+    {
+      "title": "DeepSeek崩了，網頁和APP顯示“伺服器暫時不可用”，官方正在排查問題、定位原因 - 鉅亨號",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBZR2ZUZXdYY19PcHVGNnlUeG5iZ3VLcXBJaF9fTTNGRUdzOWRXZ0pQQ01CZzVrRXJYbF9JNlc0SFNxZzVwdmJSdw?oc=5",
+      "published": "Thu, 15 Oct 2026 05:33:40 GMT",
+      "source": "鉅亨號",
       "impact": 0
     }
   ],
