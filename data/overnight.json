@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T23:21:31+08:00",
+  "updated_at": "2026-10-23T23:11:29+08:00",
   "bias": "中性",
-  "confidence": 52,
-  "score": 0.35,
+  "confidence": 50,
+  "score": 0.0,
   "markets": [
     {
       "label": "S&P 500",
@@ -25,24 +25,17 @@
   ],
   "headlines": [
     {
+      "title": "Google擴大布局AI伺服器 整合Nvidia網通架構、自家散熱技術 - 世界新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1adEZ1V0VlcFFHZ2dWR2hBbnhuWWtzZFRxZUJKU25kYjM1R1pQT3hneTVNQWZ1bjBLamtkLXpjeXVhU1NBaV9RYlRiWUs5NExvY05NTXgzTU9PLTNNdVFFU0dR0gFnQVVfeXFMUENlQ2lwT0c4aFpLNVctX2djSUZzTmQtd1FjRzIzOEtncGhNRjdtbXpTRGxCQmdMdDRueExyNm5VUF9hZFlEdDhLSXpvZjNUUHlndjV0alBPUmFFUjRDaFJ6OWw1SW56bw?oc=5",
+      "published": "Fri, 23 Oct 2026 06:00:00 GMT",
+      "source": "世界新聞網",
+      "impact": 0
+    },
+    {
       "title": "中美AI出口管制同步升溫，鴻海、廣達、台積電面臨哪些合規與訂單風險？｜股市話題｜豐雲學堂2026 年 10 月 - 永豐金證券",
       "link": "https://news.google.com/rss/articles/CBMihgRBVV95cUxPaGRiNm1hem9nVFM4S245YmdCT21RWTg4QUhCV09JNEhYV3ctUXBiSFl0eVhZbmh6U2tpMklDcW82bkNCdGRzck5wYXdXUTNoNXBNVk5fSi1rZ19GNWpoT3Y2S3ppc3J3QVhQTFc1LU85bV9KdDdOeG9xRjFmenZCZlVZS0haMmdWWG43dl9sWEtCTE5kTlZRamRIQTRDeFp2VS1iUHZuVUY3NGJPV0Q5QVBSZzZqRTlyZGtYbURiNVltTXQzZmg1QXlCVWkzd3NSUDZYdGYzcHFTN2xJZmhoN3FFOEhIcWw4ZHJRUlpHODhsUFozLUFuS1duNlJ4N0dncmtmR1lMR3hfVndlWE1HTjZTRVVkMGItb0hncENqXzVKZnBfcVVFVXEyOW5SaGFHLThWQnhZS09LVEEwb2VwRlBpMTBtVXBHb1p0SmpZUmoyV05tYl9RQ01XTHhTdjRDWFFJSkwwVlgzZWtZRXFNTzVJTGZua0FmSktzejFyZ1NrMzBGcjZTajN1QTBFQ0N3V1pSRnYwZmduUzRvV2FGZ3BBX0RfLUdpZ3Z0Q1VXWUwxaG85TVVVYnUxMHEtVkx0VkxsOHRwajdFODdaRXRVVVlVQW5UY0NGTmJtTGFTR280YkxTaXZEbXRwYjNfYkR5bE9xZ2FmQTR3d1I0VFg0YmFXVEZTdw?oc=5",
       "published": "Thu, 22 Oct 2026 05:03:58 GMT",
       "source": "永豐金證券",
-      "impact": 0
-    },
-    {
-      "title": "AI伺服器電感價值量上看傳統十倍 TLVR升級帶動被動元件商機 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9VMDBrcFRPRUU2RE5HUm9XalFVb3dNQ2FVZm1POWE5b3c0amowbzNLTGw2YXlRTjFobFZrQjRLTC10WUVNRVpIZWVrYV84ak0?oc=5",
-      "published": "Thu, 22 Oct 2026 10:00:07 GMT",
-      "source": "鉅亨網",
-      "impact": 0
-    },
-    {
-      "title": "黃仁勳德國GTC供應鏈名單曝 台積電、台達電、欣興等台廠入列 - 民報",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VWmpmNkFXQWlEWkg4WXpqdU1VNnY2cjFGRXRkUU94TVhSalBqR3hyR0tvVG1UVXNMeGk0YXhtYjJOZDRjdzV1V2RnVGt0Yk82WjcweVpkS3NkNEJVUXp2empLdno?oc=5",
-      "published": "Thu, 22 Oct 2026 03:50:27 GMT",
-      "source": "民報",
       "impact": 0
     },
     {
@@ -53,38 +46,52 @@
       "impact": 0
     },
     {
-      "title": "Supermicro 攜手 Nokia，將 NVIDIA Aerial RAN Computer 解決方案引入網絡邊緣，支援低延遲 AI 服務 - PChome Online 新聞",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY1FZWl9EN2FYbENRMldXWml5ZDU3QXh0WWlLdV9sTUJRTTJmZlFLdlVtWk5yaUlrbnJZaDlaX3hGTENEZmtPNkw4aDFoS0U3dVRsb2tRS2dDNWdjY2VWV09UclAxcVhNLWpUZHNBSWZjYlkwaS13a3gwMXBzaGtsM3diNUlaQnc4Sl9N?oc=5",
-      "published": "Thu, 22 Oct 2026 12:53:00 GMT",
-      "source": "PChome Online 新聞",
+      "title": "Google Cloud 掃貨近百萬顆輝達 Rubin GPU！ODM 三廠迎爆單 - 鏈新聞 ABMedia",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQkJUcVBjc0xCQ3NFeFB4ZlhWNDJYbXcyM2JZaHNxYVh1a21LSnVseXlYdWJMUUlXZ1dPSmQ0UFpKSXdlZkY0NG05OHR3YzJBY1NYdDE1WTFHU04wMS15c1d5aG1QYnE3MkFoVGRLOHgyTlkzaWNIOXdBeUlhenZzTkExWVdoUQ?oc=5",
+      "published": "Fri, 23 Oct 2026 08:52:27 GMT",
+      "source": "鏈新聞 ABMedia",
       "impact": 0
     },
     {
-      "title": "美超微盤後暴漲15% 上季營收初估超預期 激勵一票 AI 與伺服器股跟著漲 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBKTTNodWFzSlJZRjdTckdSYUZCNWx0RXJVWVVSbGlacGZsSFJzLTkwYkhVRnVuV0NzbExNV3Z2dzlULXdiNm8zOFBoWWRsU3VtYjVSelFNYkN4RElq0gFiQVVfeXFMTlIwT1J6VkZVNzlaWlEyOFpQMUJKUnZRTWtKNVEyZWVMVXpLSElaeDRIOG1DS0tRbXdyTGJud2UzRmhLTngzYXF3X21uRFNsRGpEV2RtYkpsRmZyRUdvb2hCdVE?oc=5",
-      "published": "Wed, 21 Oct 2026 00:32:37 GMT",
-      "source": "經濟日報",
-      "impact": 1
+      "title": "Supermicro 攜手 Nokia 導入 NVIDIA AI-RAN，將 AI 推論帶到 5G 網路邊緣 - 三嘻行動哇 Yipee!",
+      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxONmx3LS1FMUZrdGVEMEhRbi1wZG5SNXRLQmhEbV92eXduMWpNekNHelpnRDQ3N3JINVRHLVJBWmVxOFdhcEtUVkZ6NTJTQjB4X0E0N3F4NUlwMThBaENoaERoN2d1aVBLMzU0bVpHbXB6aFhVUmRsSGRmSW9KZ2ZuSEFCT0RFbi1HY3E4Z09xem84eFUyaFVYMWoyeDRiUE1vRlh1Q2J4MnhTcHloNXM2NEFJZnBPMG1Jd2EyYUt4YW5pZ1dZQURZYkZsb1VjYTJGQ0NXbGdqa2ZHaURXLVNPQ2lyV0Q2Z052Qm9OT0U2U2Mwb1hVME5TZzFPRTJxUFZSc2hfZHhoYTV5TUllRkoyd0ktc0JJMkpoTTY2eTRKYw?oc=5",
+      "published": "Fri, 23 Oct 2026 01:36:06 GMT",
+      "source": "三嘻行動哇 Yipee!",
+      "impact": 0
     },
     {
-      "title": "AI伺服器高階材料迎轉單效應！3檔銅箔基板概念股同飆，台光電強鎖漲停-財經焦點情報站 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT2d6QVIzY2RPY0RHUjhMWk5pYm5TSXhUb1RXX3NYVTQzTVMwdm5Gc0NpLU9HeWYzdDJObnJ2S3Mtd3BQZ1VtOGhwRV9GVzNWektRWXFWQ2gzRW5DNTliWlpFNm9ya2tJS0lkZDF0alpaLWFsUUl0aU42ejhIS3lZOU9n?oc=5",
-      "published": "Thu, 22 Oct 2026 02:39:43 GMT",
+      "title": "AI資料中心預算續加碼，台積電與緯穎誰先反映營收-柏宇 KD 獲利模式 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOc1Yzc0o5d1lodUZ0N0hqYUZHSnBQYnBPRXBnRzJVcEVQNXllUWUxVWQyeVpVNTBCZHNuSHlwV21Fd0NqT3dZRWQ0MFRhUkpyb2Z5Ri1DaEM2VzdyUXYzZ3NkTUhIdWtBUDhNbXRRTThJak5kM3R1TFdIaDJRcGdBeA?oc=5",
+      "published": "Fri, 23 Oct 2026 09:27:19 GMT",
       "source": "CMoney投資網誌",
       "impact": 0
     },
     {
-      "title": "仁寶擴大Verda AI伺服器合作美國在地製造、大溪支援歐亞部署| 優分析 - LINE TODAY",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGTUUxQ0QzSklkUDNBN3Z6UWd1LUdKbDhCamE3a0JlWENuS0hueEVXay1CajNCSHhZZ1NWMGw2ZTBkbUN1dk9kVS1tOVlPanRDU3FNS2Fn?oc=5",
-      "published": "Wed, 21 Oct 2026 22:51:38 GMT",
-      "source": "LINE TODAY",
+      "title": "高盛再上調AI伺服器展望 點名鴻海、緯穎等供應鏈受惠 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1SMkQ1WFdWN2toT3d4NlpwSkFQWHlFSEl5ajFvQzc5eTFEemtPcnlkYXRBNWdpSERBY0NaTDh5c3gtMEVLaGI5YjYxQQ?oc=5",
+      "published": "Tue, 20 Oct 2026 06:06:46 GMT",
+      "source": "鉅亨網",
       "impact": 0
     },
     {
-      "title": "台灣之光報喜！半導體反攻美股翻紅 台積電ADR漲1.6% - 壹蘋新聞網",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOVVPNGtfS2lMRWp2TFN6QVdfYkNUNnF1QjVXSnZBdXdMaW01bk9Lcy1RQW1GZEY3UnM3NUZrcnZLaXVNNk9penBrbGQ3V1V5bDFjUHlORzRsVG54d21QeWwtb3FxUjZvQ0tmcTdDbDc5bEJlbjVVTTJOcXpfeF9RN0JB?oc=5",
-      "published": "Wed, 21 Oct 2026 23:17:00 GMT",
-      "source": "壹蘋新聞網",
+      "title": "Red Hat、Nvidia 主張 AI 代理不應自守邊界 隔離權限改由平台層管 - unwire PRO",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZmM4UlJMenlheDJqekdvZGYzZTVNdEZFaEs5WXdNazB0R3dqOV9oQWxVdy1ldU5XSkhiT3ZNU2RGXzcwNVZaUUJqajF3RE40dlFBcVo3cWZ4dFRGNzF4UXJlWkxkWnp3Qy13ZWdZMmlEYXFOVGdqUlRsUy03RG1hRzAxUUNfeXM?oc=5",
+      "published": "Fri, 23 Oct 2026 07:33:23 GMT",
+      "source": "unwire PRO",
+      "impact": 0
+    },
+    {
+      "title": "Google大買輝達VR伺服器| 科技產業| 產經 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlT0RGM2hmcUJlQ1BkNklyRGJiV0RrWlBYZy1TQl9RZmprcFB0NkxhbS01dE9NbjczUGgtUXh2OUkyQkxRbmluYlFBdG1rLXpSYzdHa0pCNWtMdTI3MVJvR19vOVlCc3hCZ3Rjd0ZkOW9hQnc?oc=5",
+      "published": "Thu, 22 Oct 2026 18:55:04 GMT",
+      "source": "UDN",
+      "impact": 0
+    },
+    {
+      "title": "台積 ADR 逆勢承壓！加權力守 4 萬 7，投信獨撐 AI 鏈輪動 - TechNews 科技新報",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWkh2NGJ0X1hQMkdOblk4c19ybGxqclExNW5NZXdBVGl3ZHNLRjEtQTY2eHRkb0dPWUxUazdEWDBHbEREY255ZEk1M1hqaktQeVBRdGk4VHltR0hiQ09oUHBqSmZNSXQzTm1ZMHRRUG1rTVRCNG1WOGRISHpkNlBESklaaXktTWJaMDUzS1o3TXZ4MlNsMWI0QkVhQlZ1NG5nTm5FSExDVjlIRjhGUGdz?oc=5",
+      "published": "Tue, 20 Oct 2026 02:05:54 GMT",
+      "source": "TechNews 科技新報",
       "impact": 0
     },
     {
@@ -95,18 +102,11 @@
       "impact": 0
     },
     {
-      "title": "台積電ADR連漲 現貨卻承壓 海外溢價近16% 台美股價落差透露訊號 - https://www.yesmedia.com.tw/",
-      "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOc21iWFRZRWcteE9oYWZjRE52YkFzSGRxWklYMHJoeVhfZGx5N3J3Y09IVm81eXpEdi1WRldOejZvYXE1V0ZSYXVUUldqVmcyUXVrbS1HbzJFWVFkTzNPSTR5bW13Qkw0a1pVdkVkU2ZybGxpWXBQdUY5SXZmN0RlX0ZaX1pLMkFWdS1aT0ZhQUkxYXgzaWI0U2lYMGgxOE5XZUxXT3pzTWZ5YWh6T0NsY2tQQS1BV1I5czVZbjlVbmFPWWZGa3BwWF96RzUySjAwcG01NlJCSlBEdTYtYVNZcWNUbktEZ1EzazZtX1pza0VfVk9ocld3eDZsX0NSLThQWm04Rnp4T1dqNk4walBxU0J4bXJIX1Q0M0h2UVF3QTJFNXdVUENuUTRsbEY3alBSbFFaT3VPQnlqYXljQzM2aG91d0h5Sjh1MlRqaQ?oc=5",
-      "published": "Thu, 22 Oct 2026 06:50:22 GMT",
-      "source": "https://www.yesmedia.com.tw/",
-      "impact": 0
-    },
-    {
-      "title": "高盛再上調AI伺服器展望 點名鴻海、緯穎等供應鏈受惠 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1SMkQ1WFdWN2toT3d4NlpwSkFQWHlFSEl5ajFvQzc5eTFEemtPcnlkYXRBNWdpSERBY0NaTDh5c3gtMEVLaGI5YjYxQQ?oc=5",
-      "published": "Tue, 20 Oct 2026 06:06:46 GMT",
-      "source": "鉅亨網",
-      "impact": 0
+      "title": "專家看盤》跌深反彈！AI伺服器買盤轉強留意外資偏空、台指期結算| 財經 - Newtalk新聞",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5c3dJV01sclFNNXAzNUpaYzU0Sk1FWDZtc1dLajZaeEIzdlBkVUZ0c040OHVoVWJ3NF9aMy04UXRfN3lVcnZEZkoxZXh4V0ZOeFEwbkt1ZkdpYjg?oc=5",
+      "published": "Wed, 21 Oct 2026 02:25:22 GMT",
+      "source": "Newtalk新聞",
+      "impact": 1
     }
   ],
   "note": "這是盤後正式預測之外的夜間即時修正，只使用公開美股行情與最新新聞；不會覆寫已事前登記的正式預測。"
