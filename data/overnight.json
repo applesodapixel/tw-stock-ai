@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T23:54:44+08:00",
+  "updated_at": "2026-10-29T00:42:36+08:00",
   "bias": "中性",
-  "confidence": 54,
-  "score": 0.7,
+  "confidence": 52,
+  "score": 0.35,
   "markets": [
     {
       "label": "S&P 500",
@@ -25,52 +25,45 @@
   ],
   "headlines": [
     {
-      "title": "AI伺服器供應鏈迎400億美元大單！先進封裝技術升級，台積電等受惠-財經焦點情報站 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPR2xjX21FWnQyNGpuQUhTOHdSOXlDMnBuTnhWb3JkUFR6S2VWUnBNb01Uaml3MnpHYTNXQm1sRG5pQjc1VVVjWExnQ092VkowUkwweG5YVVE5cG5LWXAtb0lPV3VDOWNwQ0FPWk5JUWZVTXdXTGlRb2E0cWRjQ0lFVzBR?oc=5",
-      "published": "Tue, 27 Oct 2026 01:09:17 GMT",
-      "source": "CMoney投資網誌",
+      "title": "TrendForce：九大CSP資本支出明年估破1.5兆美元 AI伺服器產值年增逾90% - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWR1Byems3eFJTdFBsWHI5Y3VuajU2Nms1ZFNkTV9DWlZhMEw5ZGQ2X3c0b3lwMUwyc2lwSnpYODBsdEwwc0RtTE10VVdOV2M?oc=5",
+      "published": "Wed, 28 Oct 2026 02:10:07 GMT",
+      "source": "鉅亨網",
       "impact": 0
     },
     {
-      "title": "Anthropic 遞交 IPO 點燃晶片狂歡！長假後迎補漲行情，聚焦 ABF 鎖倉與 CoWoS 漲價主線 - TechNews 科技新報",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSEpyczlWRWNIdlZFa1BqdGticFE2a0N2aTdmOHI5RmpFOUpuMFNzOVFRVm56eVkwbUExUGdWSzVsbk82UXBSOFdpYVZnOGpXRjhDa24wUjZsZFlTazh6N1pSbHBXM2l1OHJsM2sxVHpjOUJScTAtaVk4OUlIcHI0ejBRaU1mVHBmbllaemFCSjVvbUtBV2RNUDlGaGJmc0ZCTUNRbGk1aWk4Mk1JczZaRUhDbXlKemsxeGlmZzUxeFYtQjgxUm13?oc=5",
-      "published": "Tue, 27 Oct 2026 02:05:13 GMT",
+      "title": "費半狂飆3.6% 台積電ADR大漲近3% AI買盤回歸有望點火台股 - 理財周刊",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GYWlQYUlpVEJOb1JDMzJGUGtpUmtyc2g0SFI5LWRDUnVOblRoYk9Fcllkd1lweGlIRl9HRUxwb0JtSW8yLUkxRUFQbnpjc1E2MmhnR2RFYU9oRHZTTDBMTHFDb29qUFdhS1plNlBRUQ?oc=5",
+      "published": "Wed, 28 Oct 2026 00:53:39 GMT",
+      "source": "理財周刊",
+      "impact": 1
+    },
+    {
+      "title": "AI 回暖！投信砸 236 億死守 4 萬 6 關卡，外資狂買記憶體百億 - TechNews 科技新報",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUEMydjBEYmtlUFBzMnNJaU5JSVdWOU5MODlDR3c2Q1dsdXZkdTc2dmZPdmhQVldKWjBKMm5IaXdnSGtUTlA1Q1V0SmFGZ25tVGllaThDNm9vVlpLWUtTa2EwdkJNcUl6cUJnUS16dUozRGlaZXlwTFZvQkV0a1J5cWR4Q1ljbmdXNGRHbzJxWDU2MDJvaGVxdzdkYmtHYU1yc2d4NHNoZWhYTXp3RjlkZkhzaVRTcnhJOU1nbnUxaVFYYzg?oc=5",
+      "published": "Wed, 28 Oct 2026 02:04:57 GMT",
       "source": "TechNews 科技新報",
       "impact": 0
     },
     {
-      "title": "26日美股收高台積電ADR上漲 法人：台股27日壓力可望紓緩 - Taiwan News",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9HZ2JyQ0YyN2x0MWxJaVhHQWN0RjFrN0UzbUM4QU9Ub0ZDTXRNWEdQcW9FYzVNeTB1SFdacURSYWZmTXNha1NOZmNGQndNY19heTNZb1IxN3U?oc=5",
-      "published": "Tue, 27 Oct 2026 01:44:00 GMT",
-      "source": "Taiwan News",
-      "impact": 1
+      "title": "AI伺服器、散熱股齊噴！股王信驊「一張賺97萬」 奇鋐、雙鴻強彈 - FTNN 新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE12VUtVVEV4RGdYb1lodmN2Z2Naa1ZFeDFMT1ZUWktqTERZOUxBNVFVRk5GYWFhN3NFUTJ5bEw0bVc2WGZRVlBPYlZLNA?oc=5",
+      "published": "Wed, 28 Oct 2026 03:54:00 GMT",
+      "source": "FTNN 新聞網",
+      "impact": 0
     },
     {
-      "title": "群創、聯電跌現在該接刀還是等止跌訊號？法人這樣說| 財經 - Newtalk新聞",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZZU0xM2NpLWM2MFFpaXNneHhiaXFlMnRaWW1jWEphSS1HTzRPU3FQV1lNQUNHWkpmUnB1dFRTN2luejRpVjZHWnY4WG1hUlhYZWlUSVc5MXZQODQ?oc=5",
-      "published": "Tue, 27 Oct 2026 08:04:54 GMT",
+      "title": "專家看盤》台股反攻來了？台積挑戰季線記憶體、矽光子買盤回流| 財經 - Newtalk新聞",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5VQ2RnaGgzYmJWRTRlYkZnTmgySFB0aHgtd3Q2LTJFUzZZU0JMT0FTMHhfbEVhamFqaHJKN0lyODA0bHhaU2h6bkJFZFVMYTBFQ2ZCMWdpT2VXaEU?oc=5",
+      "published": "Wed, 28 Oct 2026 01:22:55 GMT",
       "source": "Newtalk新聞",
       "impact": 0
     },
     {
-      "title": "台股翻黑「緯穎還漲5％」！美系外資目標價曝光，看好AI伺服器4大成長動能 | 下班經濟學 | 財經 - 風傳媒",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBBdDZBRU96RUtjY2FpTGN6OVRrbzNBci1YWTNLU2d6dzlFNnZxblU0SkxhV1lWYUxYVGQzMzZLcV8ta2I4bnp5cVI3RW0zQQ?oc=5",
-      "published": "Tue, 27 Oct 2026 02:44:00 GMT",
-      "source": "風傳媒",
-      "impact": 0
-    },
-    {
-      "title": "台股開盤大漲逾500點 法人看玻璃布與CCL族群成市場焦點 - 自由財經",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95OEtpSjNiSEdlWmJ5cEN6d2R0TU9WZnhRdi1iSGRWa05zR2FPdGNmY1c3RFdJZTJEbmYyOWo0SjJuSDRlMDdmYmpsME8wWHlQelFRZW9wOEhsZllxcEFJ0gFkQVVfeXFMTU1mTFRGQ2tuTm9WelpGSkdmTXdVS1dOUTVDVWI5SmFCWjhDVER0bnRscG40akZqeWhvcU5HNUxkRy1Tai1OcndDTmZCeUpDUnpfTThFUWRDOHROVm9OMXk4SHNvMw?oc=5",
-      "published": "Tue, 27 Oct 2026 01:50:19 GMT",
-      "source": "自由財經",
-      "impact": 1
-    },
-    {
-      "title": "美超微營收跳升，AI伺服器廠如何把大單變成獲利？ - 口袋證券",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9SV21lQ2pBNUpFdjJmVVhBUmhCS0tTLVpVQlFBdHE3SFNYbVdYcnhCSVhERlBmSGxGb3lXZXBSSGhObVVRWFdfcUg4UHpTaHBnb3llcFF4bTVaeUtkbzBabldxUjJkdw?oc=5",
-      "published": "Wed, 21 Oct 2026 06:15:12 GMT",
-      "source": "口袋證券",
+      "title": "AI伺服器供應鏈發威！最新外銷訂單年增逾62%，台積電展現實質韌性-財經焦點情報站 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUjd5SGhFVGVyNXlSbDhyT1RsUFNCWlJfM1JZOC0wNHRRMFl2T3dzNzVrYUNqMHRPTVF0c1FwZ0RNSXBMZ3h0alFyaTV1N2UyaGMwSmpmT2lHVkduZXpORHVySllsUE1sUGFfLXZINW41NDlHSlFTSkpqTDZfUWFXWkxR?oc=5",
+      "published": "Mon, 26 Oct 2026 01:39:26 GMT",
+      "source": "CMoney投資網誌",
       "impact": 0
     },
     {
@@ -81,17 +74,24 @@
       "impact": 0
     },
     {
+      "title": "台灣AI龍頭地圖出爐！28大關鍵產業鏈一次看懂 台積電、緯穎到大量誰是真正AI贏家？ - 理財周刊",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFY3pXVS1vaFBERVNXVVBRbWxoQkFFR1haeE03YlhfbWp5b2JQWHNndUhXb0hFVE1PM3dla3paaE5ROXZqekE4NWZDVlpaLXNxRnZMNUNmc2NBbWp1dkNoVTJSdW1JbTlJenRlQm50Yw?oc=5",
+      "published": "Wed, 28 Oct 2026 05:37:15 GMT",
+      "source": "理財周刊",
+      "impact": 0
+    },
+    {
+      "title": "美超微營收跳升，AI伺服器廠如何把大單變成獲利？ - 口袋證券",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9SV21lQ2pBNUpFdjJmVVhBUmhCS0tTLVpVQlFBdHE3SFNYbVdYcnhCSVhERlBmSGxGb3lXZXBSSGhObVVRWFdfcUg4UHpTaHBnb3llcFF4bTVaeUtkbzBabldxUjJkdw?oc=5",
+      "published": "Wed, 21 Oct 2026 06:15:12 GMT",
+      "source": "口袋證券",
+      "impact": 0
+    },
+    {
       "title": "2026年AI概念股有哪些公司？還值得投資嗎？4圖表帶你看懂上中下游產業趨勢！｜豐雲學堂2026 年 10 月 - 永豐金證券",
       "link": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxOcUthX1kzUlFCQzNwS1dQX09Ba2k0UThscXdtb1pUTDhMNml1ZTlhQzdMS202dS04S1g2VGNmd0hOcmdIWmcwYXBZWGdHQ0pOc2F0YzhPb1dUYjAtR1BfQ3Y4X2phMVUxelBCaW5oVFZOLWhmb2ZIY19yUy0xMGRKM21QQ2lrVjJXN2I1ZnJxM2xXcUFDWGZUWVQtNUVEVl83ZzdjekdkYkFBdF9qR1hKRFZkYnk1b2NtNnl6WFFHdXpUT0ExbDk0a1BDY2dDNl9mTVdydUgyUUUzM2VyM0pPenNMQW5sNVJscTVoR3Y1OExINjBmVjlwTE9ZclpCazZOMlh0N25rOW8xVVRKWldUejl6eEQ4TEJXckZjYjZaRVh6WFdRNF93cUl4ZV8tZUJhSXIyMHNBYjZROUdiRXA5dVdZclZ2MngzbjVpSWlNZzF6TEV6UUF6VXhGaHg5WlJGdTRWWTRuSXM2LWlJcG9oMlNWTUFKelNlYy11TTdvTFlDQUcwSlBHWVpNNERHOURibkUzM0NUTUlnS1VmVk1xdWhhVDdyTGJGb19MeFh0U1YxOHplWFhVVjRmbHBOVWRKdERXTXJqcnRwSEpBamRIakdQa0JhazJwYWhuaTZhY1JadzNHbVE?oc=5",
       "published": "Fri, 02 Oct 2026 11:38:23 GMT",
       "source": "永豐金證券",
-      "impact": 0
-    },
-    {
-      "title": "【10:30 即時新聞】營邦(3693)股價走強，市場聚焦AI伺服器平台動能-CMoney 研究員 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaGtzQmhFaWFWRWN6dXhOYjNEZmQtUVZhWEZYTEMtUkRISUhqSXRfVUtyTmNhSlB0UUZueHdScUFSLWtiQTFMbmdXV1p1aXNFU1cxT29XeDVNRFdrNDM3UFNNTVktemJLak5zaFFfcjd1U0VoYzViUUhpVlVRVWp6bEFxckd5M0szbHhKTXl3?oc=5",
-      "published": "Tue, 27 Oct 2026 02:30:50 GMT",
-      "source": "CMoney投資網誌",
       "impact": 0
     },
     {
@@ -102,10 +102,10 @@
       "impact": 0
     },
     {
-      "title": "中國大拆解輝達 RTX 5090 顯卡！頂級遊戲卡改裝成 AI 伺服器元件 - TechNews 科技新報",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE43Q3pnbEc3cElkSzRYdEY0SzdVa084V21rNnBVUGhJUllyRHJfdU5kdm5VQ1d6dlEyNko1bWNlYVVoeFNHR2htTGIweU9ZanBlY1Z6Y3ZOMDB3bjdq?oc=5",
-      "published": "Mon, 26 Oct 2026 02:29:13 GMT",
-      "source": "TechNews 科技新報",
+      "title": "11+12月大軋空可期、矽力⊕、金像電⊕、國巨、華新科 | 陳學進的貼文 | 鉅亨號 | Anue鉅亨 - 鉅亨號",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1LekZHdmtfYmJ3TnQ0WWxpOEpWSXBVM2pFSkd4M0FXb1RhSDlzak53ak50VjhGMHpUOThPV1pXTF9ydmZvRHVwLQ?oc=5",
+      "published": "Wed, 28 Oct 2026 11:00:34 GMT",
+      "source": "鉅亨號",
       "impact": 0
     }
   ],
