@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T01:54:07+08:00",
+  "updated_at": "2026-11-05T02:03:30+08:00",
   "bias": "中性",
-  "confidence": 52,
-  "score": 0.35,
+  "confidence": 50,
+  "score": 0.0,
   "markets": [
     {
       "label": "S&P 500",
@@ -25,53 +25,67 @@
   ],
   "headlines": [
     {
-      "title": "英諾賽科加入 NVIDIA MGX 生態系，推動 AI 基礎設施電力革新 - TechNews 科技新報",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jVWs3eTdQV0tWZEhlTlVHc25qX2lMc3ZkMS1PbThmTzhMdWp0dFBEUHNlTDFGTjB0ZEFrOWtFSDRUVkN4NU1mUVU2clFEOUlSSmNuTXlQZ1h1QlZGZ3ZYbFdUNV9jYjc0NUNsdjJoaw?oc=5",
-      "published": "Tue, 03 Nov 2026 03:30:55 GMT",
-      "source": "TechNews 科技新報",
-      "impact": 0
-    },
-    {
-      "title": "AI伺服器光速革命：Marvell豪砸千億併購Lumentum，Nvidia、Intel押注光通訊改寫晶片戰局 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZ2kzRTRXUjlKRU9ZTll6SUVfRV9mLUNzVTI1Ni1qczZlUFc3MklJWGpjQTAtTjdkd0hmckFOMUNZWmRBTXptV2xWVnlVVkU0VlFKQTlLS1VNV0U5UHBZSTVQSUJyeEhRV2lBaFRDRk5lTnBuN1RPSHJhN3d1N1NWcXhtbnp6UHFUXzhYcXJn?oc=5",
-      "published": "Mon, 02 Nov 2026 22:00:31 GMT",
-      "source": "CMoney投資網誌",
-      "impact": 0
-    },
-    {
-      "title": "安圖斯衝AI伺服器市場 - UDN",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Zb0J0VEhDVS1MUy1jVmNvSlBMUG96clo5QkYwbmZkUE5lUWpPcmxfUUkydUVJWmJDcUNQTkFPeUhnUVFlR0UtSFl0OHo5NGpD0gFWQVVfeXFMTTYtRkhVZXFESlZYekctZjBQWEh5anJSa2hSYm5EUnE4UlVUMTUxdXR5NzA2dnpFVTdkZExTQnZCVENsT1ZoeTVUMkFVQmFKQ2pLY2stQmc?oc=5",
-      "published": "Mon, 02 Nov 2026 17:09:45 GMT",
-      "source": "UDN",
-      "impact": 0
-    },
-    {
-      "title": "費半崩跌7.2%、台積電ADR重挫近6%！台股最慘還沒到→還有更大的崩跌在後？ - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9IblZJLTZCMi1DSW90cTN1WWVqN3ZWMXo2UlRCNEhLcm1KX2xMOUxUX1ZSSmZjdllVc0g5RXEwTVV3X25PYVhlRmJpeU1QeE0?oc=5",
-      "published": "Mon, 02 Nov 2026 00:09:03 GMT",
+      "title": "〈財報〉AI伺服器野火燎原！超微電腦Q1營收暴衝297% 上調全年預期 盤後噴漲11% - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4yN0lYWi00aXd6WXI1ZWd0UHlMUVYwanYybUpsa0VORGVBVmd5aWo2bE9JSEMtS1M4ZHQydGp5dnVhd1Z1R2JfQy0yZDJRS3c?oc=5",
+      "published": "Wed, 04 Nov 2026 01:30:15 GMT",
       "source": "鉅亨網",
       "impact": 0
     },
     {
-      "title": "奧特曼來台固樁催動台廠大商機傳下一站密訪台積電、廣達、緯創- 日報 - 工商時報",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CTzF5ZncwM0MtbFk4ZE0wb0txNGdleDRRQlhXYWFyNjhrQTNWNzJ5TjhCNlhwWVY3Z1V1eGhTN2o2QTJtNGUyUmhyTm1xQkNCd2JZSXkyajcySTZpeFlF?oc=5",
-      "published": "Sun, 01 Nov 2026 19:00:00 GMT",
-      "source": "工商時報",
+      "title": "11/4台股收盤跌358點，環球晶重挫、AI伺服器逆勢漲停 - 口袋證券",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rTFJWS1pwdjVHOTJibVlxVURLUVIyRV8tX3BqSEFYSS1pRVYzSGlWbl9wSXBPZ2IyUi00NVl0dmhWanpFZkk4MVljcHpXZF9sY2ZEUms5X1NISUliVDRLeFZwNlE0UQ?oc=5",
+      "published": "Wed, 04 Nov 2026 07:56:23 GMT",
+      "source": "口袋證券",
       "impact": 0
     },
     {
-      "title": "中美AI出口管制同步升溫，鴻海、廣達、台積電面臨哪些合規與訂單風險？｜股市話題｜豐雲學堂2026 年 11 月 - 永豐金證券",
-      "link": "https://news.google.com/rss/articles/CBMihgRBVV95cUxPaGRiNm1hem9nVFM4S245YmdCT21RWTg4QUhCV09JNEhYV3ctUXBiSFl0eVhZbmh6U2tpMklDcW82bkNCdGRzck5wYXdXUTNoNXBNVk5fSi1rZ19GNWpoT3Y2S3ppc3J3QVhQTFc1LU85bV9KdDdOeG9xRjFmenZCZlVZS0haMmdWWG43dl9sWEtCTE5kTlZRamRIQTRDeFp2VS1iUHZuVUY3NGJPV0Q5QVBSZzZqRTlyZGtYbURiNVltTXQzZmg1QXlCVWkzd3NSUDZYdGYzcHFTN2xJZmhoN3FFOEhIcWw4ZHJRUlpHODhsUFozLUFuS1duNlJ4N0dncmtmR1lMR3hfVndlWE1HTjZTRVVkMGItb0hncENqXzVKZnBfcVVFVXEyOW5SaGFHLThWQnhZS09LVEEwb2VwRlBpMTBtVXBHb1p0SmpZUmoyV05tYl9RQ01XTHhTdjRDWFFJSkwwVlgzZWtZRXFNTzVJTGZua0FmSktzejFyZ1NrMzBGcjZTajN1QTBFQ0N3V1pSRnYwZmduUzRvV2FGZ3BBX0RfLUdpZ3Z0Q1VXWUwxaG85TVVVYnUxMHEtVkx0VkxsOHRwajdFODdaRXRVVVlVQW5UY0NGTmJtTGFTR280YkxTaXZEbXRwYjNfYkR5bE9xZ2FmQTR3d1I0VFg0YmFXVEZTdw?oc=5",
-      "published": "Tue, 20 Oct 2026 07:00:00 GMT",
+      "title": "不只台積電！AI搞越大越缺「它」！美中角力新戰場！吳嘉隆點名「這族群」主力悄悄卡位：防駭客成剛需大贏家！ - 優分析UAnalyze",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxNkZaaWZ3TjFMSzdWcEdDcy1lUldJTDhQbGhhYVdNeEhpOVVPMVVTQzA5Y3FPWVFqT2RZYml4SXktclFxd1lDaGVWZm1jYVVuNEdScUFB?oc=5",
+      "published": "Wed, 04 Nov 2026 12:10:00 GMT",
+      "source": "優分析UAnalyze",
+      "impact": 0
+    },
+    {
+      "title": "美國選後雲端投資急變調：AI伺服器熱潮遇上監管陰霾，晶片股短線震盪 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLXp1NDlXR21GcmF1QkxJMHlWSVJtazZlTW9QbFlVakRxengtWlN5V2haS1JUbXgzSE1QUEZJYnMwR1ZMZVNjVVE2NGRRaXUxVHBqRmpXVXBQX3lhLWJ4a0R0NDJjd3FRUC1wbDI4LWpIQ29KOVNCb3REMlB1UXR5MjJvWm5QUHFaQjh4SGtB?oc=5",
+      "published": "Wed, 04 Nov 2026 10:00:29 GMT",
+      "source": "CMoney投資網誌",
+      "impact": 0
+    },
+    {
+      "title": "AI伺服器需求強勁 美超微上修全年營收展望、毛利率優於初估 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5lazh0bDRzb2FBRzFGOW9MTEpfSUpjVlo2WlVjbkNZU1ZpRmZHS3dJQ0t4NlV2UFg4UmxPOWs0WkZKd1o2ZlEtZzlSRmFWY3c?oc=5",
+      "published": "Wed, 04 Nov 2026 00:00:35 GMT",
+      "source": "鉅亨網",
+      "impact": 1
+    },
+    {
+      "title": "AI伺服器液冷規格升級 富世達伺服器營收占比升至65% - 優分析UAnalyze",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NREFzOFRGQmtjOWpOSVUwWXJGZGtPVkZRU0pGSW9PUXJPcXFhUVFmUk5VV085RTFIVUVhZ3d3QXhaWkVQX1BLQ2E2bERtYWk5RGt5d2tB?oc=5",
+      "published": "Wed, 04 Nov 2026 00:39:33 GMT",
+      "source": "優分析UAnalyze",
+      "impact": 0
+    },
+    {
+      "title": "2026年AI概念股有哪些公司？還值得投資嗎？4圖表帶你看懂上中下游產業趨勢！｜豐雲學堂2026 年 11 月 - 永豐金證券",
+      "link": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxOcUthX1kzUlFCQzNwS1dQX09Ba2k0UThscXdtb1pUTDhMNml1ZTlhQzdMS202dS04S1g2VGNmd0hOcmdIWmcwYXBZWGdHQ0pOc2F0YzhPb1dUYjAtR1BfQ3Y4X2phMVUxelBCaW5oVFZOLWhmb2ZIY19yUy0xMGRKM21QQ2lrVjJXN2I1ZnJxM2xXcUFDWGZUWVQtNUVEVl83ZzdjekdkYkFBdF9qR1hKRFZkYnk1b2NtNnl6WFFHdXpUT0ExbDk0a1BDY2dDNl9mTVdydUgyUUUzM2VyM0pPenNMQW5sNVJscTVoR3Y1OExINjBmVjlwTE9ZclpCazZOMlh0N25rOW8xVVRKWldUejl6eEQ4TEJXckZjYjZaRVh6WFdRNF93cUl4ZV8tZUJhSXIyMHNBYjZROUdiRXA5dVdZclZ2MngzbjVpSWlNZzF6TEV6UUF6VXhGaHg5WlJGdTRWWTRuSXM2LWlJcG9oMlNWTUFKelNlYy11TTdvTFlDQUcwSlBHWVpNNERHOURibkUzM0NUTUlnS1VmVk1xdWhhVDdyTGJGb19MeFh0U1YxOHplWFhVVjRmbHBOVWRKdERXTXJqcnRwSEpBamRIakdQa0JhazJwYWhuaTZhY1JadzNHbVE?oc=5",
+      "published": "Fri, 02 Oct 2026 11:38:23 GMT",
       "source": "永豐金證券",
       "impact": 0
     },
     {
-      "title": "費半狂飆3.6% 台積電ADR大漲近3% AI買盤回歸有望點火台股 - 理財周刊",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GYWlQYUlpVEJOb1JDMzJGUGtpUmtyc2g0SFI5LWRDUnVOblRoYk9Fcllkd1lweGlIRl9HRUxwb0JtSW8yLUkxRUFQbnpjc1E2MmhnR2RFYU9oRHZTTDBMTHFDb29qUFdhS1plNlBRUQ?oc=5",
-      "published": "Wed, 28 Oct 2026 00:53:39 GMT",
-      "source": "理財周刊",
-      "impact": 1
+      "title": "主動式ETF大跌日偏多加碼，台積電與AI鏈買盤能否延續？-詠晴K線解密 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS095QWllZW9LYnc0czc1RVIwN0RGMVVBODRCcmkwQkQxNUpYOGlrU3NYTjktQVBwQkR0UjRGTm5lZnhmc2lZcHJGdUFxbVZDbkw0MlRmLURGRjJEYlFweWZOTG9uM2ZHbm5reG1kNFh5MHYzU3RfSTEyV01yeGI3MzZwVFNJTmc?oc=5",
+      "published": "Wed, 04 Nov 2026 04:30:55 GMT",
+      "source": "CMoney投資網誌",
+      "impact": -1
+    },
+    {
+      "title": "毛利率衝破 87% 遠超台積電！川湖 40 年只做滑軌，AI 伺服器市占近八成 - TechNews 科技新報",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBHMmd5eFJTQkEzZDBELW5kbVFOM3ZZTUg1RkUxZGRqN1pldW5lNnpYUUlyeERJVnpXWUtOUDQxbzlzd3VKaGJIcDRjZzVUMWRmTzhaTG9UMEd6ajQ4V0I3S1JFbXU4X2laakoyTTU5Z1ktVHRMcUI4OEZrdlBtUQ?oc=5",
+      "published": "Sat, 10 Oct 2026 07:00:00 GMT",
+      "source": "TechNews 科技新報",
+      "impact": 0
     },
     {
       "title": "美超微營收跳升，AI伺服器廠如何把大單變成獲利？ - 口袋證券",
@@ -81,32 +95,18 @@
       "impact": 0
     },
     {
-      "title": "美期中選舉變數發酵，台股臨 45,000 保衛戰，緊盯 AI 龍頭撐盤與外資動向 - TechNews 科技新報",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONjZZUkRDeVRJQnBLNHphMjJXdlNVYWF4VHZmUjExVlFabzN2S3RySEpOa1l3WXFaajRxSEFfMFk4Sk90eGhWZXlWU1A4ZXFGY0lNZWFRNWUtb2l1emQ5YTAzLXdPSHQydG4wcVBxcWVUU2h2Q0dQVHpWYmpoTWRoOV9XV0FzUm1KSERhNHRxX3Zmel9SVk4yUnBuRU9kNW9pTVU0Wmtad2RTTzZyOFBhVGRkMC1SQ2ZvU1BUQzF5cGc1eHJlTE1jV0RiQjR6N1hBSjA3aktobmZGSkdBTHBHSjBwaw?oc=5",
-      "published": "Tue, 03 Nov 2026 02:02:21 GMT",
-      "source": "TechNews 科技新報",
+      "title": "輝達AI伺服器喊漲15%！台廠供應鏈吃補 6檔成焦點 - ETtoday財經雲",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9UTTMyN2tLOXozSzNWMWp3dy11SWRNb2VKRnRCVXBuZ0h2VVQ3andReFJPdkJSZzFORTM1aHE0UUZBbDVnSDExTjFfRWJGdVdFTkHSAVBBVV95cUxOdGhiZjZvM0hpekZFbk5ucko2Ml93TUVDWEQ0YzEwZjJiWFJCMGhaVFF5N0JwQXlPOF9ZcTM0bElfTllnRzJKN1EzVGN1aUdWZg?oc=5",
+      "published": "Sun, 23 Aug 2026 07:00:00 GMT",
+      "source": "ETtoday財經雲",
       "impact": 0
     },
     {
-      "title": "司法部調查 Nvidia 129.3 億美元收購 Hugging Face AI 模型入口中立性成隱憂 - unwire PRO",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYTVMeG9mYV9uZlZ0UFRVOWh1TlVpb3BiUEdVbm05MDBhTVV2ODV3Q1JiZUdBczQxbXBkenh4SGlVTGZsU2FVdG01WTFyNjRWWlpTdGo4eWd5OVJRSjB4Y1BCZkpnLWc3Q2lXVFM4MmZLSndEc2lGLXk2Um9kY1ZTVQ?oc=5",
-      "published": "Sat, 31 Oct 2026 06:02:19 GMT",
-      "source": "unwire PRO",
-      "impact": 0
-    },
-    {
-      "title": "高階玻纖布需求爆發！AI伺服器帶動73億擴產潮，資金轉進台玻逆勢漲停-財經焦點情報站 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdFdyUUQ1d1RxWE8yd3R5c1dUZ2otOGQ0R1BmYXc2TXlHVmRlTWdmbUw5dF9IM2ItNkhVRWc0eUNDQkFUcnhpQmRfb0hLeXo1WUVVb21hS1g1R3JMZGNMZ3gwWjRFVmJWM1IteHdsZ1M4OGRRZnRwWmNCMjM2Tm56eEpn?oc=5",
-      "published": "Tue, 03 Nov 2026 06:15:20 GMT",
-      "source": "CMoney投資網誌",
-      "impact": 0
-    },
-    {
-      "title": "Intel 財報／AI 帶旺伺服器、卻拖累 PC！英特爾展望失色 盤後狂崩21% - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5uaW81dVJHUTJlOFRxRFdGZUg2TXgta3JDV2lZSV9iaW9wS0NjOU84U0tna1lXdkZURHAtUC13eUNTMmIwREdpM1poeEEtak5YWVFab0JZRy1TVjVS0gFiQVVfeXFMUDB3Yzg4QnBUM1lqTmhBVjFkcURCNE45U2NCOTQ5Yl9YcmY2UTFOZlF3OEZVMXRid2tHelZ0UkJKakdkMXhKVUdhb3d5YlR4Y1ViN0I2aVVhb2ZMSHFFUEd2WHc?oc=5",
-      "published": "Thu, 29 Oct 2026 23:08:16 GMT",
-      "source": "經濟日報",
-      "impact": 0
+      "title": "川普擬開徵「終端產品關稅」筆電、AI伺服器全納入！台灣代工三雄恐遭重創 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMivwNBVV95cUxOUGw1c1Q1YmtOWTVvVkJDLS1aUnQ3c2JWN0NTeHR1TzVkRlV5NUd1azFHclB3VDY2R2JtdTBlSjFHZEROZ0F1NDFObkNlZEFxblZHQUw5QnlTdWJMcnM3Y1hEUy1KczBSZnJBSHRPQ3ZDdEYzQmRrdkwzZGViZ0ZCNm1OeXVEbFVhbzVoUXFIZjI0N21Ua0hGdDNnbm1rNXo5Y0NZdGVOdDBxcjhoYXN0YzI0SjdENDNBZkdjQTljLUJ6TmhZVmt6VE9hTy1od2plLW9tUVBwZ3ZobW5DWkN4aFNNSHFSRWx0S0twdXNHMTduaWZkWG03c3d2NVFfVVRTUG9KUDZTaEFNWUMta3lISTZsSDNaMlFEMDBBWGJXUTc1SHd4UGxnT3IyOTQwYVpJNVBkYkdYcWl5czNMUDgxQTNfRmJxV0RaTU5PaXBGZVBHNW5MSUphNnRYeTBvb3pHOERyeEhHRUxaZmVkQk9teUM1OUVOcDBQSnl6ZnZPbVotVmhLTGY2YWc0WjNqU3VZRE9BM2pXUmE5ZDVuZGFzQWstS3hlWk5EbFZkcGFvTHd5RnVqV0tOS2Zaa2haUTQ?oc=5",
+      "published": "Fri, 28 Aug 2026 07:00:00 GMT",
+      "source": "Yahoo股市",
+      "impact": -1
     }
   ],
   "note": "這是盤後正式預測之外的夜間即時修正，只使用公開美股行情與最新新聞；不會覆寫已事前登記的正式預測。"
