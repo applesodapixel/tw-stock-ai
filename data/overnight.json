@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T02:06:41+08:00",
+  "updated_at": "2026-11-07T01:33:01+08:00",
   "bias": "中性",
-  "confidence": 52,
-  "score": 0.35,
+  "confidence": 50,
+  "score": 0.0,
   "markets": [
     {
       "label": "S&P 500",
@@ -25,17 +25,17 @@
   ],
   "headlines": [
     {
-      "title": "DRAM比台積電2奈米還吸金？ 單片營收「飆8萬美元」差距曝光 - 民報",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE45eVRFcEpyd2V1V3diY19ZWHdIaGs4UkR0MFJTbzBLeGlITExRVDdfTkJJdWpqQ2pDNWRmaGVTZ0gxQTFCSDZWMm05S2pvbmxfRFBTWURlTVFMT3NkSzl3MWN6WnI?oc=5",
-      "published": "Thu, 05 Nov 2026 09:40:12 GMT",
-      "source": "民報",
+      "title": "快訊／台股崩殺逾3700點摔到3萬7！台積電、緯穎、聯發科跌停、AI伺服器、記憶體股倒一片上市櫃逾1600檔跌停 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxNamxEUm90TmJ0QzM0X1MtSFZKLUtkYzFibFNGMjJqcDQwcXNZLWJCbFNMSUJJRVNoX1ZaYjJtbFlha1AtRUNxNU5QTUp1M2pCd3ZBN2laNTY2VG5RVmNheWZWQ1lfeWJXRU5MVFRCV1pOUzFMclZDMnBqQmVsNUVWVXFmazNqZW81ODJGY29GTVZVdVJrSGs2RTZtVDkyMGdlNUdiRko5Sm9MYW1ZOE9jRzc2cEx3dmc4TXZhNlFlWW9oMzF5eVJaSEdkek1JMkYxTldTWnJVYk8xWG1pOWx5NlBaMnVQaVZreVF0X1hiY1JUd25NMkhxbm1vbjI0eWdGLTh5TVJOeWxQWDhyc1J6VF9RNzEyNTFyRjN3dk50M0hTa3ZMaC1ZWFh3eXFubzh6QnFYazYxYng3NXVlMk9fVW5KYXJZMDdQQU1POFpTdXhFbUZUUGM5SUQ1YThRUnVTSTJudQ?oc=5",
+      "published": "Fri, 06 Nov 2026 01:23:57 GMT",
+      "source": "Yahoo股市",
       "impact": 0
     },
     {
-      "title": "美股盤中／AI投資疑慮引爆科技股賣壓那指跌逾3%、費半重挫7.1% - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Rc2dUOGZXU0ZBZFJjNDJMVThIbUlLSTUtRWVjVjZGMnlXTGZocVRiLW1hQXVVZHVNSlZ2X1B2UWszS1g1NEVsTWpwUjlOajA?oc=5",
-      "published": "Thu, 05 Nov 2026 15:30:23 GMT",
-      "source": "鉅亨網",
+      "title": "英飛凌與 NVIDIA 合作開發 800 VDC AI 資料中心的氮化鎵電源轉換系統 - 電子工程專輯",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE93VnE4b19XZERVTjhkaEtLS3hlNDc0Y3VLOUdmRU5yQjNnNDkza1RyM3o2SVhGSWpxcWwzUFRlWWNMcmluLU5KOGJyVWU5ZlFvSFd1VVV2cWNVQXhRMDhyTWJuaw?oc=5",
+      "published": "Fri, 06 Nov 2026 03:58:26 GMT",
+      "source": "電子工程專輯",
       "impact": 0
     },
     {
@@ -46,66 +46,66 @@
       "impact": 1
     },
     {
-      "title": "勤誠強攻AI整機櫃，馬國/越南Q4後陸續量產 - 台視全球資訊網",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZm5OclhWdGs4MWRJUU9YemozSnUwVTI2a0dTWUk5OVpZWmJjMWI1OXRWNlRpeEhlTUhLY1cxU2xJamJwLUhjb3lzemdEci1yODdzZEJDQzJZSFRydjRXYlQ0RlpwajRqWU5CY242SmpYY2FoYUlwNmlXMmlJNTZLcHBjSWRlZ182dVk3TUtLbWhjUQ?oc=5",
-      "published": "Thu, 05 Nov 2026 05:24:17 GMT",
-      "source": "台視全球資訊網",
+      "title": "DRAM比台積電2奈米還吸金？ 單片營收「飆8萬美元」差距曝光 - 民報",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE45eVRFcEpyd2V1V3diY19ZWHdIaGs4UkR0MFJTbzBLeGlITExRVDdfTkJJdWpqQ2pDNWRmaGVTZ0gxQTFCSDZWMm05S2pvbmxfRFBTWURlTVFMT3NkSzl3MWN6WnI?oc=5",
+      "published": "Thu, 05 Nov 2026 09:40:12 GMT",
+      "source": "民報",
       "impact": 0
     },
     {
-      "title": "Supermicro 攜手 IBM 及 NVIDIA 推出 KV Cache 解決方案，展現顯著推論效能優勢 - Taiwan News",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBIdFFYQkRTeWJaQzM1X05hTnR4Mkw1bjhvRTJJOVZ6c1ZLXzRxZzNaaFM3UTZHeW5KWjFjbnVjMS1Yd000MzBEMGtJOE9tWlMyVmhBakVld0Q?oc=5",
-      "published": "Thu, 05 Nov 2026 14:05:00 GMT",
-      "source": "Taiwan News",
+      "title": "台股開盤｜加權指數暴跌3,672點、台積電重挫215元！美股AI崩跌、韓股觸發熔斷，科技股賣壓席捲亞洲 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5sdkQySFRFemNLYzN5d3BKUF8wTlpCdGlIMlJmR1hiMEd4Zy0wVDBxZ0xGeFR5a2I5bVdObVJnbURGRktiNEx6dnRVY191UG8?oc=5",
+      "published": "Fri, 06 Nov 2026 01:30:08 GMT",
+      "source": "鉅亨網",
+      "impact": -1
+    },
+    {
+      "title": "Nvidia AI布局新招曝光 擬將舊電信機房改建為資料中心 - 世界新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5tM3NLRURjMHo1NzE5US1JaWpLWHp1LTRuY0xoZUtMeFJ3V1lLRldTS0pmc2xCN0VyRjJJWkFMMFdPZzk3MjlIOVBUUE9zRXdncnlINTQzSjRtTnJsZmR5cUNB0gFnQVVfeXFMTzQxbGtkZXctY0V6ODlGeEVJX1RES1pGMTFYVDJPNGxzc3lsSmVYQzdhU2h0WFlMX1FUZWVBVkVjU25COEc4NTVvUTk3YndENGwycU1EaWxORmdvLVd3RnNLZXRFYTJZcw?oc=5",
+      "published": "Fri, 06 Nov 2026 05:05:08 GMT",
+      "source": "世界新聞網",
       "impact": 0
     },
     {
-      "title": "Lenovo攜手NVIDIA 推AI Express加速混合式AI工廠部署 - 三立新聞網SETN.com",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE82enNGLVhMOEVGc2VWRXN5a1dMNkJUOF8xWEFmdWw4dld3ZTlFQnVwZ2piUGVXLXhSZnNMWDB6VHF0WkFuVW1aUTlMQQ?oc=5",
-      "published": "Thu, 05 Nov 2026 06:43:58 GMT",
-      "source": "三立新聞網SETN.com",
+      "title": "安提國際以NVIDIA NCS 認證 AEX-2UA1 與全新AEX-2UA2 SuperEdge 伺服器，強化企業邊緣代理式AI佈局 - 威傳媒",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1mTmZZODJIbDlISWxoVVk5ZzQ3R1k5a0M0bmRMYUE4bkRfZ3FnQmstYWVoSDFrM0pqMExrN2s0RWtVVm9EeGlWQ0NR?oc=5",
+      "published": "Thu, 05 Nov 2026 13:11:00 GMT",
+      "source": "威傳媒",
       "impact": 0
     },
     {
-      "title": "美股財報／AI伺服器需求強！美超微上修財測 盤後飆9% - 非凡新聞台",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rbUJqZzJ5eXh1Rzc5LVpYWHM3MEhJNkxnN1BXd2ZMNlVNUmpyX1NzMTVVWHpidWpEV1VnNzh0VWxCNVpSdHI0SDBMbUhiRlVFQVBvSW1ucERuci1jNlAw?oc=5",
-      "published": "Wed, 04 Nov 2026 10:16:29 GMT",
-      "source": "非凡新聞台",
+      "title": "美超微營收跳升，AI伺服器廠如何把大單變成獲利？ - 口袋證券",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9SV21lQ2pBNUpFdjJmVVhBUmhCS0tTLVpVQlFBdHE3SFNYbVdYcnhCSVhERlBmSGxGb3lXZXBSSGhObVVRWFdfcUg4UHpTaHBnb3llcFF4bTVaeUtkbzBabldxUjJkdw?oc=5",
+      "published": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "source": "口袋證券",
       "impact": 0
     },
     {
-      "title": "DRAM晶圓1片產值飆8萬美元吸金力道超越台積電- 其他 - 旺得富理財網",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01d3J3WXlQeGpkOVJZTXBxYk54WEZDeWkyX1BhQVAxSl82NVQ5UjFsUjR4MzFfZHlNVnVIYVFEZFgwME1EdmtGQjJ6UVlseDZZa1ZVR252eHI0M2I5LXdyYmdLSE5SdUYtVHc?oc=5",
-      "published": "Thu, 05 Nov 2026 06:48:55 GMT",
-      "source": "旺得富理財網",
+      "title": "台積電狠甩英特爾 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xVDRPaVhrNHhxU2lwSWtXZ2d5Y3hGNXFVbi0wdkNhMFJiZm5UX0xhdkdWODVBYTJJTFVzVjk4cEN0SWJjQjNjODRQWXN3NnM?oc=5",
+      "published": "Thu, 05 Nov 2026 23:39:06 GMT",
+      "source": "鉅亨網",
       "impact": 0
     },
     {
-      "title": "美國期中選舉變天 產業市場／民主黨拿下德州 伺服器代工台鏈嚴陣以待 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56U0IyRTNpVUZaWkprcDgzNHlTbTBvZVBtbV9wb3g5THg3T2FwOUllZEwtTTloeUFnZExFWmhRN0hVMkpMOGpkRnVEaGRPRXlhLVRtd1AxazdjZ9IBX0FVX3lxTE9BemREVThKdnNFOGE0UVg5dkZ1WHR1NUVTVm1YZVYtRmpoZVd6amxOWndwMHFTS29DMWkyeE5YOXVtc3NrREJLd1lfX0ZmaE9mNVdybFZnWnVReGNEUDVR?oc=5",
-      "published": "Wed, 04 Nov 2026 20:10:13 GMT",
-      "source": "經濟日報",
+      "title": "2026年AI概念股有哪些公司？還值得投資嗎？4圖表帶你看懂上中下游產業趨勢！｜豐雲學堂2026 年 11 月 - 永豐金證券",
+      "link": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxOcUthX1kzUlFCQzNwS1dQX09Ba2k0UThscXdtb1pUTDhMNml1ZTlhQzdMS202dS04S1g2VGNmd0hOcmdIWmcwYXBZWGdHQ0pOc2F0YzhPb1dUYjAtR1BfQ3Y4X2phMVUxelBCaW5oVFZOLWhmb2ZIY19yUy0xMGRKM21QQ2lrVjJXN2I1ZnJxM2xXcUFDWGZUWVQtNUVEVl83ZzdjekdkYkFBdF9qR1hKRFZkYnk1b2NtNnl6WFFHdXpUT0ExbDk0a1BDY2dDNl9mTVdydUgyUUUzM2VyM0pPenNMQW5sNVJscTVoR3Y1OExINjBmVjlwTE9ZclpCazZOMlh0N25rOW8xVVRKWldUejl6eEQ4TEJXckZjYjZaRVh6WFdRNF93cUl4ZV8tZUJhSXIyMHNBYjZROUdiRXA5dVdZclZ2MngzbjVpSWlNZzF6TEV6UUF6VXhGaHg5WlJGdTRWWTRuSXM2LWlJcG9oMlNWTUFKelNlYy11TTdvTFlDQUcwSlBHWVpNNERHOURibkUzM0NUTUlnS1VmVk1xdWhhVDdyTGJGb19MeFh0U1YxOHplWFhVVjRmbHBOVWRKdERXTXJqcnRwSEpBamRIakdQa0JhazJwYWhuaTZhY1JadzNHbVE?oc=5",
+      "published": "Fri, 02 Oct 2026 11:38:23 GMT",
+      "source": "永豐金證券",
       "impact": 0
     },
     {
-      "title": "安提國際以NVIDIA NCS 認證 AEX-2UA1 與全新AEX-2UA2 SuperEdge 伺服器，強化企業邊緣代理式AI佈局 - 蕃新聞",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94ZjQwWGZldzJTcllQa1hJMnF0U2l3MnkwUjREU0oyVXNRbGcwVUFJTWE3d2wzSWdPSkhkdU1ENG04NEdjZEV0cHBRLWNha1ItTVE?oc=5",
-      "published": "Thu, 05 Nov 2026 13:11:15 GMT",
-      "source": "蕃新聞",
+      "title": "毛利率衝破 87% 遠超台積電！川湖 40 年只做滑軌，AI 伺服器市占近八成 - TechNews 科技新報",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBHMmd5eFJTQkEzZDBELW5kbVFOM3ZZTUg1RkUxZGRqN1pldW5lNnpYUUlyeERJVnpXWUtOUDQxbzlzd3VKaGJIcDRjZzVUMWRmTzhaTG9UMEd6ajQ4V0I3S1JFbXU4X2laakoyTTU5Z1ktVHRMcUI4OEZrdlBtUQ?oc=5",
+      "published": "Sat, 10 Oct 2026 07:00:00 GMT",
+      "source": "TechNews 科技新報",
       "impact": 0
     },
     {
-      "title": "瞄準企業AI需求 Lenovo聯手NVIDIA推AI Express - TVBS新聞網",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4zUndtUXBMMTllOTJKMUNQbzhvZE9aS1VWb2otQzJlMXczbjBZWGxnaXdwaC12RWFWamlTdFFwVkJsQXRtQUQ1a0JXN29Kdw?oc=5",
-      "published": "Thu, 05 Nov 2026 08:00:00 GMT",
-      "source": "TVBS新聞網",
-      "impact": 0
-    },
-    {
-      "title": "AI伺服器液冷規格升級 富世達伺服器營收占比升至65% - 優分析UAnalyze",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NREFzOFRGQmtjOWpOSVUwWXJGZGtPVkZRU0pGSW9PUXJPcXFhUVFmUk5VV085RTFIVUVhZ3d3QXhaWkVQX1BLQ2E2bERtYWk5RGt5d2tB?oc=5",
-      "published": "Wed, 04 Nov 2026 00:39:33 GMT",
-      "source": "優分析UAnalyze",
+      "title": "輝達AI伺服器喊漲15%！台廠供應鏈吃補 6檔成焦點 - ETtoday財經雲",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9UTTMyN2tLOXozSzNWMWp3dy11SWRNb2VKRnRCVXBuZ0h2VVQ3andReFJPdkJSZzFORTM1aHE0UUZBbDVnSDExTjFfRWJGdVdFTkHSAVBBVV95cUxOdGhiZjZvM0hpekZFbk5ucko2Ml93TUVDWEQ0YzEwZjJiWFJCMGhaVFF5N0JwQXlPOF9ZcTM0bElfTllnRzJKN1EzVGN1aUdWZg?oc=5",
+      "published": "Sun, 23 Aug 2026 07:00:00 GMT",
+      "source": "ETtoday財經雲",
       "impact": 0
     }
   ],
