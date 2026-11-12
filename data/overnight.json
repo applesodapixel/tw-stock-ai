@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T01:56:02+08:00",
+  "updated_at": "2026-11-13T02:24:07+08:00",
   "bias": "中性",
-  "confidence": 54,
-  "score": 0.7,
+  "confidence": 50,
+  "score": 0.0,
   "markets": [
     {
       "label": "S&P 500",
@@ -25,6 +25,20 @@
   ],
   "headlines": [
     {
+      "title": "鴻海AI大轉骨3》大啖輝達AI訂單 ASIC出貨暴增藏營收玄機 - 民報",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9tZ2hCVEowRHdKZTZqWDVtd2wyWXJXR3huZUN0WXM3WExndzlNQVR0X216UE0zZl9kLTUzYTBpZWx3R19zbFNxazZBT21GRlVWa1locTdxZmtkUHJ2Q2ttLU0yYWE?oc=5",
+      "published": "Thu, 12 Nov 2026 10:29:58 GMT",
+      "source": "民報",
+      "impact": 0
+    },
+    {
+      "title": "輝達與台灣AI供應鏈合作密切 黃仁勳去留是否衝擊產業待觀察 - 公視新聞",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5LcDBrS2VJN1VZZWFqcjNSYWdfNU5qWXNQaFBEVVRPS0FrX1pfd0FtOHNieEdtVlg1Z2UyQUQtNXdhLWZqTTBNdkg4U0JTUEU?oc=5",
+      "published": "Thu, 12 Nov 2026 12:10:36 GMT",
+      "source": "公視新聞",
+      "impact": 0
+    },
+    {
       "title": "【00981A】11/11 操作日報｜加碼台積電與AI伺服器零組件-CMoney官方 - CMoney投資網誌",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBIaUVBbFYzYURaeG44OVNFeEM3cEJzelJnMDVOZThZcXhFV2ppSno1blM3dGtMZnJBZHZsTzdMYklzN1ExM0tsZlZtRnRwYV9fQlNFTXVpcGtkcnFMLXRfMURtbl9jREZTOWJJMkRUejhTU1l4czZ1a1dURU1fQQ?oc=5",
       "published": "Wed, 11 Nov 2026 11:00:58 GMT",
@@ -32,53 +46,46 @@
       "impact": 0
     },
     {
-      "title": "廣達(2382) 非 NVIDIA 平台占比 2027 年升到兩位數！ASIC 毛利率不比通用伺服器差 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9fR29CMWFuZ24tcVpUbFN3RU5MeGQxdmpTWlhjVF9KS0R0NzZWMUw5MVhUa2lvUzJKTktnWmc4eFdPeGs2Y0RlcE1CSFA3aGs?oc=5",
-      "published": "Wed, 11 Nov 2026 15:00:13 GMT",
+      "title": "〈台股盤前要聞〉廣達明年AI伺服器營收年增高雙位數、中信金前10月加計FVOCI股票狂賺1488億元 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xbG16dC1vMVZreTZ4MmpZanhnS2llSWw4aFdiSXpndDlSMGN0MmQtZlhxbmYyYXpXblNUTEZCTlRnVHJkYVZhTDhYODlVd3M?oc=5",
+      "published": "Wed, 11 Nov 2026 21:12:29 GMT",
       "source": "鉅亨網",
       "impact": 0
     },
     {
-      "title": "仁寶將參展SC26 亮相AI基礎設施解決方案 - 台視全球資訊網",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPM3paX3RCZk9qRlFXY3FybHFqY0hYMmFWcGpzWlNPR1BWdlVDajJoa0U2ZXpYSDhqTHFjbFNhcWhaRjdJMVBLMmczRmVhTVlpOHpnQzc5cUtfWkd4OHZtd0RaQ3VZVEZVQXZTUHIwajNUay1CcnZxNEFlN1ZoMGp3U2tSQ1l6UnFLMExIUV9ZZnRtUQ?oc=5",
-      "published": "Tue, 10 Nov 2026 11:24:14 GMT",
-      "source": "台視全球資訊網",
+      "title": "外資只賣6.8億卻猛砍AI股！仁寶遭倒5.2萬張台積電、廣達也入列| 財經 - Newtalk新聞",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5qSThLZlFLX0RCdkpUcmE4b3ltNF9KTkpSaGtIMlZuM29xNG5hTzFsUmJaU2kyeFVmOF9XUXJzRzlGaXEyTTJWRW11QzNFa1RsS2Z1UE9uMHpPOGM?oc=5",
+      "published": "Thu, 12 Nov 2026 09:04:34 GMT",
+      "source": "Newtalk新聞",
       "impact": 0
     },
     {
-      "title": "台廠發力！全球 AI 伺服器出貨市佔上看九成，「這家代工大廠」最領先 - 鏈新聞 ABMedia",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9HZVM4c203d0c5M1BzRzFCTThtRFhOcW95bUdOUlV1TzdRdVZEVmxEUC1DSXNTWnlIY21xMFFaNmRwUDd0dVpJSnRsTVNKZXp5S0tKMTQyaEJwN0NmUFNlNEVlbjM?oc=5",
-      "published": "Wed, 11 Nov 2026 05:17:44 GMT",
+      "title": "AMD 第六代 EPYC Venice 開始出貨！首款台積電 2 奈米伺服器 CPU 登場 - 鏈新聞 ABMedia",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GM01vNURjenlLTjF6dmswemtSWllzczIzLTlFWjZlTlRzY2k5Q2tCTlJyUzdXR1ZlemRpTUdINUE1aGdxMUNkQXdMS3d3czY1c19SLVpB?oc=5",
+      "published": "Thu, 12 Nov 2026 02:48:28 GMT",
       "source": "鏈新聞 ABMedia",
       "impact": 0
     },
     {
-      "title": "台積電、聯發科領軍衝鋒！楠梓電、健鼎等PCB強勢亮燈「3天暴彈5,000點藏隱憂？」專家教戰：加碼等第二隻腳更穩- 上市櫃 - 旺得富理財網",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Rd0dJN3hWSVRNUG9FTk0wYU50SmZkMnl6R1Y2S0FkQ2liYm5CRUdVVnNCT09veGFTb0NpVU5WTkpWdzhwOWJqdXUtQnhwbUR3SHpnakVnSE1HYktBcDZDU2pwSnhTN3J6ZEE?oc=5",
-      "published": "Wed, 11 Nov 2026 04:49:32 GMT",
-      "source": "旺得富理財網",
+      "title": "【鴻海法說會 Q3】鴻海 ASIC AI 伺服器出貨年增 1.5 倍！成長快過 GPU，搶攻 AI Agent、CPO 商機 - 果仁家",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1mMVZKcWs4SWk4bHdrSDNvSEh1ZzVpa3dfbWhUQjJPV3NvT0RfX1dKRUJaeklSSjhKY2J0Mm01bDFodFFkc1BWREUtdU5STlFzd0hB?oc=5",
+      "published": "Thu, 12 Nov 2026 16:06:57 GMT",
+      "source": "果仁家",
       "impact": 0
     },
     {
-      "title": "中國Moonshot AI疑租用32台Nvidia最先進B300伺服器，遭質疑規避出口管制 - BigGo 財經",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PN2ZJNnVtLUxPRVRqclhkWV8ybnRwaGw1RXhwaUFRRE5tYXFvS3JpLUxJcEJFQ21MYU9NTzhaVjRXSEIxcXZSNWJnNUpaZ1RNMWJLZGNRN2U3NnZiUV9OZW5mcm9XWFV3aWhKalJodW1BNWpFTDd6WEVB?oc=5",
-      "published": "Tue, 10 Nov 2026 10:35:00 GMT",
-      "source": "BigGo 財經",
+      "title": "黃仁勳若遭撤換台積電會怎樣？台灣AI供應鏈繃緊神經 路透分析師揭衝擊 - FTNN 新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5uaEJlakM1R1FIdnlLRHp0QnhjVnh4VXp2U0NyWHhjWXc1YjhSTHEtZ0c4RjY5V0lxNXJUWVAtcHNBa3JyVzdETnF6TQ?oc=5",
+      "published": "Thu, 12 Nov 2026 01:33:00 GMT",
+      "source": "FTNN 新聞網",
       "impact": 0
     },
     {
-      "title": "美超微H15伺服器正式出貨 股價大漲逾11%、AMD合作擴大至AI整機櫃 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1sOV9qYU1oa1RWZjY2XzN4cnNvY1hKSEhFMTN0M0Z5QlVvZDZPX2NveVdLMThPRHVsZmVWTHBWMUlLWnZOeFBENWlfRERwZDA?oc=5",
-      "published": "Wed, 11 Nov 2026 17:33:09 GMT",
-      "source": "鉅亨網",
-      "impact": 1
-    },
-    {
-      "title": "【00:46 即時新聞】Intel(INTC) 暴漲逾10%／受惠AI伺服器需求強勁帶動晶片股全面走揚 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLTdHZzllS2xKT21DS2ZNcUZicDRjWUpYS3RwZjVuWGl5VG5mRXpBNGNzNmxkS0I0YVF4Z25Dc19FaTRBR25Tby02S2d5eTdFVGJXeV80UE5kS0Mza0NQeDN4V1dPd181RHRMTXY3VHRiNXRpX0RTOTFNcGNxNVpQSks0anlpbmlKWWZyZENR?oc=5",
-      "published": "Wed, 11 Nov 2026 16:46:37 GMT",
-      "source": "CMoney投資網誌",
-      "impact": 1
+      "title": "廣達預估旺到明年 伺服器營收占比衝9成 - 自由財經",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZEotZTlNT3VFcmpDR1dRXzlLQUxwVEs4bC1NQTk0WlVHTlRETFk3SFRQbFZTTXJ4WUVzY1hQQTZHSXRoZDQyRFIxM1l5OGlfTDNsanF30gFbQVVfeXFMT3VfSzBYSW9MRzdPaXo1X0lWdk1JWk82SmRsUHRfalRtWVdGWUZwVUFVa0dDRDRBMFR0RDkzd0U2TXZwNHZHMTFGRnVGM1c2UkF6eGFBbFBfVFNVbw?oc=5",
+      "published": "Wed, 11 Nov 2026 21:30:00 GMT",
+      "source": "自由財經",
+      "impact": 0
     },
     {
       "title": "2026年AI概念股有哪些公司？還值得投資嗎？4圖表帶你看懂上中下游產業趨勢！｜豐雲學堂2026 年 11 月 - 永豐金證券",
@@ -95,18 +102,11 @@
       "impact": 0
     },
     {
-      "title": "輝達AI伺服器喊漲15%！台廠供應鏈吃補 6檔成焦點 - ETtoday財經雲",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9UTTMyN2tLOXozSzNWMWp3dy11SWRNb2VKRnRCVXBuZ0h2VVQ3andReFJPdkJSZzFORTM1aHE0UUZBbDVnSDExTjFfRWJGdVdFTkHSAVBBVV95cUxOdGhiZjZvM0hpekZFbk5ucko2Ml93TUVDWEQ0YzEwZjJiWFJCMGhaVFF5N0JwQXlPOF9ZcTM0bElfTllnRzJKN1EzVGN1aUdWZg?oc=5",
-      "published": "Sun, 23 Aug 2026 07:00:00 GMT",
-      "source": "ETtoday財經雲",
-      "impact": 0
-    },
-    {
-      "title": "2026 輝達全攻略：一文看懂輝達產品命名！AI 伺服器如何組成？ - StockFeel 股感",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUkRwVzEySmtCdTdGX2JtU1M3ODBqQlBsbkt4ZG5kQTNiekVZb0toaTV3Rmx3YzhONnpiSmlYd0Q0YV9JbnlSMFd1WC1sRThsTHpueTdjbjdjQjRlS1VBOVV5ZGFZemRVREYzdG1RN0Nidm5MeFNyMG1IU3hfY0Ytc2R3b244M0VZS1Y1dldYcF9GTk54VGZOaWdQdy1wUEtncEVQX3FZdUdseFNnbXNDRkJoQQ?oc=5",
-      "published": "Wed, 18 Mar 2026 07:00:00 GMT",
-      "source": "StockFeel 股感",
-      "impact": 0
+      "title": "美超微H15伺服器正式出貨 股價大漲逾11%、AMD合作擴大至AI整機櫃 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1sOV9qYU1oa1RWZjY2XzN4cnNvY1hKSEhFMTN0M0Z5QlVvZDZPX2NveVdLMThPRHVsZmVWTHBWMUlLWnZOeFBENWlfRERwZDA?oc=5",
+      "published": "Wed, 11 Nov 2026 17:34:24 GMT",
+      "source": "鉅亨網",
+      "impact": 1
     }
   ],
   "note": "這是盤後正式預測之外的夜間即時修正，只使用公開美股行情與最新新聞；不會覆寫已事前登記的正式預測。"
