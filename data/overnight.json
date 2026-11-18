@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T03:13:40+08:00",
+  "updated_at": "2026-11-19T02:53:23+08:00",
   "bias": "中性",
   "confidence": 52,
   "score": -0.35,
@@ -25,87 +25,87 @@
   ],
   "headlines": [
     {
-      "title": "AI伺服器PCB規格升級傳延後，鑽針供不應求預期面臨變數！鎢原料供應成第二大風險 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ObHBGNEpxRVg2QkVMVXZvU3JkQmxOclVfOEpDYk9oUmY5anB2b2wyelVWTmhtWXJNSTl2ZVlzUEJYUkM3bFdoLXctdmJVRTA?oc=5",
-      "published": "Tue, 17 Nov 2026 13:00:18 GMT",
+      "title": "仁寶衝刺伺服器業務 SC26發表採用NVIDIA技術AI基礎架構解決方案 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1GYXE0am1tLUNRS0V2TDVEU2ZEaENidnVDV21zLVlpVVU0VFRLLUJuT0lhdUtKbHA2NTlMNnJQOFFfbURFUWRMaWNHQWN5Unc?oc=5",
+      "published": "Wed, 18 Nov 2026 10:30:16 GMT",
       "source": "鉅亨網",
       "impact": 0
     },
     {
-      "title": "微星參展SC26 聚焦代理式AI與AI工廠部署需求 - 台視全球資訊網",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVUNJRlllaVdRWHpLSUJWUnBVTlJHblFydE9RaFN5aG1uUHlfWWdERjFXRzZyZEdyMC1hT3VOWFI3LWpYYzRXellXUkx3eTVaZkEzNTdrUFBGTTdldkNYTEg1eXJ4VHVoVTZZaFBJWm4zaE9KNTJLc2dqbzFqSUZjTkJaRnZLNUFjUlVGSW8xVUg4dw?oc=5",
-      "published": "Tue, 17 Nov 2026 04:22:04 GMT",
+      "title": "技鋼科技於 Supercomputing 2026 聚焦機櫃級基礎架構與自主代理式 AI - iThome",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBZM1Y5YjlDTVZnNFd3N0tyVWl3Z2xVbGJIS3BNU3kySTExc1d5OGRzdnA0REV5NTVBVnJWUEk2eVpsWWRDejFCV3lwMA?oc=5",
+      "published": "Wed, 18 Nov 2026 17:01:13 GMT",
+      "source": "iThome",
+      "impact": 0
+    },
+    {
+      "title": "仁寶SC26秀機櫃級液冷解方 展現AI運算整合實力 - 台視全球資訊網",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNk5mVmV3YnZ5VjI5cUJyRGZHc1RrYnNPNERlb1JwSGNMQ21HTGZEUy1OVmdYNWgySjF3eWQyZDUxZHNmOXpueUhhM2F5anEzdC1pOExkNTRiY1NXMF9xcGJOQWUtei14cFA1ZlMxMXJLMy1NZWNTZzRZOU40dlNPNnYwMFdfR0tvWmU5STdZV3VVQQ?oc=5",
+      "published": "Wed, 18 Nov 2026 09:17:03 GMT",
       "source": "台視全球資訊網",
       "impact": 0
     },
     {
-      "title": "【23:38 即時新聞】Super Micro Computer (SMCI) 重挫逾5%／捲入美司法部調查、AI 供應鏈利空擴大 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObUp5clRzRE81ckZUbWxqNjBaSmxOdW0xUUlaOFVmNUhhU1NVRGJiZ3lEN1hSdDZGUWRtLUduODhVZnJXbVNSWV8zSlEyMUppdFExWUFHVlY1QkluUFZ2WDVyckZUT1VDNWlMRVFOTXM1UHlKTGxUS29xQnFlUDl3TWNZdnhod1NyUXZWZy1n?oc=5",
-      "published": "Tue, 17 Nov 2026 15:38:29 GMT",
-      "source": "CMoney投資網誌",
+      "title": "輝達擴產難敵台積 ADR 重挫，大盤回測 41,000、生技傳產強行接棒撐盤 - TechNews 科技新報",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOb21ET1U3YmZZOUZsTGVLUl9JU3pvOG1qNzZPcV8xb1haeE9LNGE5XzdvRDNrS3N4NjdsdlVRdDl0a2RyNFVnNk9ZOXZBTU1BZXVXdENkYkIyZG53bnFObS1wVVZrc3pHYW5UaWFKQU5fTDdkRG94LWxhQ1FrdnA1UHZCV2FMazk0UHZSbkFtaFZlM09SYjNxMVdMN3FHb0Z3cWIxeWVhYUVtRmtxSnJuYWhBU1VleEYxcFNBanUxa1F4M244NVdjaXJYUWdCU0NZ?oc=5",
+      "published": "Wed, 18 Nov 2026 02:21:46 GMT",
+      "source": "TechNews 科技新報",
+      "impact": 0
+    },
+    {
+      "title": "台積電米玉傑：半導體創新不能單打獨鬥 攜手科林研發加速AI世代技術開發 - 自由時報",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9rRHlJRnIyWUlPbGdHalczUXhMU1laY3BtZzJqQ1R0RnNGaDk4UmkyLU1LWnhEblBKdmVkSVFVNXZzdjk5TUMwZm1hNXJtSkFfNV9ad3NBQkc?oc=5",
+      "published": "Wed, 18 Nov 2026 04:34:19 GMT",
+      "source": "自由時報",
+      "impact": 0
+    },
+    {
+      "title": "Qualcomm Dragonfly AI200為何能挑戰NVIDIA？解析大容量推論成本優勢 - Mashdigi",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoR1ZWYzIyemhTUkVicF82YkE5TTk4MTRsbVlaOE9uM05tdHY3QU5pUTAxX2NiQXY5bC0wZFVuN0ZHajk3WXVqMEtQYllvS1g4NE9CRW9vQlJHRFNIZDU0WkdpMzd5bWQ0LW91UzR5aWZKVExMalpKTHZibm0?oc=5",
+      "published": "Wed, 18 Nov 2026 16:08:02 GMT",
+      "source": "Mashdigi",
+      "impact": 0
+    },
+    {
+      "title": "Fed年底升息 AI股操作新策略 - 台灣好新聞",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWEVvT01DUkxjb1hKdGxJOUxMbXNiOUFGRTU4bi1oTTI3ZjRueWpzbzJLcDRpWUNNZDVuaFVjVUR6MjI3NWEzcGlyTW9HR1VZSkl5eVlwUDllUUdtWE5ZMWZSZmk2Vm9BbGFjemg3TFlaLTlmcGQ2OUtjbkk3X1NhMGhscmdvUHVLNzVzT0V0MkdQaEk4MVRFZ05rNWUwMDFINVhjRV9XVGR0bFB6ajJRcU1zenJKV0NWYWVjcmg1Tmw1aFVXYzBFN2JhMFMzelF4?oc=5",
+      "published": "Wed, 18 Nov 2026 02:49:16 GMT",
+      "source": "台灣好新聞",
       "impact": -1
     },
     {
-      "title": "Nvidia員工涉轉賣高階伺服器 基檢：無官員關切 - 世界新聞網",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE01RXF2MFVtQU1QV1pJWUVrQk9WS2lsQzFqRnJtd1BiMHFCd1BtN0NnT2h3M1JTVWlQdHJueW05RkVfT3R5eldaQlBrTVNXQWdoMF9TTndra1lsZmJzQ1NGTi1B0gFnQVVfeXFMT0w3VDhtSjZUQ29Ra2hlX0Y3d1V1WTFNakVadzk4YUpZVVFTN2VpTXdwZDhIOVcycFFqVDFtLTdmWFlvSC1iN1lab2dxanRYSTFmaHFPMnVfdGo5bGhLNFRYcE9Jc05ZQQ?oc=5",
-      "published": "Tue, 17 Nov 2026 06:20:00 GMT",
-      "source": "世界新聞網",
+      "title": "美國 BIS 晶片管制再加嚴！台積電評估中，廣達、緯創稱「不受影響」 - 鏈新聞 ABMedia",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2WEpJNk1Sd2JhZnJEOGg2SWR1cUV6Y2J3bUVzVFh0XzNFZG52OG95M01sZ29yRHNPczIzcmh4eXFzVy1BSzBxOGpGWVdkblN2QXJlcXNLcVhKQkhtcE15eUpYRERFNXRRN2FsSWEtR0hzZ3hSUzRPYg?oc=5",
+      "published": "Wed, 18 Nov 2026 03:56:37 GMT",
+      "source": "鏈新聞 ABMedia",
       "impact": 0
     },
     {
-      "title": "台積電法說遇輝達財報AI行情的關鍵48小時 MSCI半年度調整出爐AI伺服器供電散熱誰最強？緯穎台達電奇鋐雙鴻11月17至18日法說見真章中油油價連8凍漲｜投資早知道 - Yahoo股市",
-      "link": "https://news.google.com/rss/articles/CBMigwdBVV95cUxQOXN2QXlmOEJLa2VBcEQ1SGtxRU0yOUNkUDRpQzZCMVRCWTdEVzZpVGNqTDJROFo5eC11Zy0tdGhnUFBvV1llZEwtbi1PQUdXZEdBOGJuTjhreGQxcVhwbjRHb2hOXzlFNVBtNkZVaC1YZmJGUmsxZ0xuUVhNS0JKT0tQaGlVRDlsNm5LdHdpR2lSeGpOWDI2S01hU1VMblBIR2JvX05vcWVucFotd1hBVHNRWlROZUhsTjZPdzdNMTI5M1BpYWFoSlV1dzRKNjZPQUNCY2FnS0VRSGtDYXhINFlmU1BMQ0dINklkckFRc28tVF9xT0xIOHZvUW1hV0NHWHFRX051UmpUQVhaVEp1OUN0Wk1teEpjVndCU19ZS2lDU2F2Qkcwdl80V0lSd1lpS3FHVzVZM1VqdFJzYWd4bjM4T2p0YkNDMW9ZZEJyVkhDQk5CY1dEdGRtRHpSWU1QVFcyTGV0eUhKS0F0dXVRNjUwY3RDOW9sUHJ4ZzNZOVBuVWUxUFotYXNBdmhjUVZicHFZZWJwVXRjOG1fYmpWS0ltN0lSb1VvM0NnNXNaODJFYndiZXFJTHpiRW0yT1NzdnpENTZpSnNON0R1SnhkUEhMcUV1UjNHclhvODVHNHFnSTdwU2pXaTFRQjB0WWxzaWJBblN6TjZZRVA2cGR5QUEwSmFJX3hlY1JyMFFhM2xTc0lpb0ppeHh1ZzE2Ty01SDczeC1YdWdLRmlYR3BuczFfVm5Ob1djMy1aN1gxWXk5UGFBZVVGM1g4bHA5Rzd5WHFQMS1FWFpnTFk1VWc4NkJQS3Bmb3V0X0sxSkVuTHhtTE1xU1U4NUFQX1QwckFFek5jU3B0bzh4ZmwxS3ZwTXE2WFBnOHZIdFYwUmFIRTdGTGdkMTlVM21qaHBzWGNvd3JIVmlFWmJEYm5sV2x6T3RCbDVBalozblQzckpLQ01NVEVNcDNiejYtaHd5NFpQTEx3RU1vQnlZSHRmTUxNMWVNSkFrdHptYTJsZ1ZfVGtNdmNoU0llNUdzbU9qbDVaNzVtcDBPY2k4YUh3OFlqYlliYV96SGJKdnlENVRMTnU4RU12Wms2UkFUTWlZaXUxQ21GVE5XS0NiZFF6eF9CZDI1XzFnQ0hlVjBQZUpQekRwNWtKeVduUXVHczh2R3I2TmlHRzhla2FYZWlYSmwxOWRZZw?oc=5",
-      "published": "Sat, 14 Nov 2026 13:18:33 GMT",
-      "source": "Yahoo股市",
+      "title": "NVIDIA 整合網通卡，豐藝(6189) 代理業務縮水！AI 相關營收僅占 6% 到 7% - 優分析 UAnalyze",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zVzVJQkJBZXlLYmhqWEo1WW03TkxiT2JWU016TmVkb0ZqT3hQM0lSaGFUTDZqZHJwRGEzQTI3ODNSNVB2TVVaVnEzMTZtaE1fT0hqcnZR?oc=5",
+      "published": "Wed, 18 Nov 2026 05:06:15 GMT",
+      "source": "優分析 UAnalyze",
       "impact": 0
     },
     {
-      "title": "費半一夜重挫3.43%！台積電ADR連跌 台股AI供應鏈面臨壓力測試 - 理財周刊",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1aQkJ0QkZLZ3FSdG0tM2JJWTl0U1dvdUlZc2xuS1JsLTZXeTlOSmNMbFBYVmF4dEFNZzdfQnZwemwwOW5meERqXzA5TjU2SHpjVFpMRmlCZFdUR1B6WlZ5UFlobmt5MF9IWldPVWxCUQ?oc=5",
-      "published": "Mon, 16 Nov 2026 00:56:41 GMT",
-      "source": "理財周刊",
+      "title": "神雲科技SC26 展出AI 伺服器！96 顆 AMD GPU 液冷機櫃亮相，推論架構導入2TB 加速卡記憶體 - 三嘻行動哇 Yipee!",
+      "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOenVpU0NHbFc3RGx5aWZ5SHF4M2ZEdUFMVTRsNFhWVzNRa0szY3BjbktfX3dxdEFjT0FrU3JQUkpHVnAtY0Y3VC1aRnJfODRhQl9JTmZuQjBQUzdMc1ljYWJERDdhdS1hRTZHSnM0SUJXUURUQTVTN0dydzNlMEQtUmdfN25fSVhrQWZZOTFZWVRXVWpKWnczeEg3clVFVFZTSGRzSUo1TWZaYktFQkJwTkJmWHEyS0pzNFMyM1RLbnBoMVRFTXNRRDZ3U0Zoa0t3UUs2NDhCYm43ZV90dFVsYmJCTTBqUE9jUGJZZWQtMmpoOWVPdkQwS2JjRzBORlN3LVRnaDB0OEVueUZuTjl5OUdtTi1sWkFsQmk4NTJKSGgyQ2FrcEl6aGM1X1I5TXJpT3liRF9EVjROOUQwRDJHQWhRVQ?oc=5",
+      "published": "Tue, 17 Nov 2026 22:53:09 GMT",
+      "source": "三嘻行動哇 Yipee!",
       "impact": 0
     },
     {
-      "title": "輝達台籍主管涉走私130台AI伺服器遭訴 傳曾向台灣官員與台積電求援碰壁 - BigGo 財經",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE00emNnUG13ZFVqbEpLZkxFY0Z2ZThBVERRTnIxc1M1dmJrLXBDN21CMnBONmh3Zlk4YkxWSjFWODJJMTdaN3BwZWpnQmpMSjdoVDZrUlNPZkZkeTFnRHlYNmk4X3dPcVAzMDk0NkhOSVFGM0hpQ0FKZk1n?oc=5",
-      "published": "Mon, 16 Nov 2026 00:35:00 GMT",
-      "source": "BigGo 財經",
+      "title": "別只盯台積電！00418A從傳產挖AI黑馬 南亞、川湖卡進前十大 - 商傳媒",
+      "link": "https://news.google.com/rss/articles/CBMihgNBVV95cUxNUDg5S1hlLWF1bDFKVUdCZXVpRWZJYlRpUGpWNVFBajAzUVF0NnNWUThreE4xSmlqZHRUaGxubDlUVWVySGJBVHVhU3E3b3ZKT3lhZ2xwd1pXcEtLWTdQMXR1dTFDRXNPa2wzR09NVDJBWU00U2d0Y2pSOVM3U2llRG5NSkFUamlrejhFYjk0WUNzVjdDdENLSUUyeDh6bm9PUnlQbC1lWGhxbTNibXNaUEUtZDFfZm5TY1kzdEpoZ1QwaUpiWEJNUk1TMFl1dHJlUnl1RmpnV1BoNGtxX2N6Vy1fUGFxRjhNVFBNNU5tcmM2VzhGSGM3bGtDajMtOUZOY1hWT3ZHVGhaOWlvanpEZmkyU1AtSzdXeTc5bDktaXpkS3hZTHZ1U1lnN3U2d0l2SF8zWEttaFBFWUVkczFHbkxfS0tHdUxfZ240bXc4MlN1RWxmR1V3UE5OcGNsa1F4ampNZ1pMb2lQTkJZY2ZFY2JZMGpHRGJyTXFaUmVNVHZ2a1EyY1E?oc=5",
+      "published": "Wed, 18 Nov 2026 02:08:05 GMT",
+      "source": "商傳媒",
       "impact": 0
     },
     {
-      "title": "輝達驚傳介入台灣司法案！找台積電幫忙碰壁 員工晶片走私內幕全曝光 - 自由財經",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE51Vzc0cUZIRV94Rm0xbTFGZW9Ka0Rwak9YSHc0SzNPb2JpQkZ3OVVyb1hCYW8zVlkwcXR5WEk3SzNIc0taNWZzWG14UnRkaXZqX01lbnZEeElJa3lDcW130gFkQVVfeXFMTXc0NEwwUUNNdDFZeWV1dHNXSTZZblcyRjZXVGtmb3BNcnBIeUJiOGtFTzVsdGFrNjJKWEdnaVdQUHEza2JWUWpHVlVILTY0NlRRVzJ2SDRScHpDbUlIa1JTeTZ0Rw?oc=5",
-      "published": "Mon, 16 Nov 2026 02:07:27 GMT",
-      "source": "自由財經",
-      "impact": 0
-    },
-    {
-      "title": "神雲科技於 SC26 展出全棧基礎設施，擴展代理式 AI應用 - PChome Online 新聞",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQnQ4cS13VEh4VUFIRUdlNXdXTktTTFptRExXSGZiQ19vZjF0dU9GXzhXTXBxZ0p6eEhTQjY3Q1hqUnAyNGdrX1RMVmpXNXl0NVR0bmxnWERRQ0xYMWpHcS1DVElMaFd0TGg2eGl4aU5scktTWUM5WXRRbzVRMVVYZF95Y2NkeGs4N05B?oc=5",
-      "published": "Tue, 17 Nov 2026 03:21:00 GMT",
-      "source": "PChome Online 新聞",
-      "impact": 0
-    },
-    {
-      "title": "輝達爆「5萬顆AI晶片一度失蹤」！又陷找台灣官員施壓疑雲，連台積電都被捲入？ | 下班經濟學 | 財經 - 風傳媒",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBqRENSQWFia19IRkJrMVhLYUxqenhBTUdnMmhfMmtud2tNN3JmS0lmOVh5aU5OazVscjM0OW9IVU1QdndHbDZvZjF2akMxdw?oc=5",
-      "published": "Mon, 16 Nov 2026 04:15:00 GMT",
-      "source": "風傳媒",
-      "impact": 0
-    },
-    {
-      "title": "2026年AI概念股有哪些公司？還值得投資嗎？4圖表帶你看懂上中下游產業趨勢！｜豐雲學堂2026 年 11 月 - 永豐金證券",
-      "link": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxOcUthX1kzUlFCQzNwS1dQX09Ba2k0UThscXdtb1pUTDhMNml1ZTlhQzdMS202dS04S1g2VGNmd0hOcmdIWmcwYXBZWGdHQ0pOc2F0YzhPb1dUYjAtR1BfQ3Y4X2phMVUxelBCaW5oVFZOLWhmb2ZIY19yUy0xMGRKM21QQ2lrVjJXN2I1ZnJxM2xXcUFDWGZUWVQtNUVEVl83ZzdjekdkYkFBdF9qR1hKRFZkYnk1b2NtNnl6WFFHdXpUT0ExbDk0a1BDY2dDNl9mTVdydUgyUUUzM2VyM0pPenNMQW5sNVJscTVoR3Y1OExINjBmVjlwTE9ZclpCazZOMlh0N25rOW8xVVRKWldUejl6eEQ4TEJXckZjYjZaRVh6WFdRNF93cUl4ZV8tZUJhSXIyMHNBYjZROUdiRXA5dVdZclZ2MngzbjVpSWlNZzF6TEV6UUF6VXhGaHg5WlJGdTRWWTRuSXM2LWlJcG9oMlNWTUFKelNlYy11TTdvTFlDQUcwSlBHWVpNNERHOURibkUzM0NUTUlnS1VmVk1xdWhhVDdyTGJGb19MeFh0U1YxOHplWFhVVjRmbHBOVWRKdERXTXJqcnRwSEpBamRIakdQa0JhazJwYWhuaTZhY1JadzNHbVE?oc=5",
-      "published": "Fri, 02 Oct 2026 11:38:23 GMT",
-      "source": "永豐金證券",
-      "impact": 0
-    },
-    {
-      "title": "美國擴大AI晶片出口管制！新加坡、馬來西亞等5國納入許可制度，NVIDIA遭要求說明晶片銷售爭議 - XFastest News",
-      "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNejJnWnBnbnA5ejZTcDVSeno5VmVIYVJ1UXhNZllRMWVhY1NwNWgtQzZVOGl3dDJXYnFTOE5iY2J3Y0FRZzB4SVJoUlZhWXJjNlo0NkEwUkczWDZaalBudWttenJIak9UYzJTNGEwaG5xbXJPcHVkZDUtMWdQd3pfUm9mcmEyaS1XTlpkZ21SYTFVeDdla0NXM0E4WUVWR3hMV3BEM1RRbTUxZGUyelM5d1JPSmotNzlXZGlydV9HY0YzOVJ5VmxKMVU1VFJ0aEwxUm0yWEw0THdfZGd1RHRQYzc4dkwxOHpLRUViTVBoRzJwOFMzTTFaMEdyRGVaUVN2Z1VTNHRjVWM2N1RYUnNzeWlNYkpzY0RDZEVUUGcxcmlUaE5xUHNRNG1Vekh5eGI5dXc?oc=5",
-      "published": "Mon, 16 Nov 2026 17:21:41 GMT",
-      "source": "XFastest News",
+      "title": "個股：仁寶(2324)、技嘉(2376)搶進SC26展會，強化AI伺服器市場佈局 - 富聯網",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeVNvdFc5MlhWY2hYZFFxdzR2dWxFcmt6Y0RXSFd0ZUlLZVFqaFFPNmFiOXJ6YXFlbTlTUGRiRkhpcVFBYnBwX3Iybl9XbGZOa3VYdTNuaGw5RkNjRnNXWTJVdVN0R2F5Rkx3b0ZMMmF3LVR0RzlkLXZBUWozN0JWUWhfejBfcVdz?oc=5",
+      "published": "Wed, 18 Nov 2026 09:05:00 GMT",
+      "source": "富聯網",
       "impact": 0
     }
   ],
